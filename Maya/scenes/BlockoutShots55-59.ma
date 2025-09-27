@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: BlockoutShots55-59.ma
-//Last modified: Fri, Sep 26, 2025 11:45:21 AM
+//Last modified: Sat, Sep 27, 2025 12:14:39 PM
 //Codeset: 1252
 file -rdi 1 -ns "Dragon_Rig" -rfn "Dragon_RigRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/GitRepos/WorkDayShortFilmOfficialRepo/Maya//assets/characters/dragon/Dragon_Rig.ma";
@@ -27,19 +27,19 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202405151550-05a853e76d";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "57B4A4A1-4E28-BE80-EF8F-F0A25C9878C0";
+fileInfo "UUID" "84F846C4-414B-FBBC-32BC-74AB646F7357";
 createNode transform -s -n "persp";
 	rename -uid "485547D8-4916-9361-384D-9B95C74DDDE1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1722.5210793804274 362.10734319037681 2409.998932413057 ;
-	setAttr ".r" -type "double3" 0.60000000000073572 1474.1999999999141 3.0043123030307894e-17 ;
+	setAttr ".t" -type "double3" 2819.6448793612008 133.15912376022172 2352.6446845203923 ;
+	setAttr ".r" -type "double3" 3.00000000000006 1496.1999999992499 0 ;
 	setAttr ".rpt" -type "double3" 1.4219575885377717e-15 -3.0314447558953352e-16 1.6735035462488238e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "EA6AF74F-4959-60B8-6727-D983FBF62E92";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
 	setAttr ".ncp" 0.5;
-	setAttr ".coi" 3296.6976393624668;
+	setAttr ".coi" 3300.0673409710148;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -25309,12 +25309,12 @@ createNode camera -n "CAMERAShape1" -p "CAMERA01";
 	setAttr ".rnd" no;
 	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
 	setAttr ".ff" 0;
-	setAttr ".coi" 1311.5365263122142;
+	setAttr ".coi" 2597.1926552561272;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
 	setAttr ".man" -type "string" "camera1_mask";
-	setAttr ".tp" -type "double3" -6.2527760746888816e-13 620.77668852231352 -39.223741999563572 ;
+	setAttr ".tp" -type "double3" -6.2527760746888816e-13 363.36396622948439 380.80420849599574 ;
 createNode transform -n "pPlane1";
 	rename -uid "DCA80329-438B-6458-2283-64A2DC3B35F1";
 	setAttr ".t" -type "double3" 0 500 -181.77278760644435 ;
@@ -26689,7 +26689,7 @@ createNode reference -n "Dragon_RigRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Dragon_RigRN"
 		"Dragon_RigRN" 0
-		"Dragon_RigRN" 1351
+		"Dragon_RigRN" 1353
 		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Spine_Up|Dragon_Rig:Spine_01_Ctrl_Grp|Dragon_Rig:Spine_01_Ctrl" 
 		"Follow_Translate" " -k 1"
 		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Spine_Up|Dragon_Rig:Spine_01_Ctrl_Grp|Dragon_Rig:Spine_01_Ctrl" 
@@ -26713,6 +26713,10 @@ createNode reference -n "Dragon_RigRN";
 		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Spine_Up|Dragon_Rig:Neck_04_Ctrl_Grp|Dragon_Rig:Neck_04_Ctrl" 
 		"Follow_Translate" " -k 1"
 		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Spine_Up|Dragon_Rig:Neck_04_Ctrl_Grp|Dragon_Rig:Neck_04_Ctrl" 
+		"Follow_Rotate" " -k 1"
+		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Spine_Up|Dragon_Rig:Head_Ctrl_Grp|Dragon_Rig:Head_Ctrl" 
+		"Follow_Translate" " -k 1"
+		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Spine_Up|Dragon_Rig:Head_Ctrl_Grp|Dragon_Rig:Head_Ctrl" 
 		"Follow_Rotate" " -k 1"
 		2 "|Dragon_Rig:Dragon|Dragon_Rig:Controls|Dragon_Rig:Transform_Ctrl_Grp|Dragon_Rig:Transform_Ctrl|Dragon_Rig:COG_Ctrl_Grp|Dragon_Rig:COG_Ctrl|Dragon_Rig:Arm_Controls|Dragon_Rig:Left_Arm_Controls|Dragon_Rig:L_Arm_IKFK_Ctrl_Grp|Dragon_Rig:L_Arm_IKFK_Ctrl" 
 		"Arm_IKFK_Switch" " -k 1"
@@ -29398,7 +29402,7 @@ createNode ikSpringSolver -s -n "ikSpringSolver";
 	rename -uid "B699CCAD-416A-0662-0AB9-2C89B878D6D0";
 createNode reference -n "Knight_RetopoRN";
 	rename -uid "686DD129-4780-30C9-6A72-9A9D65EB7FBF";
-	setAttr -s 691 ".phl";
+	setAttr -s 698 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
 	setAttr ".phl[3]" 0;
@@ -30090,16 +30094,21 @@ createNode reference -n "Knight_RetopoRN";
 	setAttr ".phl[689]" 0;
 	setAttr ".phl[690]" 0;
 	setAttr ".phl[691]" 0;
+	setAttr ".phl[692]" 0;
+	setAttr ".phl[693]" 0;
+	setAttr ".phl[694]" 0;
+	setAttr ".phl[695]" 0;
+	setAttr ".phl[696]" 0;
+	setAttr ".phl[697]" 0;
+	setAttr ".phl[698]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Knight_RetopoRN"
 		"Knight_RetopoRN" 0
-		"Knight_RetopoRN" 694
+		"Knight_RetopoRN" 700
 		2 "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Transform_ctrl_grp|Knight_Retopo:Transform_ctrl" 
 		"LLegIKFK" " -k 1"
 		2 "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Transform_ctrl_grp|Knight_Retopo:Transform_ctrl" 
 		"RLegIKFK" " -k 1"
-		2 "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
 		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Transform_ctrl_grp|Knight_Retopo:Transform_ctrl.LLegIKFK" 
 		"Knight_RetopoRN.placeHolderList[1]" ""
 		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Transform_ctrl_grp|Knight_Retopo:Transform_ctrl.RLegIKFK" 
@@ -30274,1214 +30283,1228 @@ createNode reference -n "Knight_RetopoRN";
 		"Knight_RetopoRN.placeHolderList[86]" ""
 		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_03_ctrl_grp|Knight_Retopo:L_Upper_Face_03_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[87]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[88]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[89]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[90]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[91]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[92]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[93]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl_grp|Knight_Retopo:L_Upper_Face_04_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[94]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[95]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[96]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[97]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[98]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[99]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[100]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl_grp|Knight_Retopo:L_Lower_Face_01_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[101]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[102]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[103]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[104]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[105]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[106]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[107]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl_grp|Knight_Retopo:L_Lower_Face_02_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[108]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[109]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[110]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[111]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[112]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[113]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[114]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl_grp|Knight_Retopo:L_Lower_Face_03_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[115]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[116]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[117]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[118]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[119]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[120]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[121]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl_grp|Knight_Retopo:R_Upper_Face_01_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[122]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[123]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[124]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[125]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[126]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[127]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[128]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl_grp|Knight_Retopo:R_Upper_Face_02_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[129]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[130]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[131]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[132]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[133]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[134]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[135]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl_grp|Knight_Retopo:R_Upper_Face_03_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[136]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[137]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[138]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[139]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[140]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[141]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[142]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl_grp|Knight_Retopo:R_Upper_Face_04_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[143]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[144]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[145]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[146]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[147]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[148]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[149]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl_grp|Knight_Retopo:R_Lower_Face_01_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[150]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[151]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[152]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[153]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[154]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[155]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[156]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl_grp|Knight_Retopo:R_Lower_Face_02_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[157]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[158]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[159]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[160]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[161]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[162]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[163]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Neck_ctrl_grp|Knight_Retopo:Face_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl_grp|Knight_Retopo:R_Lower_Face_03_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[164]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[165]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[166]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[167]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[168]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[169]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[170]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[171]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Clav_ctrl_grp|Knight_Retopo:L_Clav_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[172]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[173]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[174]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[175]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[176]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[177]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[178]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[179]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl_grp|Knight_Retopo:L_Arm_01_FK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[180]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[181]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[182]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[183]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[184]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[185]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[186]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[187]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl_grp|Knight_Retopo:L_Arm_02_FK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[188]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[189]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[190]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[191]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[192]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[193]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[194]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[195]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Arm_ctrl_grp|Knight_Retopo:L_Arm_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl_grp|Knight_Retopo:L_Arm_03_FK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[196]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[197]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[198]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[199]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[200]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[201]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[202]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[203]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Hand_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[204]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[205]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[206]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[207]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[208]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[209]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[210]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[211]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl_grp|Knight_Retopo:L_Thumb_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[212]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[213]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[214]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[215]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[216]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[217]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[218]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[219]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl_grp|Knight_Retopo:L_Thumb_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[220]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[221]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[222]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[223]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[224]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[225]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[226]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[227]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl_grp|Knight_Retopo:L_Thumb_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[228]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[229]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[230]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[231]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[232]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[233]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[234]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[235]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[236]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[237]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[238]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[239]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[240]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[241]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[242]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[243]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[244]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[245]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[246]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[247]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[248]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[249]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[250]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[251]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_01_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[252]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[253]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[254]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[255]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[256]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[257]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[258]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[259]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[260]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[261]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[262]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[263]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[264]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[265]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[266]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[267]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[268]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[269]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[270]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[271]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[272]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[273]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[274]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[275]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_02_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[276]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[277]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[278]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[279]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[280]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[281]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[282]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[283]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[284]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[285]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[286]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[287]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[288]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[289]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[290]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[291]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[292]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[293]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[294]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[295]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[296]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[297]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[298]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[299]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_03_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[300]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[301]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[302]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[303]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[304]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[305]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[306]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[307]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[308]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[309]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[310]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[311]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[312]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[313]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[314]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[315]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[316]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[317]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[318]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[319]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[320]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[321]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[322]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[323]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:L_Hand_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:L_Finger_04_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[324]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[325]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[326]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[327]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[328]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[329]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[330]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[331]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Clav_ctrl_grp|Knight_Retopo:R_Clav_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[332]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[333]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[334]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[335]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[336]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[337]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[338]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[339]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl_grp|Knight_Retopo:R_Arm_01_FK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[340]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[341]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[342]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[343]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[344]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[345]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[346]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[347]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl_grp|Knight_Retopo:R_Arm_02_FK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[348]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[349]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[350]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[351]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[352]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[353]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[354]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[355]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Arm_ctrl_grp|Knight_Retopo:R_Arm_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl_grp|Knight_Retopo:R_Arm_03_FK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[356]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[357]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[358]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[359]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[360]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[361]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[362]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[363]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Hand_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[364]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[365]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[366]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[367]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[368]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[369]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[370]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[371]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl_grp|Knight_Retopo:R_Thumb_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[372]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[373]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[374]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[375]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[376]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[377]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[378]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[379]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl_grp|Knight_Retopo:R_Thumb_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[380]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[381]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[382]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[383]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[384]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[385]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[386]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[387]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl_grp|Knight_Retopo:R_Thumb_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[388]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[389]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[390]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[391]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[392]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[393]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[394]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[395]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[396]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[397]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[398]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[399]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[400]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[401]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[402]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[403]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[404]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[405]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[406]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[407]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[408]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[409]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[410]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[411]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_01_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[412]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[413]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[414]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[415]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[416]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[417]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[418]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[419]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[420]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[421]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[422]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[423]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[424]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[425]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[426]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[427]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[428]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[429]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[430]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[431]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[432]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[433]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[434]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[435]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_02_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[436]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[437]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[438]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[439]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[440]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[441]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[442]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[443]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[444]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[445]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[446]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[447]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[448]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[449]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[450]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[451]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[452]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[453]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[454]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[455]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[456]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[457]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[458]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[459]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_03_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[460]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[461]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[462]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[463]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[464]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[465]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[466]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[467]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_01_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[468]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[469]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[470]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[471]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[472]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[473]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[474]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[475]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_02_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[476]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[477]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[478]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[479]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[480]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[481]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[482]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[483]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Arms_ctrl_grp|Knight_Retopo:R_Hand_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl_grp|Knight_Retopo:R_Finger_04_Knuckle_03_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[484]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[485]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[486]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[487]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[488]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[489]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[490]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[491]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Pelvis_ctrl_grp|Knight_Retopo:Pelvis_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[492]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[493]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.Follow" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[494]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[495]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[496]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[497]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.Follow" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[498]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.FootRock" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[499]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.HeelRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl_grp|Knight_Retopo:L_Leg_Clav_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[500]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.HeelPivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.Follow" 
 		"Knight_RetopoRN.placeHolderList[501]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.HeelTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[502]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[503]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToePivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl_grp|Knight_Retopo:L_Leg_IK_Base_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[504]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.Follow" 
 		"Knight_RetopoRN.placeHolderList[505]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.BallRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.FootRock" 
 		"Knight_RetopoRN.placeHolderList[506]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.BallPivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.HeelRotate" 
 		"Knight_RetopoRN.placeHolderList[507]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.BallTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.HeelPivot" 
 		"Knight_RetopoRN.placeHolderList[508]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTapRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.HeelTwist" 
 		"Knight_RetopoRN.placeHolderList[509]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTapPivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeRotate" 
 		"Knight_RetopoRN.placeHolderList[510]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTapTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToePivot" 
 		"Knight_RetopoRN.placeHolderList[511]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.FootRoll" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTwist" 
 		"Knight_RetopoRN.placeHolderList[512]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ControlVis" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.BallRotate" 
 		"Knight_RetopoRN.placeHolderList[513]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.Stretch" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.BallPivot" 
 		"Knight_RetopoRN.placeHolderList[514]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.MaxStretch" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.BallTwist" 
 		"Knight_RetopoRN.placeHolderList[515]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.LegLength" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTapRotate" 
 		"Knight_RetopoRN.placeHolderList[516]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.UpperLegLength" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTapPivot" 
 		"Knight_RetopoRN.placeHolderList[517]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.LowerLegLength" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ToeTapTwist" 
 		"Knight_RetopoRN.placeHolderList[518]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.FootRoll" 
 		"Knight_RetopoRN.placeHolderList[519]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.ControlVis" 
 		"Knight_RetopoRN.placeHolderList[520]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.Stretch" 
 		"Knight_RetopoRN.placeHolderList[521]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.MaxStretch" 
 		"Knight_RetopoRN.placeHolderList[522]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.LegLength" 
 		"Knight_RetopoRN.placeHolderList[523]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.UpperLegLength" 
 		"Knight_RetopoRN.placeHolderList[524]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.LowerLegLength" 
 		"Knight_RetopoRN.placeHolderList[525]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[526]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[527]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[528]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[529]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[530]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[531]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[532]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[533]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[534]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[535]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[536]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[537]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[538]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[539]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[540]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[541]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[542]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[543]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[544]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[545]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[546]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[547]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[548]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[549]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[550]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[551]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[552]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[553]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[554]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[555]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[556]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[557]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[558]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[559]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[560]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[561]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[562]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[563]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[564]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[565]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[566]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[567]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[568]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[569]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[570]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[571]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[572]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[573]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[574]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[575]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[576]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[577]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[578]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[579]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[580]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Ball_ctrl_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Ball_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[581]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[582]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[583]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[584]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.Follow" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[585]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[586]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[587]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[588]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.FollowTranslate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[589]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.FollowRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[590]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl|Knight_Retopo:L_Foot_IK_Out_ctrl_grp|Knight_Retopo:L_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Out_ctrl|Knight_Retopo:L_Foot_IK_In_ctrl_grp|Knight_Retopo:L_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_In_ctrl|Knight_Retopo:L_Foot_IK_Heel_ctrl_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Heel_ctrl|Knight_Retopo:L_Foot_IK_Toe_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:L_Foot_IK_Toe_ctrl|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:L_Foot_IK_Toe_Tap_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[591]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.Follow" 
 		"Knight_RetopoRN.placeHolderList[592]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[593]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[594]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:L_Leg_ctrl_grp|Knight_Retopo:L_Leg_IK_ctrl_grp|Knight_Retopo:L_Leg_IK_Main_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_grp|Knight_Retopo:L_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:L_Leg_IK_PV_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[595]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.FollowTranslate" 
 		"Knight_RetopoRN.placeHolderList[596]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.Follow" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.FollowRotate" 
 		"Knight_RetopoRN.placeHolderList[597]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[598]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[599]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[600]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.Follow" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[601]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.FootRock" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[602]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.HeelRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl_grp|Knight_Retopo:R_Leg_Clav_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[603]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.HeelPivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.Follow" 
 		"Knight_RetopoRN.placeHolderList[604]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.HeelTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[605]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[606]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToePivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl_grp|Knight_Retopo:R_Leg_IK_Base_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[607]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.Follow" 
 		"Knight_RetopoRN.placeHolderList[608]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.BallRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.FootRock" 
 		"Knight_RetopoRN.placeHolderList[609]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.BallPivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.HeelRotate" 
 		"Knight_RetopoRN.placeHolderList[610]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.BallTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.HeelPivot" 
 		"Knight_RetopoRN.placeHolderList[611]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTapRotate" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.HeelTwist" 
 		"Knight_RetopoRN.placeHolderList[612]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTapPivot" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeRotate" 
 		"Knight_RetopoRN.placeHolderList[613]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTapTwist" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToePivot" 
 		"Knight_RetopoRN.placeHolderList[614]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.FootRoll" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTwist" 
 		"Knight_RetopoRN.placeHolderList[615]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ControlVis" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.BallRotate" 
 		"Knight_RetopoRN.placeHolderList[616]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.Stretch" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.BallPivot" 
 		"Knight_RetopoRN.placeHolderList[617]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.MaxStretch" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.BallTwist" 
 		"Knight_RetopoRN.placeHolderList[618]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.LegLength" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTapRotate" 
 		"Knight_RetopoRN.placeHolderList[619]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.UpperLegLength" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTapPivot" 
 		"Knight_RetopoRN.placeHolderList[620]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.LowerLegLength" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ToeTapTwist" 
 		"Knight_RetopoRN.placeHolderList[621]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.FootRoll" 
 		"Knight_RetopoRN.placeHolderList[622]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.ControlVis" 
 		"Knight_RetopoRN.placeHolderList[623]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.Stretch" 
 		"Knight_RetopoRN.placeHolderList[624]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.MaxStretch" 
 		"Knight_RetopoRN.placeHolderList[625]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.LegLength" 
 		"Knight_RetopoRN.placeHolderList[626]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.UpperLegLength" 
 		"Knight_RetopoRN.placeHolderList[627]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.LowerLegLength" 
 		"Knight_RetopoRN.placeHolderList[628]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[629]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[630]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[631]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[632]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[633]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[634]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[635]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[636]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[637]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[638]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[639]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[640]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[641]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[642]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[643]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[644]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[645]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[646]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[647]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[648]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[649]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[650]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[651]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[652]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[653]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[654]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[655]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[656]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[657]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[658]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[659]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[660]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[661]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[662]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[663]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[664]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[665]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[666]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[667]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[668]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[669]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[670]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[671]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[672]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[673]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[674]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[675]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[676]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.rotateZ" 
 		"Knight_RetopoRN.placeHolderList[677]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[678]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[679]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.translateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[680]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.visibility" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[681]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.rotateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.scaleX" 
 		"Knight_RetopoRN.placeHolderList[682]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.rotateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.scaleY" 
 		"Knight_RetopoRN.placeHolderList[683]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.rotateZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Ball_ctrl_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Ball_ctrl.scaleZ" 
 		"Knight_RetopoRN.placeHolderList[684]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.scaleX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.translateX" 
 		"Knight_RetopoRN.placeHolderList[685]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.scaleY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.translateY" 
 		"Knight_RetopoRN.placeHolderList[686]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.scaleZ" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.translateZ" 
 		"Knight_RetopoRN.placeHolderList[687]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.Follow" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.visibility" 
 		"Knight_RetopoRN.placeHolderList[688]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.translateX" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.rotateX" 
 		"Knight_RetopoRN.placeHolderList[689]" ""
-		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.translateY" 
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.rotateY" 
 		"Knight_RetopoRN.placeHolderList[690]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.rotateZ" 
+		"Knight_RetopoRN.placeHolderList[691]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.scaleX" 
+		"Knight_RetopoRN.placeHolderList[692]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.scaleY" 
+		"Knight_RetopoRN.placeHolderList[693]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl|Knight_Retopo:R_Foot_IK_Out_ctrl_grp|Knight_Retopo:R_Foot_IK_Out_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Out_ctrl|Knight_Retopo:R_Foot_IK_In_ctrl_grp|Knight_Retopo:R_Foot_IK_In_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_In_ctrl|Knight_Retopo:R_Foot_IK_Heel_ctrl_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Heel_ctrl|Knight_Retopo:R_Foot_IK_Toe_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl_Offset_02_grp|Knight_Retopo:R_Foot_IK_Toe_ctrl|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl_Offset_grp|Knight_Retopo:R_Foot_IK_Toe_Tap_ctrl.scaleZ" 
+		"Knight_RetopoRN.placeHolderList[694]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.Follow" 
+		"Knight_RetopoRN.placeHolderList[695]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.translateX" 
+		"Knight_RetopoRN.placeHolderList[696]" ""
+		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.translateY" 
+		"Knight_RetopoRN.placeHolderList[697]" ""
 		5 4 "Knight_RetopoRN" "|Knight_Retopo:Knight|Knight_Retopo:Controls|Knight_Retopo:Legs_ctrl_grp|Knight_Retopo:R_Leg_ctrl_grp|Knight_Retopo:R_Leg_IK_ctrl_grp|Knight_Retopo:R_Leg_IK_Main_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_grp|Knight_Retopo:R_Leg_IK_PV_ctrl_Offset_grp|Knight_Retopo:R_Leg_IK_PV_ctrl.translateZ" 
-		"Knight_RetopoRN.placeHolderList[691]" "";
+		"Knight_RetopoRN.placeHolderList[698]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode script -n "uiConfigurationScriptNode";
@@ -31497,7 +31520,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -width 866\n            -height 519\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n"
 		+ "            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n"
 		+ "            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n"
-		+ "            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 867\n            -height 519\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n"
+		+ "            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 867\n            -height 519\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|CAMERA01\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n"
 		+ "            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n"
 		+ "            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n"
 		+ "            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1740\n            -height 1091\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n"
@@ -31527,13 +31550,13 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n"
 		+ "                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -bluePencil 1\n                -greasePencils 0\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n"
 		+ "        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1740\\n    -height 1091\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1740\\n    -height 1091\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"|CAMERA01\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1740\\n    -height 1091\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"|CAMERA01\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1740\\n    -height 1091\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 0.05 -size 0.12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "234F1C79-427D-3FC7-7071-1FAC7E695B19";
-	setAttr ".b" -type "string" "playbackOptions -min 0 -max 80 -ast 0 -aet 80 ";
+	setAttr ".b" -type "string" "playbackOptions -min 0 -max 150 -ast 0 -aet 150 ";
 	setAttr ".st" 6;
 createNode reference -n "DragonGateRN";
 	rename -uid "EE6C5E84-435D-0BE2-E3F1-34A27DB32DD3";
@@ -31909,776 +31932,776 @@ createNode animCurveTL -n "L_Arm_01_FK_ctrl_translateX";
 	rename -uid "68B33004-478A-75FA-4BA8-D88A4BCA679E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -1.4431338068998656e-13;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -1.4431338068998656e-13 85 -1.4431338068998656e-13;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_01_FK_ctrl_translateY";
 	rename -uid "B15C65A1-4283-721F-73AB-1E9BA600ABFC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 2.9420910152566648e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 2.9420910152566648e-15 85 2.9420910152566648e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_01_FK_ctrl_translateZ";
 	rename -uid "30FBF965-4ECD-A16B-B980-85A6A4826F42";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_02_FK_ctrl_translateX";
 	rename -uid "AD1B5CBC-41A4-D191-EDD5-7E930EFFE5C0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_02_FK_ctrl_translateY";
 	rename -uid "E5BE9C6C-456D-78C4-B0B0-27ACC4DBB098";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_02_FK_ctrl_translateZ";
 	rename -uid "FC9281AF-471F-B0A1-F014-84B995A162FD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_03_FK_ctrl_translateX";
 	rename -uid "CCB598F0-4473-F2A2-9089-418F95D2EC4A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_03_FK_ctrl_translateY";
 	rename -uid "1AC6FBFD-43C8-82E3-C920-FB98BB1F5998";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Arm_03_FK_ctrl_translateZ";
 	rename -uid "D7508461-4C88-6D00-E108-62B7675B93F8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Clav_ctrl_translateX";
 	rename -uid "C5DB06D7-46A1-290B-B0C5-F5AAE3889685";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Clav_ctrl_translateY";
 	rename -uid "3D306F34-4083-30EA-1A1D-E0A398529AA8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Clav_ctrl_translateZ";
 	rename -uid "8FB03E50-4188-D858-1873-71A4F7004AE1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_01_ctrl_translateX";
 	rename -uid "59CC2ACB-4369-EB4D-10BE-E0BD210FE3BF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_01_ctrl_translateY";
 	rename -uid "1159152A-40D5-50B5-C54A-8AAD3E98AA87";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_01_ctrl_translateZ";
 	rename -uid "243D1925-4A30-FD2F-D4CB-28BACBA21A95";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_02_ctrl_translateX";
 	rename -uid "489D0658-4BC3-9479-1A64-5BA7F68833A2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_02_ctrl_translateY";
 	rename -uid "BCDFAE1E-4BDA-B5D8-C886-B7B6AE44B8CD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_02_ctrl_translateZ";
 	rename -uid "4DA7CBAA-49A5-F533-185F-DA8DF8AD5807";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_03_ctrl_translateX";
 	rename -uid "7BF3B09C-41FF-5025-CB36-DCBE1E878516";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_03_ctrl_translateY";
 	rename -uid "33D0E885-43DE-7C1B-4F38-169EBA1D90C0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_01_Knuckle_03_ctrl_translateZ";
 	rename -uid "BE23E9F2-4D9C-4FB2-886A-B99B7F9910A0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_01_ctrl_translateX";
 	rename -uid "7F169426-4164-3AFF-836C-FAAF2A1A3B98";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_01_ctrl_translateY";
 	rename -uid "00B358B9-42BE-D4C7-9436-63916C4725F3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_01_ctrl_translateZ";
 	rename -uid "5DE1AB3C-4F96-053D-CEC2-B39D4C474DB5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_02_ctrl_translateX";
 	rename -uid "1322A9E5-41FB-E70A-017A-EF8FF5163ED5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_02_ctrl_translateY";
 	rename -uid "1F46F3A2-44FA-D1E5-7B3F-CB8843A8A6F2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_02_ctrl_translateZ";
 	rename -uid "05A294F1-429A-62B0-6DC7-8A8D1A52A5BD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_03_ctrl_translateX";
 	rename -uid "51ECFEB3-4F9D-0329-6B0A-3C906DF91471";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_03_ctrl_translateY";
 	rename -uid "5EEFAA63-4C4B-9C52-F51D-C7B3BE9A232F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_02_Knuckle_03_ctrl_translateZ";
 	rename -uid "07996C14-41CC-25C9-C85D-4CB01DAA8342";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_01_ctrl_translateX";
 	rename -uid "9659821E-44ED-011C-8C6A-D482FA0F0B5C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_01_ctrl_translateY";
 	rename -uid "0673B49D-4BBD-F01C-66EB-CEBA28DC02C7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_01_ctrl_translateZ";
 	rename -uid "70E20EDE-4FCE-04F7-635E-11BD15DA29F2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_02_ctrl_translateX";
 	rename -uid "F6BEBD5D-4ECE-B6F9-48A9-BAB200123746";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_02_ctrl_translateY";
 	rename -uid "4FFB6CE4-4C20-5460-390A-40BB4FA34C15";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_02_ctrl_translateZ";
 	rename -uid "FF51DA3A-4856-9EA5-BE60-16B26A92D98B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_03_ctrl_translateX";
 	rename -uid "B504AEC3-4B0A-4C3C-7FE8-D29A6B15F4E5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_03_ctrl_translateY";
 	rename -uid "80C1049E-4294-1842-5D6A-F7B204B3512B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_03_Knuckle_03_ctrl_translateZ";
 	rename -uid "7A564B65-4FBE-BB79-4D01-4BB5B918BB66";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_01_ctrl_translateX";
 	rename -uid "81FE9461-4333-47A9-E686-C68324B1558D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_01_ctrl_translateY";
 	rename -uid "79FBC222-40DD-AA2D-21F7-1F8AC9402F93";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_01_ctrl_translateZ";
 	rename -uid "5F88832F-4B23-CC60-34A2-9091663AAFCE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_02_ctrl_translateX";
 	rename -uid "ADD43744-4428-0D0F-1AFC-2090CCDC96CE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_02_ctrl_translateY";
 	rename -uid "3AB33B0E-4D55-03E9-6490-3B99339F6672";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_02_ctrl_translateZ";
 	rename -uid "EC1150F0-4B88-1E01-AEDD-A396E251B54A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_03_ctrl_translateX";
 	rename -uid "A8E659E1-432E-55AF-2C8B-A48F29F6C534";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_03_ctrl_translateY";
 	rename -uid "75834904-462D-9418-18AD-D684016EF6FF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Finger_04_Knuckle_03_ctrl_translateZ";
 	rename -uid "B6B9D114-4980-5B9F-9606-32AD7AB04AFC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Hand_ctrl_translateX";
 	rename -uid "765E5281-4ACF-ED79-0FAC-1AB8300758F6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -9.9475983006414026e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -9.9475983006414026e-14 85 -9.9475983006414026e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Hand_ctrl_translateY";
 	rename -uid "DD4E6A41-4D2A-36C8-3AEF-67BB6743525F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.7763568394002505e-14 85 1.7763568394002505e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Hand_ctrl_translateZ";
 	rename -uid "476F145C-4C41-8313-4466-D48C64DB4132";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -1.4210854715202004e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -1.4210854715202004e-14 85 -1.4210854715202004e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_01_ctrl_translateX";
 	rename -uid "1E458FF9-4E82-92A1-A950-1A9C2A479B52";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_01_ctrl_translateY";
 	rename -uid "78A0E6B9-411C-E9DF-C910-F5B9ECAEAF65";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_01_ctrl_translateZ";
 	rename -uid "179719BA-42AD-38D5-14A9-48953C18CED2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_02_ctrl_translateX";
 	rename -uid "6623A880-403D-5F13-943A-838A80C0DBCB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_02_ctrl_translateY";
 	rename -uid "E13E364B-447E-0C34-A0E3-6191037C10EE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_02_ctrl_translateZ";
 	rename -uid "86C79741-4151-5519-2B33-BEA072009BE2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_03_ctrl_translateX";
 	rename -uid "6E663EFD-454E-3ACB-5DE7-DF91C45E7FE2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_03_ctrl_translateY";
 	rename -uid "F3311C31-43A6-2642-055B-8C95A387C4D5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Thumb_03_ctrl_translateZ";
 	rename -uid "149FC98B-4920-10FF-3681-3693DA8168B8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_01_FK_ctrl_translateX";
 	rename -uid "D195ADE9-4237-2A2A-789A-348FF5574010";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3.3782004971172341e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3.3782004971172341e-14 85 3.3782004971172341e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_01_FK_ctrl_translateY";
 	rename -uid "A985D08A-4E08-DB48-74C9-F7B70C8612B2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_01_FK_ctrl_translateZ";
 	rename -uid "E01E81C5-4705-AAD9-372B-B5A1B26722BE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_02_FK_ctrl_translateX";
 	rename -uid "D279D8EF-4327-4830-4C9F-BBBACD56480F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_02_FK_ctrl_translateY";
 	rename -uid "216DA087-48D4-EA04-2EF0-D5B14A9C656B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_02_FK_ctrl_translateZ";
 	rename -uid "897984DF-4587-858A-3D5C-A89D539E698A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_03_FK_ctrl_translateX";
 	rename -uid "F7B0B06E-4AD7-BFBF-7C3C-BD961E43273F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_03_FK_ctrl_translateY";
 	rename -uid "84BA3F58-4A6D-966D-0CD6-C3B4526062BC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Arm_03_FK_ctrl_translateZ";
 	rename -uid "D6D5C06C-46C1-A0BE-9FB5-A1882CE6FBC5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Clav_ctrl_translateX";
 	rename -uid "D69F13D9-40B2-0E62-D194-4AB3BC24BB11";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Clav_ctrl_translateY";
 	rename -uid "18F3F392-4B76-DC66-2C25-D6A8B8401410";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Clav_ctrl_translateZ";
 	rename -uid "7B5E2FB1-4C05-1493-A568-18A41FE57227";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_01_ctrl_translateX";
 	rename -uid "7A656811-4B2A-E28C-69B6-8EA82CF717D5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_01_ctrl_translateY";
 	rename -uid "E73B30B8-4906-766C-C532-FC862C2B88AB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_01_ctrl_translateZ";
 	rename -uid "0EAE2FC0-4E85-4211-B3DC-6CBA3372F9CD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_02_ctrl_translateX";
 	rename -uid "2118D38D-4AFF-55D6-8C28-D5BE9140A3C1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_02_ctrl_translateY";
 	rename -uid "3E673D3C-4F52-5D4E-06E0-05B722D30C33";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_02_ctrl_translateZ";
 	rename -uid "F35B5140-4D0B-C3D4-8F71-2C904745914A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_03_ctrl_translateX";
 	rename -uid "7D787CFB-4380-79BA-EEB5-4188DF93DD5D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_03_ctrl_translateY";
 	rename -uid "9820726E-48F8-E28A-9F9C-5089B3E78FBE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_01_Knuckle_03_ctrl_translateZ";
 	rename -uid "B1EB5EE2-4C74-54E3-A788-288DC7150ACF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_01_ctrl_translateX";
 	rename -uid "C0C7FEE4-4E18-DB54-7653-5DA28AC9A6A2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_01_ctrl_translateY";
 	rename -uid "A3D5CF23-4C65-21AB-1AE0-0C8D45049044";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_01_ctrl_translateZ";
 	rename -uid "5F14FE37-4A6E-ED07-5E60-D282D46B06AF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_02_ctrl_translateX";
 	rename -uid "9F228200-46C9-3592-20A1-00A2011060A4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_02_ctrl_translateY";
 	rename -uid "02D7AC92-456A-679B-298D-CFA21691B996";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_02_ctrl_translateZ";
 	rename -uid "66D5D869-48BF-70A9-2DAE-B48A07019172";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_03_ctrl_translateX";
 	rename -uid "6582DC23-4F29-C74A-E01D-CEA177FDB6FC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_03_ctrl_translateY";
 	rename -uid "85007594-4323-CA15-69C4-CE9EDBD52214";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_02_Knuckle_03_ctrl_translateZ";
 	rename -uid "74D0BB7B-45D0-2C27-3917-A5B13A649E0C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_01_ctrl_translateX";
 	rename -uid "FA73534D-48F4-E7B7-0B9D-5EA187D97689";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_01_ctrl_translateY";
 	rename -uid "6C53E149-4BEB-8C1F-9A93-E9B52FB3BE9C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_01_ctrl_translateZ";
 	rename -uid "CC45A408-4B90-A870-3026-97B74908F3D7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_02_ctrl_translateX";
 	rename -uid "71F9EC84-419D-3D2F-709B-E3A505132468";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_02_ctrl_translateY";
 	rename -uid "9F145694-4458-B57C-E44D-D68C47FAAD91";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_02_ctrl_translateZ";
 	rename -uid "76306BF6-489F-610D-4767-579A32FCB83F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_03_ctrl_translateX";
 	rename -uid "D084E581-44A0-0395-FF7F-5BA186A8CCF0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_03_ctrl_translateY";
 	rename -uid "2F0A6306-41FA-A825-57E3-C1B2791F4DDC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_03_Knuckle_03_ctrl_translateZ";
 	rename -uid "BC407FB1-4A2D-DA43-2D47-349ADC9A82F5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_01_ctrl_translateX";
 	rename -uid "8AB9563A-42B2-2210-BEFE-BEAA194F25DB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_01_ctrl_translateY";
 	rename -uid "419EEEB3-42A5-0B0D-65D5-CEB5E7A82A83";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_01_ctrl_translateZ";
 	rename -uid "7F74AF76-4D85-A36B-8E5F-10830F5E8CB5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_02_ctrl_translateX";
 	rename -uid "0ED25CD1-4DAC-A87F-01C0-8C93420A5E7D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_02_ctrl_translateY";
 	rename -uid "32FD62D1-4971-C034-BCE3-1587176C4823";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_02_ctrl_translateZ";
 	rename -uid "1993E05C-4407-3F10-2907-9E944AAA473C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_03_ctrl_translateX";
 	rename -uid "1E08EC43-4D81-4DB7-C1E6-799CC620AED9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_03_ctrl_translateY";
 	rename -uid "3B782D50-49A8-2F14-8D52-1EA09D920064";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Finger_04_Knuckle_03_ctrl_translateZ";
 	rename -uid "94A04F40-413B-96B9-FC68-B3BB30237415";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Hand_ctrl_translateX";
 	rename -uid "8801F462-49F1-E6FB-D984-408E0D8DF73A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.4210854715202004e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.4210854715202004e-14 85 1.4210854715202004e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Hand_ctrl_translateY";
 	rename -uid "E7E8181B-49D6-13FB-9FA5-3393C097D327";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3.5527136788005009e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3.5527136788005009e-15 85 3.5527136788005009e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Hand_ctrl_translateZ";
 	rename -uid "F399C4F8-4EAE-B5C5-035F-3F994492CF1C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 2.8421709430404007e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 2.8421709430404007e-14 85 2.8421709430404007e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_01_ctrl_translateX";
 	rename -uid "E6C19892-402D-BDBC-911F-52BC4A1B08C0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_01_ctrl_translateY";
 	rename -uid "985C97F2-4292-BF0D-3743-2EBB2259420F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_01_ctrl_translateZ";
 	rename -uid "EF397A24-45D6-D9B1-33F9-B7B336B29482";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_02_ctrl_translateX";
 	rename -uid "FA69072E-438D-710C-00FE-6694DD19B795";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_02_ctrl_translateY";
 	rename -uid "CFD715D8-4F53-9811-87EB-DFBE691D0AC7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_02_ctrl_translateZ";
 	rename -uid "E55985E2-45B2-9E1A-C64D-1494273C18D6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_03_ctrl_translateX";
 	rename -uid "539CBE2A-4651-D2D4-31A6-38A4F33A5323";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_03_ctrl_translateY";
 	rename -uid "B85BE380-4348-D492-8F5D-0E84ADC22ADC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Thumb_03_ctrl_translateZ";
 	rename -uid "782C55C0-45F2-8C4D-4114-ED98FF10A310";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "COG_ctrl_translateX";
 	rename -uid "9FD9BED6-4273-8C45-9A70-9DAC87DFA241";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "COG_ctrl_translateY";
 	rename -uid "1B67DE7D-40C0-2967-0803-6EBF4D541F5D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "COG_ctrl_translateZ";
 	rename -uid "0F45D19B-411C-DF64-3E21-96B07AA08B5A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_Clav_ctrl_translateX";
 	rename -uid "B295783D-4F8A-4FCD-E7E0-B7A83E05A5FF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_Clav_ctrl_translateY";
 	rename -uid "4551BAF7-4A2D-BEB4-3A7F-F0A84BBB3780";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_Clav_ctrl_translateZ";
 	rename -uid "598D96D3-456C-546F-AEC3-D6AA5DA01573";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_IK_Base_ctrl_translateX";
 	rename -uid "F509D806-4408-FD5A-9437-5A9E1C076735";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_IK_Base_ctrl_translateY";
 	rename -uid "33793524-4BEC-4D5A-B69B-AD8138FDCBA6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_IK_Base_ctrl_translateZ";
 	rename -uid "BB89BF4D-4EBC-9E89-DB32-35AE2F9684E0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_IK_PV_ctrl_translateX";
 	rename -uid "172B5590-4ED3-C748-2A98-AA88D17788D7";
 	setAttr ".tan" 10;
@@ -32701,164 +32724,164 @@ createNode animCurveTL -n "L_Leg_IK_ctrl_translateX";
 	rename -uid "0910FABC-47DA-EE39-3EAF-14A6181AA79E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_IK_ctrl_translateY";
 	rename -uid "A0F4ECA7-49BA-6564-F7EB-49B935329B5B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Leg_IK_ctrl_translateZ";
 	rename -uid "F1C2F15A-43BB-DFB3-E2A3-DB9CC75C7CFB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Out_ctrl_translateX";
 	rename -uid "3BD2F6BA-44FF-9971-0520-84A9A7956D6E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Out_ctrl_translateY";
 	rename -uid "6155EB78-4C20-1895-34E9-D1BA507CA271";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Out_ctrl_translateZ";
 	rename -uid "1C8E10AA-4424-59B3-CFDE-238DF1666E7A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_In_ctrl_translateX";
 	rename -uid "EBB14F45-4DFA-B94E-2071-DD8C211C2408";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -1.7763568394002505e-15 85 -1.7763568394002505e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_In_ctrl_translateY";
 	rename -uid "81A5E6CA-4A0F-72B7-E693-F5A507C0D4F0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -2.2204460492503131e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -2.2204460492503131e-16 85 -2.2204460492503131e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_In_ctrl_translateZ";
 	rename -uid "1F58FA02-4FC1-8D21-8A32-AAB4E5C5C897";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.7763568394002505e-15 85 1.7763568394002505e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Heel_ctrl_translateX";
 	rename -uid "901222D0-4A73-601E-0704-3A9104743925";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Heel_ctrl_translateY";
 	rename -uid "261A3DD0-416A-B37E-B197-EEB6CDAB9691";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Heel_ctrl_translateZ";
 	rename -uid "13B36CA7-4052-A487-9DBD-2A9B63D73A7D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Toe_ctrl_translateX";
 	rename -uid "DDAA192D-490C-E758-312B-63B443B3AD56";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -3.5527136788005009e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -3.5527136788005009e-15 85 -3.5527136788005009e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Toe_ctrl_translateY";
 	rename -uid "B1DC47BE-4D2C-8401-6854-F2BA4C9D441A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Toe_ctrl_translateZ";
 	rename -uid "DF05A8FC-42C7-1959-3B32-49B799A99F6D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.0658141036401503e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.0658141036401503e-14 85 1.0658141036401503e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Ball_ctrl_translateX";
 	rename -uid "38E34DB7-49BC-BE5B-EC83-CFA0D66B17B7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Ball_ctrl_translateY";
 	rename -uid "995348E9-4F5F-0BA4-C398-7A9520F28E14";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 8.8817841970012523e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 8.8817841970012523e-16 85 8.8817841970012523e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Ball_ctrl_translateZ";
 	rename -uid "DE864DC7-47C2-356A-06BF-9D9AA17B0291";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.7763568394002505e-15 85 1.7763568394002505e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Toe_Tap_ctrl_translateX";
 	rename -uid "7CAA496F-4B7F-977A-E2A3-4185B8FE0648";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Toe_Tap_ctrl_translateY";
 	rename -uid "4FE3755D-48E6-D92F-17E8-F4A7B9EB4825";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -8.8817841970012523e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -8.8817841970012523e-16 85 -8.8817841970012523e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Foot_IK_Toe_Tap_ctrl_translateZ";
 	rename -uid "5F211853-4FBA-F466-D87F-E39D1FB97E26";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_Clav_ctrl_translateX";
 	rename -uid "E0A929EC-4978-D83E-76C2-3684785E6029";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_Clav_ctrl_translateY";
 	rename -uid "E70F3967-49A8-0028-E799-DE91BB1F7AAC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_Clav_ctrl_translateZ";
 	rename -uid "F169D737-46E9-14B9-4192-178C0E3C0F32";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_IK_Base_ctrl_translateX";
 	rename -uid "1BA0AFD4-4F32-C7DB-CA65-C69DF3FCAF5F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_IK_Base_ctrl_translateY";
 	rename -uid "A9F57FB2-4E7E-B337-FF5F-4C842B03EFEA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_IK_Base_ctrl_translateZ";
 	rename -uid "057F7894-4FD2-DA87-6595-83BC9976DF04";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_IK_PV_ctrl_translateX";
 	rename -uid "3CB1E487-4352-6F07-0882-96B63A66566E";
 	setAttr ".tan" 10;
@@ -32881,1742 +32904,1751 @@ createNode animCurveTL -n "R_Leg_IK_ctrl_translateX";
 	rename -uid "DDDE1CD4-4EC0-358C-6972-CFBA4291EC13";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_IK_ctrl_translateY";
 	rename -uid "53655566-437C-686C-3898-4A99A38FA1EB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Leg_IK_ctrl_translateZ";
 	rename -uid "91214BD6-4991-CC63-A154-D58D307D11FD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Out_ctrl_translateX";
 	rename -uid "92E228E1-4167-65CE-7B71-579EC11CEAD8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 7.1054273576010019e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 7.1054273576010019e-15 85 7.1054273576010019e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Out_ctrl_translateY";
 	rename -uid "436A50BA-4F23-F1E5-8BE9-5BBED70AB14B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -2.2204460492503131e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -2.2204460492503131e-16 85 -2.2204460492503131e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Out_ctrl_translateZ";
 	rename -uid "9CB7E776-4F3D-7645-34BB-A7AEC1858C5A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_In_ctrl_translateX";
 	rename -uid "0AACD0F0-45AC-4BDF-3522-14B949611A35";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -1.7763568394002505e-15 85 -1.7763568394002505e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_In_ctrl_translateY";
 	rename -uid "DA811B4A-4D49-2440-E370-0891E7979866";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -4.4408920985006262e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -4.4408920985006262e-16 85 -4.4408920985006262e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_In_ctrl_translateZ";
 	rename -uid "DD8153D6-42E1-02BF-F80F-4BA0C5E3ED3D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Heel_ctrl_translateX";
 	rename -uid "8F349465-442D-DD97-763B-8298F2D049DD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Heel_ctrl_translateY";
 	rename -uid "DD6A092A-4672-E8F4-BAA0-4A99BB5D046E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Heel_ctrl_translateZ";
 	rename -uid "28DE6904-4A96-2243-F019-3C8C5902BB89";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Toe_ctrl_translateX";
 	rename -uid "EAE37785-449C-843C-6E07-1A9E1FA8E2E0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Toe_ctrl_translateY";
 	rename -uid "6F9BD3B8-4DD1-E622-2D95-C7951F745925";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -3.8857805861880479e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -3.8857805861880479e-16 85 -3.8857805861880479e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Toe_ctrl_translateZ";
 	rename -uid "AD507A20-48F0-0B1F-095B-EEB1D1C82C0F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.4210854715202004e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.4210854715202004e-14 85 1.4210854715202004e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Ball_ctrl_translateX";
 	rename -uid "B0BDA215-407D-0F64-E31A-5AB927EAD540";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -3.5527136788005009e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -3.5527136788005009e-15 85 -3.5527136788005009e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Ball_ctrl_translateY";
 	rename -uid "45EF1D58-4AE6-99C5-22DB-52B8BD7D15F0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.7763568394002505e-15 85 1.7763568394002505e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Ball_ctrl_translateZ";
 	rename -uid "AC3E4C6A-44FE-9033-2087-F6B386B79C9A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Toe_Tap_ctrl_translateX";
 	rename -uid "544B5E5F-4A9D-2CC2-CB69-47B5D29EABDF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3.5527136788005009e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3.5527136788005009e-15 85 3.5527136788005009e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Toe_Tap_ctrl_translateY";
 	rename -uid "9A4699F5-43AA-EE18-1AD5-84A666AD4AD2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Foot_IK_Toe_Tap_ctrl_translateZ";
 	rename -uid "3AA84049-46D2-4041-DF21-94984A3F3AF5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.7763568394002505e-15 85 1.7763568394002505e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Lower_Face_01_ctrl_translateX";
 	rename -uid "91616E7F-4218-0627-0092-96BBED6B54A3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 3.0712669363683862e-17 92 3.0712669363683862e-17;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_01_ctrl_translateY";
 	rename -uid "9D8FD839-4DB4-4778-D95F-B8BC8F2B2F6F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 -3 92 -6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_01_ctrl_translateZ";
 	rename -uid "856061CE-4171-430B-56B6-75B929E887D3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1.7763568394002505e-15 85 1.7763568394002505e-15
+		 88 -8.4376949871511897e-15 92 -8.4376949871511897e-15;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_02_ctrl_translateX";
 	rename -uid "6A58B64A-4C8D-6F47-D4F2-E9AF7CE9B90B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 3.0712669363683862e-17 92 3.0712669363683862e-17;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_02_ctrl_translateY";
 	rename -uid "A6301E22-4179-46F7-F2D0-74B0EDEDE157";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 -3 92 -6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_02_ctrl_translateZ";
 	rename -uid "31B1E9E3-4AA0-36C3-3A02-99A2546AB8FB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 -1.021405182655144e-14 92 -1.021405182655144e-14;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_03_ctrl_translateX";
 	rename -uid "4AF47142-422A-5BB0-5097-E39857F71AB9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.3322676295501878e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1.3322676295501878e-15 85 1.3322676295501878e-15
+		 88 1.3629802989138711e-15 92 1.3629802989138711e-15;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_03_ctrl_translateY";
 	rename -uid "519E31FD-422C-E561-4CA8-D3968E8C92C3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 -3 92 -6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Lower_Face_03_ctrl_translateZ";
 	rename -uid "51B2974A-400E-8B16-0AEC-739D575FC8C9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -5.3290705182007514e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 -5.3290705182007514e-15 85 -5.3290705182007514e-15
+		 88 -1.5543122344752192e-14 92 -1.5543122344752192e-14;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Upper_Face_01_ctrl_translateX";
 	rename -uid "2B2748E9-4F7C-29E6-14C2-65B6C97C4D13";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.3322676295501878e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1.3322676295501878e-15 84 0 88 1.3322897015730987e-15
+		 92 1.3322897015730987e-15;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Upper_Face_01_ctrl_translateY";
 	rename -uid "0BB5DF0A-4B60-1652-994C-E7881BA0E663";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 3 92 6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Upper_Face_01_ctrl_translateZ";
 	rename -uid "385DCB75-4EFE-DBB7-CA67-3EBDD9632366";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -5.3290705182007514e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 -5.3290705182007514e-15 84 0 88 3.5749181392930041e-14
+		 92 3.5749181392930041e-14;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Upper_Face_02_ctrl_translateX";
 	rename -uid "F0AEAE05-4E75-34D5-CA8C-6BBB90BB3630";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -8.8817841970012523e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -8.8817841970012523e-16 85 -8.8817841970012523e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Upper_Face_02_ctrl_translateY";
 	rename -uid "5290992B-41D6-D30D-4367-A1ADA30D457B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Upper_Face_02_ctrl_translateZ";
 	rename -uid "5CE6AA02-4964-FCDE-0420-97AAA89D4CF4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Upper_Face_03_ctrl_translateX";
 	rename -uid "6838BE38-41DD-1B38-302F-E480EA132B50";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Upper_Face_03_ctrl_translateY";
 	rename -uid "36D2972C-4AE2-1310-2C8D-A4A60E4D3EC0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "L_Upper_Face_03_ctrl_translateZ";
 	rename -uid "B597CD96-4282-CFA3-DBF6-72A1FD02E601";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Middle_Face_ctrl_translateX";
 	rename -uid "06013059-47AC-417A-31FA-EAA33060622F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 2.207202291119297e-20 92 2.207202291119297e-20;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Middle_Face_ctrl_translateY";
 	rename -uid "3ADCC33E-4691-B4AF-F50C-E6A6A068CCF6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 3 92 6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Middle_Face_ctrl_translateZ";
 	rename -uid "D819C4BD-478D-DAA7-EA93-03ADA3196A56";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 4.1078251911130792e-14 92 4.1078251911130792e-14;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_01_ctrl_translateX";
 	rename -uid "0A3B65DD-4FBE-A7A2-328E-22A3C24544B1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_01_ctrl_translateY";
 	rename -uid "BDB572AA-4790-A478-0823-9CBC043E8EDA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 3 92 6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_01_ctrl_translateZ";
 	rename -uid "9165EDF9-4D96-9188-D171-93B8E4885FFA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_02_ctrl_translateX";
 	rename -uid "D4EAEDB1-4AA9-3651-B743-7C8A508E1D41";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_02_ctrl_translateY";
 	rename -uid "636C85A4-4FB2-F41F-A1CF-228AE41ABDE8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 3 92 6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_02_ctrl_translateZ";
 	rename -uid "2F447E3D-467B-AD02-1384-BD9DBB7F5E16";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -2.4652524606939751e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 -2.4652524606939751e-15 84 0 88 -2.4652524606939751e-15
+		 92 -2.4652524606939751e-15;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_03_ctrl_translateX";
 	rename -uid "FE3D2F8E-4F6E-0898-0795-17AE16A8C6A3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_03_ctrl_translateY";
 	rename -uid "4FBE357B-43D9-C602-EB3A-089F325D28D6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 3 92 6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Lower_Face_03_ctrl_translateZ";
 	rename -uid "CE25DB43-4A60-10DC-4450-26917E60B7B5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -2.7701733812477818e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 -2.7701733812477818e-16 84 0 88 -2.7701733812477818e-16
+		 92 -2.7701733812477818e-16;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Upper_Face_01_ctrl_translateX";
 	rename -uid "C948699D-4508-DBF6-4A32-659B97EB727D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.7763568394002505e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1.7763568394002505e-15 84 0 88 8.157884443477749e-16
+		 92 8.157884443477749e-16;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Upper_Face_01_ctrl_translateY";
 	rename -uid "7F01ACB5-4CA6-8D0D-2964-508A1CAFC709";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -3 92 -6;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Upper_Face_01_ctrl_translateZ";
 	rename -uid "181581BF-4D55-BCAD-C20E-339F39A7DE7E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -3.3318673540736402e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 -3.3318673540736402e-15 84 0 88 6.1505157284035505e-14
+		 92 6.1505157284035505e-14;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Upper_Face_02_ctrl_translateX";
 	rename -uid "8894782F-446E-CB9F-5DF0-5BAAF2A366E7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 8.8817841970012523e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 8.8817841970012523e-16 85 8.8817841970012523e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_02_ctrl_translateY";
 	rename -uid "81195B0E-47C5-38F3-4F88-E3A5EB2B2DD7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_02_ctrl_translateZ";
 	rename -uid "48A11F17-42C3-C2C5-C3DA-D3937C677C35";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -5.7533537589774485e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -5.7533537589774485e-16 85 -5.7533537589774485e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_03_ctrl_translateX";
 	rename -uid "A04B42F4-4033-EA18-3EDD-CBB7C43454C6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 8.8817841970012523e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 8.8817841970012523e-16 85 8.8817841970012523e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_03_ctrl_translateY";
 	rename -uid "42E8C126-4EF6-328E-CCA7-EDBC3312ABAB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_03_ctrl_translateZ";
 	rename -uid "12D2B99C-41F4-48B4-AD6E-F4BEE3C13515";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 -5.7533537589774485e-16;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 -5.7533537589774485e-16 85 -5.7533537589774485e-16;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_04_ctrl_translateX";
 	rename -uid "16DCA7FE-4B1A-1CB0-6AE6-A89A44238C7B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_04_ctrl_translateY";
 	rename -uid "FB8159C1-4270-DA24-8030-E798FE5E9940";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "R_Upper_Face_04_ctrl_translateZ";
 	rename -uid "DBB51C68-4D20-7577-753B-AB9249E0DB27";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.3962195506374591e-15;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.3962195506374591e-15 85 1.3962195506374591e-15;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Head_ctrl_translateX";
 	rename -uid "7A446041-46A3-0424-CAEB-BC9F48047E8D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -3 92 -5;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Head_ctrl_translateY";
 	rename -uid "13BB57EB-40B0-38FF-E8A1-41B81DC436BC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -0.4717067351341484 92 -0.4717067351341484;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Head_ctrl_translateZ";
 	rename -uid "F55E9877-4FB5-5C51-DE63-4EB9497D6B4C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -2.604342958589924e-16 92 -2.604342958589924e-16;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Neck_01_ctrl_translateX";
 	rename -uid "12806F4A-406F-7BCF-069B-CD8B912A759E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Neck_01_ctrl_translateY";
 	rename -uid "9D701D0D-408D-2890-BFFE-E9885E840EC7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Neck_01_ctrl_translateZ";
 	rename -uid "5157DF0F-45FA-33DC-FB76-B994B8E0394E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Pelvis_ctrl_translateX";
 	rename -uid "BC45A563-49F2-DDD6-5396-E896EC0E4E7D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Pelvis_ctrl_translateY";
 	rename -uid "1B49B9F2-4515-3428-9840-259DE7EE4866";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Pelvis_ctrl_translateZ";
 	rename -uid "82E4465C-454B-0199-5B53-E19F145D16E1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Spine_01_ctrl_translateX";
 	rename -uid "7BC0138F-4F54-C11B-785E-93B3C6487EE5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Spine_01_ctrl_translateY";
 	rename -uid "8C910377-4180-C0D7-100B-43AFA107BE96";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Spine_01_ctrl_translateZ";
 	rename -uid "FA715D88-466E-B1F3-53F5-32A63BBB6B02";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Spine_02_ctrl_translateX";
 	rename -uid "9DBE9BD5-4BC9-ABBF-3189-42B097573B54";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Spine_02_ctrl_translateY";
 	rename -uid "C6BF9A5D-450A-254E-5244-A0B9DE1426E2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Spine_02_ctrl_translateZ";
 	rename -uid "D8136864-47A1-C223-A9BF-1CA7943791FA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "Spine_03_ctrl_translateX";
 	rename -uid "549255BE-4430-2550-A19C-E58AF92E7564";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Spine_03_ctrl_translateY";
 	rename -uid "F5F8997C-4F09-AD5A-4C55-C19DD2A8765B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Spine_03_ctrl_translateZ";
 	rename -uid "050990C2-4E54-7349-3280-499CD10D66C6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Transform_ctrl_translateX";
 	rename -uid "B4FC4206-4BA3-124C-417F-88BA692DE88A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Transform_ctrl_translateY";
 	rename -uid "4C334E28-46F3-7957-B6CD-8FBA6E7671A1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Transform_ctrl_translateZ";
 	rename -uid "B0E00B01-4962-945E-9F2F-15853810F02D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1000;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1080 85 1080;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_02_ctrl_rotateX";
 	rename -uid "9E083E70-45CC-C0AB-D471-15A267B83CDD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_02_ctrl_rotateY";
 	rename -uid "9841D888-4491-BBA7-7AA6-E7B4D77C102E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_02_ctrl_rotateZ";
 	rename -uid "B96B6F2A-4CE3-BDD9-76F2-A294E077E43C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_02_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "0503E4FA-4363-DC3A-6FE8-9D975A496D4A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_02_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "4620139B-4FB0-423E-4783-3BAE5DC67BAD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Transform_ctrl_rotateX";
 	rename -uid "4378317E-454B-7E7D-7337-8AAE1A48CBF7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Transform_ctrl_rotateY";
 	rename -uid "339583B4-441A-7992-CFBA-4385A54EEB5E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 180;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 180 85 180;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Transform_ctrl_rotateZ";
 	rename -uid "28056BF2-4833-3259-2533-DD82D1FBEC85";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Transform_ctrl_LArmIKFK";
 	rename -uid "2DB15E27-4A77-3A13-6DB6-1C931B54F995";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Transform_ctrl_RArmIKFK";
 	rename -uid "D8D47B4E-42C9-C70D-0005-C785C7BA410C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Transform_ctrl_LLegIKFK";
 	rename -uid "D90C5945-42B9-9443-4A17-7788B86D5514";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Transform_ctrl_RLegIKFK";
 	rename -uid "1B733D1B-4466-F5D9-9151-5F92A552E0EA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Transform_ctrl_MasterScale";
 	rename -uid "9062C990-4D25-DDC4-6B00-B8849CF44EFE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_03_ctrl_rotateX";
 	rename -uid "BD5C89A9-4230-6356-CD9A-47BCF9FE00A7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_03_ctrl_rotateY";
 	rename -uid "6C9DC8D4-4081-03C7-2162-2F82660EC1F7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_03_ctrl_rotateZ";
 	rename -uid "62C805EF-45DD-2FDE-A5D9-F3ABD5A014BB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_02_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "8472893B-4E32-63E3-F8F3-9B82778507D0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_02_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "61A560EB-4607-1027-20D7-4385F9ECE9CB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Leg_IK_ctrl_rotateX";
 	rename -uid "CAF3E822-4736-6947-9536-3C8F7E63ACBC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Leg_IK_ctrl_rotateY";
 	rename -uid "51B6D5E9-4994-BB63-F88A-8FB00AD32DAD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Leg_IK_ctrl_rotateZ";
 	rename -uid "DE0EEF72-4205-C08D-5C12-0CA1E839A17F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_Follow";
 	rename -uid "512AB737-4368-7455-EDE3-4A867CEC0AC0";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3 85 3;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_FootRock";
 	rename -uid "38DF1797-45C4-CE6C-4F35-9BBAB7F954A2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_HeelRotate";
 	rename -uid "B8EF1C41-4E8A-0F81-8F43-EA829B84BF55";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_HeelPivot";
 	rename -uid "5D831F1E-4A09-DA40-3CC7-2F8156F32817";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_HeelTwist";
 	rename -uid "0E3B5008-4E12-6AC7-7752-D1B5033FB2CF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ToeRotate";
 	rename -uid "7EFFE39F-4ACC-1ADA-790B-159D3E228E00";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ToePivot";
 	rename -uid "2EADA015-4AA9-3403-F901-D0A37BEB6837";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ToeTwist";
 	rename -uid "39E426EC-40D2-6467-DD9C-04A2B01A6AD0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_BallRotate";
 	rename -uid "E6899C22-4C14-6A5C-2A4A-8DACFACDEBA3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_BallPivot";
 	rename -uid "B64071E7-4C6F-0CCE-5AD2-87963C46475C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_BallTwist";
 	rename -uid "C8FE725A-4656-6573-D45B-EF893F785DED";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ToeTapRotate";
 	rename -uid "70883E46-45EB-32D5-E517-4BAE91D19CFC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ToeTapPivot";
 	rename -uid "EDF68F55-4134-0211-F420-928DE71C1D33";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ToeTapTwist";
 	rename -uid "9FFA58B3-4C67-AC64-3925-04AFFD5F3B3A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_FootRoll";
 	rename -uid "8CB728B1-4B3B-CFC4-EE41-7E8E2CE8CBBE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_ControlVis";
 	rename -uid "4179D352-400C-AE27-0872-6898A8F3E514";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_Stretch";
 	rename -uid "D26F2FE9-4D67-6A7A-7D27-2FB84E8E826C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_MaxStretch";
 	rename -uid "C2FDF45E-4637-27B3-E998-0E9AD47FAB2B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3 85 3;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_LegLength";
 	rename -uid "D78D5307-4CFE-AFF3-E1C2-C3A3355D024D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_UpperLegLength";
 	rename -uid "33CBA221-4EA2-21D3-DFB6-FF9BD79A2204";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_ctrl_LowerLegLength";
 	rename -uid "D1568A28-4522-41A3-A71F-43A5C20EFCB2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_02_ctrl_rotateX";
 	rename -uid "CC98EC1E-4BFA-D58A-1036-8A8F58347B9E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_02_ctrl_rotateY";
 	rename -uid "F1215CE3-41A0-E7FA-F3F0-F7A50E000366";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_02_ctrl_rotateZ";
 	rename -uid "47F35CC9-4720-AB08-DEDA-F38119F16B76";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_01_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "2E3874AF-448E-1250-6B09-0CA310D9FD12";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_01_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "682B220B-4B8D-6ED5-3602-C6937B7F494C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Out_ctrl_visibility";
 	rename -uid "42A0D695-4857-EB72-C567-6295A4D889B8";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Out_ctrl_rotateX";
 	rename -uid "A17DA2B4-455B-491A-CB92-DF8D2ACBB216";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Out_ctrl_rotateY";
 	rename -uid "41480946-48C2-CD90-CEA7-638F5FE6C4A6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Out_ctrl_rotateZ";
 	rename -uid "CA94EDA6-4D14-7401-42DE-F7BEDB449994";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Out_ctrl_scaleX";
 	rename -uid "95566E67-4FDD-F623-A0CB-399610E89D37";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Out_ctrl_scaleY";
 	rename -uid "580D6635-4352-BF07-84F7-15BE9F9DA7A4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Out_ctrl_scaleZ";
 	rename -uid "210FF585-4649-4688-261F-24BB96BF1DAC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_01_ctrl_rotateX";
 	rename -uid "C0EDF520-4145-6E88-20D1-63A6CACA6E96";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_01_ctrl_rotateY";
 	rename -uid "00917F0A-44E2-A818-FAA3-6BBE00927994";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_01_ctrl_rotateZ";
 	rename -uid "BC5B0D08-4DCF-5A2C-B36E-D39F78BF25BD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Spine_01_ctrl_FollowTranslate";
 	rename -uid "5861492A-4B8C-36A4-1A3B-06B9986EDE51";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Spine_01_ctrl_FollowRotate";
 	rename -uid "25BD08A6-4B2B-B7C8-7632-8C920B7A7111";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Hand_ctrl_rotateX";
 	rename -uid "D86B05F9-4E8D-D38F-3367-81B45711FBA3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 2.3555984626195827e-14;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 2.3555984626195827e-14 85 2.3555984626195827e-14;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Hand_ctrl_rotateY";
 	rename -uid "CDEE8B55-4EC2-E829-38A1-9C8D6D2B5928";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Hand_ctrl_rotateZ";
 	rename -uid "EF77AEB2-4F0F-3F18-0B3C-BAA16ADE6036";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Hand_ctrl_FollowTranslate";
 	rename -uid "05F00D11-40C2-8715-36A3-EC806C9EAF69";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Hand_ctrl_FollowRotate";
 	rename -uid "36C6A483-44EA-292A-2A5E-C0B554EB9CFA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Upper_Face_02_ctrl_visibility";
 	rename -uid "41CA53B7-45FC-0FF7-CE74-A7A23FF0D0CF";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Upper_Face_02_ctrl_rotateX";
 	rename -uid "D3DED16D-4999-AF5B-C999-B5B44052E047";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Upper_Face_02_ctrl_rotateY";
 	rename -uid "8121CFD6-4A84-B095-E543-2EA542F3CC80";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Upper_Face_02_ctrl_rotateZ";
 	rename -uid "C6210967-453A-4BED-931D-38A1AA3952FE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_01_ctrl_rotateX";
 	rename -uid "B39899A3-4FE4-E1F1-9A6C-AD89B327E57D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_01_ctrl_rotateY";
 	rename -uid "FEBF82B1-4E3E-FBFC-9F2B-F3A2DD1EE813";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_01_ctrl_rotateZ";
 	rename -uid "C89F7C26-42D1-E7D5-A78E-4A94A5B6F3D6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_04_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "C1A7518E-486C-3C2D-70E3-8C958B130134";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_04_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "8FDA4299-4EFB-2693-118B-358D7BCA990D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_02_ctrl_rotateX";
 	rename -uid "B32390DC-4E97-2705-4508-6DB41D00ED91";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_02_ctrl_rotateY";
 	rename -uid "4695C0B3-4698-D019-4309-12BE6F729756";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_02_ctrl_rotateZ";
 	rename -uid "F6A7AD3D-4CCB-9AE8-00A9-679F1DCEBAC9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Thumb_02_ctrl_FollowTranslate";
 	rename -uid "20A9FC52-45C4-44A2-9B14-0E936A9582A5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Thumb_02_ctrl_FollowRotate";
 	rename -uid "A7BE6AA7-447F-85D9-18EC-DEB8EB53DE21";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_01_FK_ctrl_rotateX";
 	rename -uid "B56D2B12-4FC9-1D8B-468A-0E8D074969F0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_01_FK_ctrl_rotateY";
 	rename -uid "06F4B494-4552-7E85-1DED-17BA8B47D13F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_01_FK_ctrl_rotateZ";
 	rename -uid "0ED648C0-4D08-C346-BFBA-38B5C9816233";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Arm_01_FK_ctrl_FollowTranslate";
 	rename -uid "E0BC704E-47B2-EF60-136D-DD8F8BBBDC11";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Arm_01_FK_ctrl_FollowRotate";
 	rename -uid "81D7C6AB-413A-7C4F-A7DD-50B955F960AF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Middle_Face_ctrl_visibility";
 	rename -uid "159F8E26-43AB-62C5-8533-FF97E108F0E2";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Middle_Face_ctrl_rotateX";
 	rename -uid "D3A2F61C-49BC-36EC-EF2F-40A0BEAF2AC1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Middle_Face_ctrl_rotateY";
 	rename -uid "5B6EF431-4469-CCFB-DDAC-CC80AFEE0BA1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Middle_Face_ctrl_rotateZ";
 	rename -uid "A4A81C44-4B75-137F-BB62-6EB9C6AC209E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_02_ctrl_rotateX";
 	rename -uid "37C4DB55-4AA6-1E76-8EAB-78B33FE9DFC3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_02_ctrl_rotateY";
 	rename -uid "F058AFBE-4B3A-7F63-72CC-228B977FAA0F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_02_ctrl_rotateZ";
 	rename -uid "55481843-4D71-10F5-5300-ECA70698DB99";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_04_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "081511A5-438E-7ED7-185C-B2AA7B53C2D1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_04_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "079E43AE-4DA7-494D-0E7A-0FA6A21BBA77";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_02_FK_ctrl_rotateX";
 	rename -uid "83678FB1-430B-E88B-53D4-20A7A948B49B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_02_FK_ctrl_rotateY";
 	rename -uid "1E1DF28E-4447-796B-B622-D4BEEC4CEE73";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_02_FK_ctrl_rotateZ";
 	rename -uid "4B86504C-41B8-85E6-45EB-08A865193F37";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Arm_02_FK_ctrl_FollowTranslate";
 	rename -uid "9AB175C9-46DF-E33C-1FBD-F6B79B076497";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Arm_02_FK_ctrl_FollowRotate";
 	rename -uid "3C3A58D4-41AD-2BBC-1C86-9DAB61E4197B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Leg_IK_ctrl_rotateX";
 	rename -uid "02308D3E-43D8-3AFF-CE78-A9BA6C6FBB20";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Leg_IK_ctrl_rotateY";
 	rename -uid "3494DF0C-4C3B-18F3-0160-83AA10B91918";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Leg_IK_ctrl_rotateZ";
 	rename -uid "029700B2-4CF5-78E5-A8C1-F2B6FEA5E405";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_Follow";
 	rename -uid "1A66734B-49D2-A833-5CC2-199E1D7F4439";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3 85 3;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_FootRock";
 	rename -uid "1C849911-4052-1F47-5D16-198680B4C49E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_HeelRotate";
 	rename -uid "EB3FA506-4E93-592D-6A4A-2A9FE00FA0FD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_HeelPivot";
 	rename -uid "38ED3524-41D3-997F-3518-FC91DD4F680E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_HeelTwist";
 	rename -uid "8A75ABAA-45E6-C690-9501-238FBAB2C52F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ToeRotate";
 	rename -uid "08CB0398-492F-7E48-CD23-CB83A3B46C8C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ToePivot";
 	rename -uid "61C83F37-4D12-833A-CCE9-878A64AFDDF5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ToeTwist";
 	rename -uid "9FB855C0-4882-F277-0B0A-6FBBF2D42397";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_BallRotate";
 	rename -uid "82050047-4B03-A07A-622C-1AB1BDB0119E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_BallPivot";
 	rename -uid "41C5C843-4F81-D8B9-8240-CAB09CA91598";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_BallTwist";
 	rename -uid "81109A64-41E4-BB9C-A29B-BC816FA5017A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ToeTapRotate";
 	rename -uid "CC68ED58-420C-05CC-7754-84A0A81535BA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ToeTapPivot";
 	rename -uid "C2134076-4724-7327-39CB-54A64B6C4310";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ToeTapTwist";
 	rename -uid "1F0D77D6-4EEA-A3A2-E03D-458B30F18987";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_FootRoll";
 	rename -uid "93F4CFE5-4347-A3A0-7A97-E6A07502DE73";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_ControlVis";
 	rename -uid "B3D696E3-4505-AF16-2A79-81B4C38755CA";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_Stretch";
 	rename -uid "34533FB4-482B-2A9C-441A-90B7349A7F29";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_MaxStretch";
 	rename -uid "9AB96E07-49B2-AC47-1561-38A0A4A51BA9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3 85 3;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_LegLength";
 	rename -uid "CC3A2ACB-457A-E6CC-3E84-C3ADF546A2C8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_UpperLegLength";
 	rename -uid "2273C895-4AA1-A31A-D848-D8B47129B393";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_ctrl_LowerLegLength";
 	rename -uid "E7567F23-4B69-5BAE-9F18-C9BB69A6C497";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Hand_ctrl_rotateX";
 	rename -uid "4555EF8C-412A-BF94-8884-10B4DD123CF1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Hand_ctrl_rotateY";
 	rename -uid "6C0C5227-446D-E135-832F-B382A8824BDA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Hand_ctrl_rotateZ";
 	rename -uid "3CCA96B5-44DD-E05B-3F15-83BA1DDE8BCB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Hand_ctrl_FollowTranslate";
 	rename -uid "2ABF3028-4901-63BC-FD43-028AE425C2C9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Hand_ctrl_FollowRotate";
 	rename -uid "DAB08EA6-4064-B72D-3F27-9B9514F0C7E5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_03_FK_ctrl_rotateX";
 	rename -uid "94F38E3F-405B-723D-492A-B0A9FFB58C47";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_03_FK_ctrl_rotateY";
 	rename -uid "9DABEC0B-466B-0B2D-7188-4685F4D7E6FC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_03_FK_ctrl_rotateZ";
 	rename -uid "C38FE2A0-456B-F28D-3415-2EB5DB1DBD23";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Arm_03_FK_ctrl_FollowTranslate";
 	rename -uid "0876749C-4A9C-74DF-7CCA-3493C4874C50";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Arm_03_FK_ctrl_FollowRotate";
 	rename -uid "FBE68867-4FA1-8E12-C19D-D3B89B41B1F1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Leg_Clav_ctrl_rotateX";
 	rename -uid "EFC4A587-4EE4-EDB5-B1B9-0A9EBF0B4C9D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Leg_Clav_ctrl_rotateY";
 	rename -uid "5A8D4795-4608-26BD-1AD0-C58459D5CF17";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Leg_Clav_ctrl_rotateZ";
 	rename -uid "3C649B9B-4427-3D2F-103F-1B8BBD5B280B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_Clav_ctrl_FollowTranslate";
 	rename -uid "AB15886A-4C29-CD57-6F2D-068C24C9ECA3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_Clav_ctrl_FollowRotate";
 	rename -uid "F75A971D-4DE9-356F-E3B2-0DA769A19426";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_03_ctrl_rotateX";
 	rename -uid "73D507FC-40DA-B539-AF16-28BCD90A2E13";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_03_ctrl_rotateY";
 	rename -uid "7BCE0DF4-4566-9118-EFF6-CAA55E5EB44F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_03_ctrl_rotateZ";
 	rename -uid "2E5C05A7-46AC-43FB-0CD3-E2AD9FA95DEF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_03_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "88869E59-4540-6AB7-67CB-C79A082C2CE5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_03_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "183B610E-4930-ED09-2A7A-F3A1134857CF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Neck_01_ctrl_rotateX";
 	rename -uid "ABD666AD-4309-997B-D112-57BD8D305973";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Neck_01_ctrl_rotateY";
 	rename -uid "93B31154-407F-8D88-01C4-A2BF9A052B42";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Neck_01_ctrl_rotateZ";
 	rename -uid "A49D5DB4-4EAD-408A-9EA6-BC81CD8CCC18";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Neck_01_ctrl_FollowTranslate";
 	rename -uid "D27C6EF4-4607-DC8A-4B17-0EA7C5AF6437";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Neck_01_ctrl_FollowRotate";
 	rename -uid "E204EB3E-472B-AAC1-C4C6-33A1D2B89701";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_01_ctrl_rotateX";
 	rename -uid "57268A5F-4863-17A0-0BBB-83A0178A67F1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_01_ctrl_rotateY";
 	rename -uid "161E4C63-460B-AEF3-F2E4-68ABF07D8F24";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_01_ctrl_rotateZ";
 	rename -uid "960757A7-405F-150B-6BD3-2FB1C2B0D028";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_04_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "E79FCAED-48B4-326E-392F-65A33413135E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_04_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "B16806F9-4AD5-9AFA-E57D-42B3904C5288";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_02_FK_ctrl_rotateX";
 	rename -uid "D96096FD-421D-B1C3-7E2F-108D6E4DBFC1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_02_FK_ctrl_rotateY";
 	rename -uid "BFA7FF95-44E8-9523-49D1-1FA093EAC201";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Arm_02_FK_ctrl_rotateZ";
 	rename -uid "42177CB2-4170-ED9A-7488-8C9F3D632DB5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Arm_02_FK_ctrl_FollowTranslate";
 	rename -uid "A67ECA8A-4431-0A36-8733-7E8C983160E8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Arm_02_FK_ctrl_FollowRotate";
 	rename -uid "60CB0865-42D5-BB48-623E-608E31E7CEE2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_01_ctrl_rotateX";
 	rename -uid "CBF8FA94-475D-BE89-A39E-0CACDD20EF87";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_01_ctrl_rotateY";
 	rename -uid "E29B6EF9-46AA-C4A2-7208-16961E60CF0D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_01_ctrl_rotateZ";
 	rename -uid "0DF3FD6F-4483-9002-C706-C3845A0EBC90";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_02_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "1C1E7C24-49F5-A1A6-A61E-38A9C7AE1473";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_02_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "29AC7F49-41D6-2515-619A-AF8783D3B80E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Heel_ctrl_visibility";
 	rename -uid "B987673A-4FAC-6E55-7C3C-31B6845560ED";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Heel_ctrl_rotateX";
 	rename -uid "10DCE15E-4079-3A25-6263-CCA7294D3943";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Heel_ctrl_rotateY";
 	rename -uid "E6C48984-4F2A-1CF6-8D66-5592B33B5130";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Heel_ctrl_rotateZ";
 	rename -uid "C30E44CA-4B97-40E3-9612-838CDC743D34";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Heel_ctrl_scaleX";
 	rename -uid "E51A6552-4264-D5A2-DFDF-79973B230F72";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Heel_ctrl_scaleY";
 	rename -uid "408AC01F-4737-FF91-E08E-A9A746D8A358";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Heel_ctrl_scaleZ";
 	rename -uid "71154B91-4BAE-09FA-12CB-67B65D64C8E8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_02_ctrl_rotateX";
 	rename -uid "9D7AA2CB-4B0A-3570-F2AC-B49A176749EF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_02_ctrl_rotateY";
 	rename -uid "9DBCD553-4CC7-DFCD-A115-708E43974C92";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_02_ctrl_rotateZ";
 	rename -uid "DCD55543-47C5-121B-8705-76B06D419688";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_04_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "26F24340-42A9-5C50-A630-11A991CA5DF1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_04_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "3A8630AC-4D8C-C6B1-C7C8-89AD90D88B57";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_01_ctrl_rotateX";
 	rename -uid "B70C7DA7-42E2-91E2-3CA9-8C8FB5E2A263";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_01_ctrl_rotateY";
 	rename -uid "64553CEB-4EB1-8CEC-4A91-4E900F8EE847";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_01_ctrl_rotateZ";
 	rename -uid "95EB49B5-42AA-6115-531F-6FB3A3D658BD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_01_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "2460E341-463E-38AE-30BE-71AB836651D7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_01_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "8D9278D5-4C45-8D7F-48B6-639979108D77";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_Base_ctrl_Follow";
 	rename -uid "3BCB2F8D-4475-7AA7-65E5-70A5EF5EEC73";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3 85 3;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_03_ctrl_rotateX";
 	rename -uid "A821CA79-452B-8A37-A9CB-F5988F722E87";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_03_ctrl_rotateY";
 	rename -uid "906533E4-4C89-3691-F533-08AAF0460CB4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_03_ctrl_rotateZ";
 	rename -uid "EB3460B6-42DD-1F61-A42D-DE9C385338C1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_01_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "38A43737-4EC7-0E58-2C98-1C840F94B685";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_01_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "82BF30DB-42FA-0E82-7EDB-51B461FB12DF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_Tap_ctrl_visibility";
 	rename -uid "5A745698-4B68-E401-750D-5CA8A6527A73";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Toe_Tap_ctrl_rotateX";
 	rename -uid "40C64307-4681-3C33-7241-F29563BD5C5A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Toe_Tap_ctrl_rotateY";
 	rename -uid "B1071FDB-4C6F-74E4-CFFA-71A4F5F4E8CA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Toe_Tap_ctrl_rotateZ";
 	rename -uid "FDE39846-464F-3AA7-3E2F-EE819E489092";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_Tap_ctrl_scaleX";
 	rename -uid "75B9D9F9-4B5D-9001-74E4-C8962BEC6F9A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_Tap_ctrl_scaleY";
 	rename -uid "13EF7374-4E6D-2A77-7255-74A1C00E492A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999989;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999989 85 0.99999999999999989;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_Tap_ctrl_scaleZ";
 	rename -uid "AD825648-49EC-2EFF-6CA0-5F9840928797";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_02_ctrl_rotateX";
 	rename -uid "13366FBC-45D5-BCA8-F8AC-97844EEC74CA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Spine_02_ctrl_rotateY";
 	rename -uid "F888670A-4CB6-9247-087C-C997D13FA12C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Spine_02_ctrl_rotateZ";
 	rename -uid "16EBE474-4071-CB81-7CD1-20ACA99E660C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -2 92 -4;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "Spine_02_ctrl_FollowTranslate";
 	rename -uid "89FA3B9E-4FC8-6E4A-1E84-14952E6CFD53";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "Spine_02_ctrl_FollowRotate";
 	rename -uid "B98B2966-456F-258E-6B7A-DEBD1E24BFDB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_03_ctrl_rotateX";
 	rename -uid "7C78037F-4C55-FF85-8326-2DAC1E34D4EE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_03_ctrl_rotateY";
 	rename -uid "7DEF0EFF-4631-39C6-577F-DC9FE57DBF58";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_03_ctrl_rotateZ";
 	rename -uid "FD15F009-4714-A498-5F12-F8BA5BA0567E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_01_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "646F29E0-4B5A-AC4D-4AE3-DCB158EBB5ED";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_01_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "729951FB-474A-7C04-B1A6-F3BB92384916";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_03_ctrl_rotateX";
 	rename -uid "E59991E6-4208-D4C8-F789-5E88E99BE6C3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_03_ctrl_rotateY";
 	rename -uid "C7191CEA-42BE-4818-FD89-0D8CD2DCCB9E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_03_ctrl_rotateZ";
 	rename -uid "EF47A567-4038-734B-465F-B9A2CA4C12DB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_03_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "3B457993-4F97-9535-9637-B5B3D739B5B3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_03_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "2803EB56-4F63-CA66-BEDE-C186CFB22A63";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_PV_ctrl_Follow";
 	rename -uid "4193FD60-457E-D071-48E2-61A955A6B4D2";
 	setAttr ".tan" 9;
@@ -34627,1022 +34659,1023 @@ createNode animCurveTU -n "L_Foot_IK_In_ctrl_visibility";
 	rename -uid "529A383A-429A-F030-510E-1C81F65C3C5C";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_In_ctrl_rotateX";
 	rename -uid "7B6FD44E-4A84-DFA5-E6D8-10825B781AD1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_In_ctrl_rotateY";
 	rename -uid "802C313F-4E81-1114-A24E-19BA754AAAC3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_In_ctrl_rotateZ";
 	rename -uid "2206DD04-44FF-F1D9-FBEE-9CAB643E8206";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_In_ctrl_scaleX";
 	rename -uid "E11EE73C-4510-9625-F4F7-4BB3A7B3CC33";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.0000000000000002;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.0000000000000002 85 1.0000000000000002;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_In_ctrl_scaleY";
 	rename -uid "3C5FC997-4DCB-3AD9-FD2C-7FBE3EAD5E56";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_In_ctrl_scaleZ";
 	rename -uid "BCBAA9EF-4488-DC12-EE31-749115C59B3D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1.0000000000000002;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1.0000000000000002 85 1.0000000000000002;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Pelvis_ctrl_rotateX";
 	rename -uid "723DC774-4D3A-B84C-073A-0CB90DE3484E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Pelvis_ctrl_rotateY";
 	rename -uid "E78197CD-45EB-55D4-0DB5-EC9B46919A2F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Pelvis_ctrl_rotateZ";
 	rename -uid "5F69F3EF-4715-B0E1-3ACE-41B7171ABF80";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Pelvis_ctrl_FollowTranslate";
 	rename -uid "3C5CE855-4EFB-26A0-9953-019C92650496";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Pelvis_ctrl_FollowRotate";
 	rename -uid "0CDDEFFD-434B-C4AD-869E-FB8F200703F5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_IK_Base_ctrl_Follow";
 	rename -uid "24FA084B-4333-1E59-2AA2-589C9E9FC332";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 3;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 3 85 3;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_03_ctrl_rotateX";
 	rename -uid "462986FA-484D-B943-CCF6-7CAAB484CA64";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_03_ctrl_rotateY";
 	rename -uid "24D51579-437B-F69B-277B-05B753A5E660";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_03_ctrl_rotateZ";
 	rename -uid "207C5FA5-4C99-27EE-0ED7-EC9BB1ED75C9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_02_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "99655AD3-46B6-C401-C643-4D93C061DFD8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_02_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "1BF01645-400F-DBFB-1EF3-BAA1704DFD7A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Upper_Face_04_ctrl_visibility";
 	rename -uid "AE481C10-42BE-CE0B-1A86-26A4732CD314";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_04_ctrl_rotateX";
 	rename -uid "B06229DD-46ED-FE35-5091-2380B393F9AF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_04_ctrl_rotateY";
 	rename -uid "4539D7B0-47A1-BF96-2987-6E9F22AD35BD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_04_ctrl_rotateZ";
 	rename -uid "605FCE53-429A-59DF-51AF-9595B9772F79";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Clav_ctrl_rotateX";
 	rename -uid "57DF250A-467E-B8FD-144D-4BB29F968001";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 -1.5855378313862061;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Clav_ctrl_rotateY";
 	rename -uid "A9F917F2-4483-77C0-8C5C-3B8EB43CF0CC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 -0.62379496767287079;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Clav_ctrl_rotateZ";
 	rename -uid "FADB103C-4673-C354-0D3E-A59D165ABEAE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -4.6610020618113142 92 -10.021366833502816;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Clav_ctrl_FollowTranslate";
 	rename -uid "B9CB0AF8-471A-9696-AC98-188AE7CDDCFF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Clav_ctrl_FollowRotate";
 	rename -uid "D26A34C5-4DB4-249E-5F22-C9823AD39EA5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Head_ctrl_rotateX";
 	rename -uid "BF63500B-441B-CBA1-35E5-ED8584B91063";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Head_ctrl_rotateY";
 	rename -uid "10523C91-4A9E-1972-8A60-14A13E80120A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "Head_ctrl_rotateZ";
 	rename -uid "BD18A9FD-4E0A-ED24-D711-DE8DEBADB4ED";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 -14.999999999999998 88 -29.999999999999996
+		 92 -35;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "Head_ctrl_FollowTranslate";
 	rename -uid "0D5F84F2-434D-1B30-DA8F-6D97D5490411";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "Head_ctrl_FollowRotate";
 	rename -uid "9D8BC12D-4791-15C7-76D1-478C8B776B99";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Upper_Face_01_ctrl_visibility";
 	rename -uid "6115D98F-4E7C-C764-8704-94A99AB1ADFC";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Upper_Face_01_ctrl_rotateX";
 	rename -uid "BD12AE51-49D5-6C52-E007-5284D4C6AC10";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Upper_Face_01_ctrl_rotateY";
 	rename -uid "5FA9A04A-4931-58B4-A349-49ABAA532780";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Upper_Face_01_ctrl_rotateZ";
 	rename -uid "B31C8E93-44AA-4EAC-D322-9DA1465B4FD9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Foot_IK_Out_ctrl_visibility";
 	rename -uid "287447ED-408E-5C33-8ACB-84A71C623961";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Out_ctrl_rotateX";
 	rename -uid "B0872F7B-4F30-FA1E-6400-F19731DB3A40";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Out_ctrl_rotateY";
 	rename -uid "9FE7997E-4BA9-3ED1-0882-E5AB25590B24";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Out_ctrl_rotateZ";
 	rename -uid "C52F5EA9-4673-4F6E-4C8B-5DA6B53A6006";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Out_ctrl_scaleX";
 	rename -uid "027068D6-4244-A4F5-F084-C383E3B2A29A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Out_ctrl_scaleY";
 	rename -uid "0041EC54-4085-49A3-39E0-51ACD532D145";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Out_ctrl_scaleZ";
 	rename -uid "AC1960D3-4C50-3854-65D5-069A6D0224C7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Lower_Face_03_ctrl_visibility";
 	rename -uid "0FF0846F-4CE3-902C-ACB3-DEB66EFDA1BE";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 85 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_03_ctrl_rotateX";
 	rename -uid "D7E3D089-4DFE-C98B-6C63-D2A411FEE564";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_03_ctrl_rotateY";
 	rename -uid "3C0D2D78-4626-9D72-F087-569D0EC5024F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_03_ctrl_rotateZ";
 	rename -uid "EF7C60AC-417F-E118-C24E-35AF51FE38B4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Leg_Clav_ctrl_rotateX";
 	rename -uid "9E2A5A85-4DCE-D027-D711-B5A27AFF8501";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Leg_Clav_ctrl_rotateY";
 	rename -uid "BB030CE1-497D-505C-6ED5-458334983FEE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Leg_Clav_ctrl_rotateZ";
 	rename -uid "3568F395-4FA7-FFA8-5572-4CB74AA831F4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_Clav_ctrl_FollowTranslate";
 	rename -uid "1BC68BA5-4A43-8B37-57D0-87A1AA13E6BA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Leg_Clav_ctrl_FollowRotate";
 	rename -uid "49EF359B-4AC8-216F-F70E-30BAD230644C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_03_ctrl_rotateX";
 	rename -uid "D977FA86-4A58-AE49-C657-0CA9DA57D07B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_03_ctrl_rotateY";
 	rename -uid "6F69E400-4A4E-2617-F7CF-87A6A2615B20";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_03_ctrl_rotateZ";
 	rename -uid "0275A14E-4EB6-4DB2-75CA-B59187A361C0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Thumb_03_ctrl_FollowTranslate";
 	rename -uid "618CB1B9-487A-D4E1-1110-D9A6494C9039";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Thumb_03_ctrl_FollowRotate";
 	rename -uid "DCE46C35-4C24-F973-3487-E7A1B156870B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Ball_ctrl_visibility";
 	rename -uid "D16C3504-4F53-AB4D-97A5-AE8DEDD871CA";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Ball_ctrl_rotateX";
 	rename -uid "00906873-4020-418A-17F1-A8B3D5F39E90";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Ball_ctrl_rotateY";
 	rename -uid "6ED57857-48E5-B09B-C280-43BFD078DFAC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Ball_ctrl_rotateZ";
 	rename -uid "42292145-45BB-7AF6-ED9D-76B7E5479FEB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Ball_ctrl_scaleX";
 	rename -uid "274EF60C-4C8B-B2A4-E46E-58BB92412E24";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999989;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999989 85 0.99999999999999989;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Ball_ctrl_scaleY";
 	rename -uid "E6688DC9-44A6-9A49-8425-B28D8B90C2FC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999989;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999989 85 0.99999999999999989;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Ball_ctrl_scaleZ";
 	rename -uid "CBBCB7C1-4569-B7D0-84EB-B8A3DB9BC340";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999989;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999989 85 0.99999999999999989;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_01_FK_ctrl_rotateX";
 	rename -uid "C924AFA1-41FE-9EB7-EAB4-32B02392E478";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_01_FK_ctrl_rotateY";
 	rename -uid "ED489D43-40B6-2A19-A19C-27907B26FB91";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_01_FK_ctrl_rotateZ";
 	rename -uid "8F556263-4A8E-05A2-9CB0-198F1D94EA2F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Arm_01_FK_ctrl_FollowTranslate";
 	rename -uid "284D31B9-4D77-5CE8-9058-25942B17C85A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Arm_01_FK_ctrl_FollowRotate";
 	rename -uid "D2653BCC-4728-8A9C-F8F1-0C976F5337A2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_In_ctrl_visibility";
 	rename -uid "19F9E0B9-4608-245E-0C1B-75ADF950AFF8";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_In_ctrl_rotateX";
 	rename -uid "13368048-4182-EA83-24E3-C3829BB25D3D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_In_ctrl_rotateY";
 	rename -uid "6BFA3844-4473-7E65-14A5-0D8F7B2F3165";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_In_ctrl_rotateZ";
 	rename -uid "6E70132B-4199-C7F6-188D-CFAF049B71CE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_In_ctrl_scaleX";
 	rename -uid "D146F3AF-40C1-04EA-989B-24BAD224AD9A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_In_ctrl_scaleY";
 	rename -uid "B4134955-46D3-33EE-066E-1FB5FC6A4557";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_In_ctrl_scaleZ";
 	rename -uid "9CAC23AB-4092-7D04-1953-49A0FC0D4649";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_01_ctrl_rotateX";
 	rename -uid "F69CEF8D-4E33-4055-B49C-A5B7610D2AEE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_01_ctrl_rotateY";
 	rename -uid "5828BE10-41E2-E973-97D7-E1966EA2D4F9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_01_ctrl_rotateZ";
 	rename -uid "76F57B4B-4757-835C-51FC-E68C181FBE42";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Thumb_01_ctrl_FollowTranslate";
 	rename -uid "AFBF3247-48E0-F1AD-C73A-A48AC5E9ACA6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Thumb_01_ctrl_FollowRotate";
 	rename -uid "A9148319-4169-6D96-7621-2F81E3A2CE66";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_01_ctrl_rotateX";
 	rename -uid "296E28A3-4967-F571-3762-E99988DB3974";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_01_ctrl_rotateY";
 	rename -uid "E23194B0-4C5F-174D-FB6F-CAA975AAED0D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_02_Knuckle_01_ctrl_rotateZ";
 	rename -uid "D6C6DC4F-468A-0497-F015-CB831058D3D0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_02_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "E13A0782-4101-9E9E-D83E-27914BEFC2F2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_02_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "D720C1F5-42F3-4BA0-325B-1EB155D9D84E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_01_ctrl_rotateX";
 	rename -uid "0D091324-418F-1DFF-D9A2-1E9A4BF8B9FF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_01_ctrl_rotateY";
 	rename -uid "BEA7B118-4A51-C31F-87D8-1880D56E5764";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_01_Knuckle_01_ctrl_rotateZ";
 	rename -uid "4637DB38-402F-08F3-65A4-15BFD2D87590";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_01_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "DE6B700F-4B45-3EA1-419E-4EAE940F92D4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_01_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "238F38B3-4145-E688-B7FC-F3B80A80305E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_02_ctrl_rotateX";
 	rename -uid "84C75187-4D93-F895-A631-E0B5C556D793";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_02_ctrl_rotateY";
 	rename -uid "9E9F861A-41D1-05AE-C723-388D81FC1639";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_02_ctrl_rotateZ";
 	rename -uid "8871FEA6-4E4A-A4F4-A75F-0B8C4339828A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_03_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "EA1550D0-435E-97C8-56E7-98B7403C1873";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_03_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "E3D0E25D-4A19-C6AE-2409-ACB92ECA9956";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Upper_Face_03_ctrl_visibility";
 	rename -uid "4CC1B09D-4BFD-FA00-A297-E4BB73334825";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Upper_Face_03_ctrl_rotateX";
 	rename -uid "B8F07EC6-4D6C-E12E-E284-7CAAC84ED81A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Upper_Face_03_ctrl_rotateY";
 	rename -uid "9A7F2696-4E42-A21F-A011-B7973341FC4B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Upper_Face_03_ctrl_rotateZ";
 	rename -uid "62309758-487C-4E13-6F50-60A20AA376DD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_03_ctrl_rotateX";
 	rename -uid "A345E9BC-401D-658E-B80F-769251044466";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_03_ctrl_rotateY";
 	rename -uid "094C4CE2-4877-6496-2B7D-3A901767B56D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_04_Knuckle_03_ctrl_rotateZ";
 	rename -uid "FA524E52-40AF-1DB1-A1CB-DFB73869A559";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_04_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "518FE792-4FB2-D0F0-4120-C796673F3097";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_04_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "29610766-43F2-0236-134E-7CAF102C9C88";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_Tap_ctrl_visibility";
 	rename -uid "96C0ADAA-4A70-6559-90A9-4DA04BA13AE3";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Toe_Tap_ctrl_rotateX";
 	rename -uid "226264B2-4423-EF50-BDDA-A786A402E4CE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Toe_Tap_ctrl_rotateY";
 	rename -uid "84DB3EF9-4FEC-1A7C-FFB7-1D93F828B9E7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Toe_Tap_ctrl_rotateZ";
 	rename -uid "ACD696E7-4972-171F-32B3-DFAB4C238CBD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_Tap_ctrl_scaleX";
 	rename -uid "6B298553-4B1A-3494-8ECD-9AA88E547942";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_Tap_ctrl_scaleY";
 	rename -uid "A6AFC35E-4080-C78F-0D47-818F2A2600AE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_Tap_ctrl_scaleZ";
 	rename -uid "73B6CA59-417D-6417-E001-91A9E38079F4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Lower_Face_03_ctrl_visibility";
 	rename -uid "7D967251-4B95-80D6-7BA1-05AF0334E180";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_03_ctrl_rotateX";
 	rename -uid "689AC825-41DF-6AE5-EDC5-BCB9393B9CF9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_03_ctrl_rotateY";
 	rename -uid "EDC03BA8-4074-BF03-FB69-119ED3CB70D2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_03_ctrl_rotateZ";
 	rename -uid "D1CBAB6A-439D-AEC6-7E53-A6A4B999F8BA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_ctrl_visibility";
 	rename -uid "FA7392AF-4D34-0AB2-FB80-DC8197F69B9D";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Toe_ctrl_rotateX";
 	rename -uid "89986027-49E2-0028-9858-C1923FF53A31";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Toe_ctrl_rotateY";
 	rename -uid "A42D1A1F-4288-1000-CC1B-E882D00BED64";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Toe_ctrl_rotateZ";
 	rename -uid "25AC2A78-4637-3B6E-47FB-E9A2889E13CF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_ctrl_scaleX";
 	rename -uid "FD5EB29D-4762-318C-3A4F-139D8D6D7813";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_ctrl_scaleY";
 	rename -uid "A920A8B5-4C64-7E12-2ABC-D0A8294D7AF6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999989;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999989 85 0.99999999999999989;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Toe_ctrl_scaleZ";
 	rename -uid "D6668BD6-4C73-3E04-69E8-CD8848C4D1E0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_01_ctrl_rotateX";
 	rename -uid "CC0A5DD1-4071-9AD9-3D19-C3B3118B9247";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_01_ctrl_rotateY";
 	rename -uid "09326FF7-4AF3-E808-18F8-568691E8C2A9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_03_Knuckle_01_ctrl_rotateZ";
 	rename -uid "15D65B24-4ED3-D540-D514-708415C39B97";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_03_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "5CA2663C-4FA3-6C1F-7533-C7979E0E40C8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_03_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "C8E1133F-4E72-53DE-4DB1-7D94B72EA7AB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_02_ctrl_rotateX";
 	rename -uid "90E97359-4113-663A-A9F7-59BE9D9EEC4F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_02_ctrl_rotateY";
 	rename -uid "E07FED39-4D3A-C542-7D14-9E846B4C4030";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Thumb_02_ctrl_rotateZ";
 	rename -uid "413523CB-44BC-EAE8-5BBC-0B87D574AF48";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Thumb_02_ctrl_FollowTranslate";
 	rename -uid "9ED4068C-413B-38EC-8EF7-E7845AA31E99";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Thumb_02_ctrl_FollowRotate";
 	rename -uid "2C3070D1-44AD-CEE9-A9C0-18BB1A5EDEE3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_01_ctrl_rotateX";
 	rename -uid "21CF2423-49F0-B497-A86B-72895974A280";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_01_ctrl_rotateY";
 	rename -uid "7C5443DF-44C9-E9BB-024D-0DBBE36675E5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_01_ctrl_rotateZ";
 	rename -uid "6FF03329-4CC8-33C0-0720-A0BE2D2E13DE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_03_Knuckle_01_ctrl_FollowTranslate";
 	rename -uid "E8EAF49F-4A3B-7EEB-C1F0-30811A078322";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_03_Knuckle_01_ctrl_FollowRotate";
 	rename -uid "B425FBEC-4F6F-4081-A07C-FEB9FDB8AAB4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Lower_Face_01_ctrl_visibility";
 	rename -uid "27EE37AE-4AEA-478A-6431-B39EC87AF722";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_01_ctrl_rotateX";
 	rename -uid "AD25001B-4FF4-3852-F9A4-FA9C7C7E213D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_01_ctrl_rotateY";
 	rename -uid "7A929CB0-4E85-005C-5C09-709A79918F7A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_01_ctrl_rotateZ";
 	rename -uid "341373ED-439B-F2A3-AFC5-6BB229A55942";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Clav_ctrl_rotateX";
 	rename -uid "3D924865-40F8-AE1E-E4C6-9988B05C4C05";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 -1.5855378313862061;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Clav_ctrl_rotateY";
 	rename -uid "A9EBAE5F-4D6D-93B1-1C38-5F8E64A4E123";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 -0.62379496767287079;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Clav_ctrl_rotateZ";
 	rename -uid "26CFBD3E-48F2-B765-E048-A2B8B023A448";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 -4.6610020618113142 92 -10.021366833502816;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Clav_ctrl_FollowTranslate";
 	rename -uid "4C7E2635-49B8-CB68-E4CD-3C8530D42AAD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Clav_ctrl_FollowRotate";
 	rename -uid "AE77D413-44CE-361A-E708-FC9220B62FC8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "COG_ctrl_rotateX";
 	rename -uid "73B22B62-4BB1-2C7F-2B44-B88B530B273D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "COG_ctrl_rotateY";
 	rename -uid "C377B5E0-4F0E-44D4-45EE-128CF701B131";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "COG_ctrl_rotateZ";
 	rename -uid "73A87D7E-4C2B-91A7-B4D6-F689FC2AB158";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "COG_ctrl_FollowTranslate";
 	rename -uid "9EEBC50B-4215-E0FD-4AED-11B07DB85105";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "COG_ctrl_FollowRotate";
 	rename -uid "4D02033F-48D3-E935-7DAC-67AEEEAE25FB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Upper_Face_02_ctrl_visibility";
 	rename -uid "937CF813-40F9-1131-D4BC-A58E7AF1DFDD";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_02_ctrl_rotateX";
 	rename -uid "2DA1B171-4927-4057-2BFD-4BB3343DB401";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_02_ctrl_rotateY";
 	rename -uid "5E48B242-47CD-8357-A3F7-EBA03C6E547E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_02_ctrl_rotateZ";
 	rename -uid "8B905FBD-44BF-1204-7F95-5996CA12CA92";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_02_ctrl_rotateX";
 	rename -uid "46A0AA72-4E5B-40A3-AB09-6F875F2BFFC4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_02_ctrl_rotateY";
 	rename -uid "FCADE241-4540-3503-DBBC-E487F634030C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_01_Knuckle_02_ctrl_rotateZ";
 	rename -uid "A85204AA-45A3-36C6-8799-0DB48CE83B31";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_01_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "5BD86E76-4811-173A-F68C-D49305ED516F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_01_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "14895EA4-4C60-7F7A-6BD4-50976D64884A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Upper_Face_03_ctrl_visibility";
 	rename -uid "30357368-4ABA-146C-81D9-9C9ADA2F51EF";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_03_ctrl_rotateX";
 	rename -uid "681776A2-4DB1-3F6A-B19A-63B4D4FC8B67";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_03_ctrl_rotateY";
 	rename -uid "4DE4193D-4C6B-2B24-53E8-CCA91351DDFC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Upper_Face_03_ctrl_rotateZ";
 	rename -uid "765221A3-42B4-AEDD-124E-F09843630DB9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_02_ctrl_rotateX";
 	rename -uid "CE495E9D-446B-A0D3-5F74-93922D0DDCB9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_02_ctrl_rotateY";
 	rename -uid "5C06561B-4F76-D99A-4F2B-AABCEE8D2A12";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Finger_03_Knuckle_02_ctrl_rotateZ";
 	rename -uid "EDF2C54B-4047-0840-CC6F-BD99F35F3A32";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_03_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "C41C5B8E-476C-BCF9-CC32-4B8AFE92C3F5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Finger_03_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "A1C38F37-40FD-2221-650D-C382DD506144";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Leg_IK_PV_ctrl_Follow";
 	rename -uid "ACF45593-414E-3F5E-8E8F-BFB86A1DE7DC";
 	setAttr ".tan" 9;
@@ -35653,422 +35686,422 @@ createNode animCurveTA -n "L_Thumb_01_ctrl_rotateX";
 	rename -uid "4610064C-4A86-C0E8-EF1C-D486909E4792";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_01_ctrl_rotateY";
 	rename -uid "4D53A755-4DC6-DC08-B24D-A4901963C0CD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_01_ctrl_rotateZ";
 	rename -uid "68BA87AC-4B5C-03ED-82C3-278C14F20451";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Thumb_01_ctrl_FollowTranslate";
 	rename -uid "CA0D37CB-4379-496B-7111-3BA6CFB41D93";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Thumb_01_ctrl_FollowRotate";
 	rename -uid "90AAF502-4BC2-D0B5-599C-DCA23606B0F4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Heel_ctrl_visibility";
 	rename -uid "E26DE359-45D8-C2EF-6A81-4189A730ACCF";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Heel_ctrl_rotateX";
 	rename -uid "265B683E-4519-513D-0C12-7EABCC83801A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Heel_ctrl_rotateY";
 	rename -uid "21F90361-46EB-B53A-073D-4481076955C4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Foot_IK_Heel_ctrl_rotateZ";
 	rename -uid "E4B7AAC3-47A5-CF31-6607-6EBFEAD2F6CE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Heel_ctrl_scaleX";
 	rename -uid "84155A57-4FBC-293B-205E-A5BD96E8BB2B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Heel_ctrl_scaleY";
 	rename -uid "1DE15D97-4A23-8206-58D5-BB81A6CFD58C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Foot_IK_Heel_ctrl_scaleZ";
 	rename -uid "38E9E142-4A4D-4613-2978-949FE6398B32";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Upper_Face_01_ctrl_visibility";
 	rename -uid "A4EFC2BF-4EC0-C5A8-B35B-108C5ABF52FF";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Upper_Face_01_ctrl_rotateX";
 	rename -uid "1A42759B-462E-5B14-210D-E4A89B7040F4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Upper_Face_01_ctrl_rotateY";
 	rename -uid "C6FF0096-4ECC-5406-7600-CEA4A1379AF5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Upper_Face_01_ctrl_rotateZ";
 	rename -uid "030A96DC-4FF1-6D85-8A59-9992301A439E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Foot_IK_Ball_ctrl_visibility";
 	rename -uid "C25C38DE-4EF5-FC62-826E-5A9BF4B37DD8";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Ball_ctrl_rotateX";
 	rename -uid "807B9442-4327-06F4-0F3E-01B81980A9A5";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Ball_ctrl_rotateY";
 	rename -uid "B865DCE4-4EE6-8769-5DD9-EC9983F52D2B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Ball_ctrl_rotateZ";
 	rename -uid "6C7A36CA-430C-E76D-3483-40AA614673A7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Ball_ctrl_scaleX";
 	rename -uid "148E05BA-43E1-4974-BCC9-6AB9BF7BE891";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Ball_ctrl_scaleY";
 	rename -uid "980348C1-472E-076C-9338-78AE7B7355F9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999989;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999989 85 0.99999999999999989;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Ball_ctrl_scaleZ";
 	rename -uid "5958BF96-4835-4246-BCAD-E98468408E86";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_03_ctrl_rotateX";
 	rename -uid "0F4101D3-4DCA-80B8-D71E-FC956F5DFA2B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_03_ctrl_rotateY";
 	rename -uid "5C83D8FD-4486-27AE-E96F-A288869FCEAE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Thumb_03_ctrl_rotateZ";
 	rename -uid "3952B0EB-48DC-A8FA-8506-2BA1693CB05E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Thumb_03_ctrl_FollowTranslate";
 	rename -uid "3C3F502A-41A8-A2D1-3052-0C9CEBE09FDC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Thumb_03_ctrl_FollowRotate";
 	rename -uid "CDABB5D2-4773-FDA1-88F1-369146C42900";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Lower_Face_02_ctrl_visibility";
 	rename -uid "8BB79F3F-4AEA-BB51-EF47-7C9614CA7C45";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 84 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_02_ctrl_rotateX";
 	rename -uid "90E6F100-4C5F-5311-3B84-74934B4338B8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_02_ctrl_rotateY";
 	rename -uid "DC59A3D4-4403-AE95-D952-C7B27C5FC1C0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Lower_Face_02_ctrl_rotateZ";
 	rename -uid "CC3A7AFC-4A1D-4D26-41E3-6DA69DCC2DA9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 84 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Lower_Face_01_ctrl_visibility";
 	rename -uid "9DCC204B-4E61-01C5-A0D6-458C99B76FFC";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 85 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_01_ctrl_rotateX";
 	rename -uid "67584B1B-495B-8A62-B67F-24A5A2E9FD0A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_01_ctrl_rotateY";
 	rename -uid "2C518E13-414C-C686-59A5-6C9558BC4574";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_01_ctrl_rotateZ";
 	rename -uid "946037B0-4D0C-D8C3-8A06-6386AE5CBDDE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Arm_03_FK_ctrl_rotateX";
 	rename -uid "72929C6D-44B8-80F1-517D-7EAC748FC3D7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_03_FK_ctrl_rotateY";
 	rename -uid "F08A20C4-4F07-3439-CFCA-D288AF693580";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Arm_03_FK_ctrl_rotateZ";
 	rename -uid "9EDE0ACB-405B-1D9B-AF0D-58A570873F5F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Arm_03_FK_ctrl_FollowTranslate";
 	rename -uid "F7B26ACF-4314-4957-560D-C38FD849F358";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Arm_03_FK_ctrl_FollowRotate";
 	rename -uid "C2CA82A6-49A9-0566-6018-0C9C76363EEB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_03_ctrl_rotateX";
 	rename -uid "757C978F-4BA6-5A46-7A38-A0915B75F29C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_03_ctrl_rotateY";
 	rename -uid "21DA2898-4D8D-05FE-6C99-3C9679EE7967";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "Spine_03_ctrl_rotateZ";
 	rename -uid "AE3C3B6A-42D7-D878-08DF-EA9154D13660";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Spine_03_ctrl_FollowTranslate";
 	rename -uid "4A8F25F0-46F2-5E27-AE47-F08328F263BF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "Spine_03_ctrl_FollowRotate";
 	rename -uid "ACE19826-4F0C-065F-9163-A8A9FF3F6FFC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_03_ctrl_rotateX";
 	rename -uid "ED88C052-4EB7-B3EC-C91D-63A06BB7B5C6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_03_ctrl_rotateY";
 	rename -uid "A1BF9EE7-44FF-ED0E-F608-0792173CF0ED";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_04_Knuckle_03_ctrl_rotateZ";
 	rename -uid "970512C7-49BA-0718-36DC-9F8E8F33AF5B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_04_Knuckle_03_ctrl_FollowTranslate";
 	rename -uid "A34159D0-44FF-176B-CF61-31A09F6619BE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_04_Knuckle_03_ctrl_FollowRotate";
 	rename -uid "9638FEE7-4271-742E-9869-D7863FD32013";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_02_ctrl_rotateX";
 	rename -uid "BEE010A0-4CE6-6164-1AB6-9888578CAD34";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_02_ctrl_rotateY";
 	rename -uid "F6E3D915-4063-8EF3-5AE6-C49F32723B4F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "L_Finger_02_Knuckle_02_ctrl_rotateZ";
 	rename -uid "5122A612-41A0-54BA-42CD-F2B434F32DC8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_02_Knuckle_02_ctrl_FollowTranslate";
 	rename -uid "FA9E5899-4D9C-AB4A-6801-B18C274EF47F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Finger_02_Knuckle_02_ctrl_FollowRotate";
 	rename -uid "EAE1DB76-464F-5CDF-7515-4282C3E02C58";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "L_Lower_Face_02_ctrl_visibility";
 	rename -uid "FA91F1C9-4667-09F5-4FDF-58B1CD84C1EF";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 85 1 88 1 92 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_02_ctrl_rotateX";
 	rename -uid "29FD2E50-486B-3E73-A460-87ADAB30013C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_02_ctrl_rotateY";
 	rename -uid "D82E904D-4F9E-A4ED-8053-A8ACEFD09FAF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Lower_Face_02_ctrl_rotateZ";
 	rename -uid "5095153A-4AB1-EDB7-74CF-86AA5B217E36";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 85 0 88 0 92 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_ctrl_visibility";
 	rename -uid "34946150-413D-2BA2-C18D-6792D6ADF9B0";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Toe_ctrl_rotateX";
 	rename -uid "3E90F52B-42B7-7999-162B-32A18B38AFE1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Toe_ctrl_rotateY";
 	rename -uid "4EC95091-42C5-60E5-8F19-AC82D47F1E2C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTA -n "R_Foot_IK_Toe_ctrl_rotateZ";
 	rename -uid "9BB37AA2-40CB-3A92-5309-FF9F8A553130";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0 85 0;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_ctrl_scaleX";
 	rename -uid "5CDB6329-4664-2701-372B-B68AC6C7DFE3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_ctrl_scaleY";
 	rename -uid "6932DBF0-4291-1052-E770-7E928B0DCC69";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 0.99999999999999967;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 0.99999999999999967 85 0.99999999999999967;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTU -n "R_Foot_IK_Toe_ctrl_scaleZ";
 	rename -uid "719F00AB-42B8-27DD-2A09-FFB1D98638AE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  0 1;
-	setAttr ".kot[0]"  5;
+	setAttr -s 2 ".ktv[0:1]"  0 1 85 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
 createNode animCurveTL -n "Transform_Ctrl_translateX";
 	rename -uid "BD48EBF3-4154-1ACD-D5BD-E18E48153724";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 50 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 84 0 100 0;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTL -n "Transform_Ctrl_translateY";
 	rename -uid "294706D3-4B2F-2E4E-8642-B7BF64ED59DD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 50 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 84 0 100 0;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTL -n "Transform_Ctrl_translateZ";
 	rename -uid "C7AA77B0-4144-9A63-15D7-E0A4B52F2575";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 -650 32 -650 50 -650;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 -650 32 -650 50 -650 84 -650 100 75;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTL -n "COG_Ctrl_translateX";
 	rename -uid "F09C8466-4BD9-DF7B-87A2-4D96A8804033";
 	setAttr ".tan" 10;
@@ -36091,20 +36124,20 @@ createNode animCurveTL -n "L_Clav_Ctrl_translateX";
 	rename -uid "2908BF4F-4A03-9523-7000-D5B77224BE1B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Clav_Ctrl_translateY";
 	rename -uid "4F2CDEE7-4CC6-70A4-CA52-04836D8AEAD7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Clav_Ctrl_translateZ";
 	rename -uid "7CC5871B-40DE-A47A-CB1A-ECB027C71B75";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "L_Arm_01_IK_Ctrl_translateX";
 	rename -uid "581FDB10-4194-18AF-A34A-EC9152D84876";
 	setAttr ".tan" 10;
@@ -36415,20 +36448,20 @@ createNode animCurveTL -n "R_Clav_Ctrl_translateX";
 	rename -uid "7BFD4CDE-4A86-D094-83C3-EA96E08E13BB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Clav_Ctrl_translateY";
 	rename -uid "8FE2D094-421D-D4AE-5CB7-37901C0BBE9C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Clav_Ctrl_translateZ";
 	rename -uid "642BBA15-4566-F822-3A87-E8871E895F67";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTL -n "R_Arm_01_IK_Ctrl_translateX";
 	rename -uid "2255DC11-4B04-E1DF-70C2-78A70C278727";
 	setAttr ".tan" 10;
@@ -36742,22 +36775,25 @@ createNode animCurveTL -n "Hip_Ctrl_translateX";
 	rename -uid "1647C961-481A-0325-6184-109AD1188057";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 -30 54 -100 58 -150 62 -220
-		 64 -240 66 -280;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 50 -30 54 -100 58 -150 62 -220
+		 64 -240 66 -280 124 -267.43951965207179;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "Hip_Ctrl_translateY";
 	rename -uid "3059C48E-4896-95DF-D94F-30987E232267";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 -15 32 -15 50 0 54 20 58 10 62 -10 64 -20
-		 66 -25;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 -15 32 -15 50 0 54 20 58 10 62 -10 64 -20
+		 66 -25 124 13.410972949096452;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "Hip_Ctrl_translateZ";
 	rename -uid "CE3DA795-4B30-9A7B-4524-F3BD7EF382DC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 0 62 0 64 0 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 50 0 54 0 58 0 62 0 64 0 66 0 124 3.1554436208840472e-30;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "Tail_01_FK_Ctrl_translateX";
 	rename -uid "2F26BC16-4507-D38F-543A-1F9DE6829D3D";
 	setAttr ".tan" 10;
@@ -37628,149 +37664,158 @@ createNode animCurveTL -n "Chest_Ctrl_translateX";
 	rename -uid "C2465B34-4F90-E09F-2E9A-1EA2FBC0AD13";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 4.2553746403262611
-		 62 0 64 0 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 0 32 0 50 0 54 0 58 4.2553746403262611
+		 62 0 64 0 66 0 120 0 134 0;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTL -n "Chest_Ctrl_translateY";
 	rename -uid "C492BB96-43FD-2FE3-A41B-E9B6F2C28378";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 -14.210112227806972
-		 62 -20 64 -40 66 -60;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 0 32 0 50 0 54 0 58 -14.210112227806972
+		 62 -20 64 -40 66 -60 120 -60 134 -60;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTL -n "Chest_Ctrl_translateZ";
 	rename -uid "C422C7B6-47FC-2E4F-91D8-52997C1A7DAF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 -0.73668466483079631
-		 62 0 64 0 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 0 32 0 50 0 54 0 58 -0.73668466483079631
+		 62 0 64 0 66 0 120 0 134 0;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTL -n "Head_Ctrl_translateX";
 	rename -uid "0FB7F5AD-43FE-4F2A-783B-E7AF46F54E2E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 54 0 64 0 68 0 100 0 124 0 128 0
+		 134 0;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "Head_Ctrl_translateY";
 	rename -uid "F068D419-424E-FF80-FCE9-2C897E71A978";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 54 0 64 0 68 0 100 0 124 0 128 0
+		 134 0;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "Head_Ctrl_translateZ";
 	rename -uid "9E2E4ECD-4A44-FD0F-8407-BBA96A1379B8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 54 0 64 0 68 0 100 0 124 0 128 0
+		 134 0;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "Jaw_Ctrl_translateX";
 	rename -uid "AD2E7ADC-47FA-3C8A-32D9-C4BA0AA14E50";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 50 0 66 0;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 66 0 100 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTL -n "Jaw_Ctrl_translateY";
 	rename -uid "55261722-4B70-0E4E-6511-D6B3652E9D4A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 50 0 66 0;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 66 0 100 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTL -n "Jaw_Ctrl_translateZ";
 	rename -uid "37B8BB01-42B0-C199-F680-CFBC2EF1A0F6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 50 0 66 0;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 66 0 100 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_01_Ctrl_translateX";
 	rename -uid "ACF836F8-4DC8-5E9A-782F-C8956458E84B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_01_Ctrl_translateY";
 	rename -uid "B025560C-45D7-CA61-7F3C-DD8A92FA682E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_01_Ctrl_translateZ";
 	rename -uid "E6A70C4F-4AFE-7A1C-4D1A-F9BCCA45512E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_02_Ctrl_translateX";
 	rename -uid "0E033EA2-4161-6100-7E64-EBABF1CF9FCF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_02_Ctrl_translateY";
 	rename -uid "61515300-44AB-D716-256B-ABA800BB6EAF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_02_Ctrl_translateZ";
 	rename -uid "51A4E7F9-4436-80A9-B6E4-52AA000DED8F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_03_Ctrl_translateX";
 	rename -uid "215D7C44-417C-8BEE-E201-E2A8981AB519";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 64 0 68 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_03_Ctrl_translateY";
 	rename -uid "50F4E736-4520-002E-7CD3-EB9E9E086978";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 64 0 68 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_03_Ctrl_translateZ";
 	rename -uid "A6CEBCA3-4509-8447-5236-90AC41D4F4A7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 64 0 68 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_04_Ctrl_translateX";
 	rename -uid "387F604B-4D46-AFED-2E47-BFAEC7F1187A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 0 64 0 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_04_Ctrl_translateY";
 	rename -uid "D1056A0E-4EF9-55EF-BFB3-9991B594D8D9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 0 64 0 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_04_Ctrl_translateZ";
 	rename -uid "F1975FF3-4A49-E819-A699-959CEFBDE67E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 0 64 0 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_05_Ctrl_translateX";
 	rename -uid "7BD24A50-45EA-5C2E-FA56-85B9D757746B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 0 64 0 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_05_Ctrl_translateY";
 	rename -uid "4935A0B7-43BE-DF70-B048-B4A9AB43D01F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 0 64 0 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTL -n "Neck_05_Ctrl_translateZ";
 	rename -uid "98D3603C-45BC-7AD9-B788-7C848AB38D29";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 0 64 0 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTL -n "Spine_01_Ctrl_translateX";
 	rename -uid "3410DDF7-4EC0-D679-165C-3A987E42619F";
 	setAttr ".tan" 10;
@@ -38515,57 +38560,57 @@ createNode animCurveTU -n "Neck_01_Ctrl_visibility";
 	rename -uid "B958EB3B-4CA4-A5A8-0916-2C995D2EC337";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_01_Ctrl_rotateX";
 	rename -uid "9A910C8D-4171-B7FC-F056-9CAEB6AFCBAF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_01_Ctrl_rotateY";
 	rename -uid "3D237AFB-4B88-DB4A-05CE-ECA4805831B2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_01_Ctrl_rotateZ";
 	rename -uid "1B38C9DD-474C-05C7-3DC0-2B835E98BC31";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 -3.0000000000000004 32 -3.0000000000000004
-		 50 -2 64 -1 68 -2;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 -3.0000000000000004 32 -3.0000000000000004
+		 50 -2 64 -1 68 -2 134 5;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_01_Ctrl_scaleX";
 	rename -uid "799B820A-410F-A94F-F813-8894DEC29DD8";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_01_Ctrl_scaleY";
 	rename -uid "B1F0BC4D-45C9-0085-A257-1386F2418665";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_01_Ctrl_scaleZ";
 	rename -uid "1AA71A65-4BAC-372D-98CD-8EBBF15D7B60";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_01_Ctrl_Follow_Translate";
 	rename -uid "52705ECB-400E-31D1-A891-28A653BA04B7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_01_Ctrl_Follow_Rotate";
 	rename -uid "6EF805C2-4C25-46C0-AE37-D2BB081C024C";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "L_Arm_IK_Tip_Ctrl_visibility";
 	rename -uid "AFDB44CE-4340-CC7E-2880-E8BA8C936A02";
 	setAttr ".tan" 9;
@@ -38655,57 +38700,58 @@ createNode animCurveTU -n "Neck_04_Ctrl_visibility";
 	rename -uid "78FCBB13-413C-7DFF-F074-61BC4EA80233";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_04_Ctrl_rotateX";
 	rename -uid "AC66B39D-453B-42E5-DA59-81AF80952A92";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 -1 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 -1 64 0 68 0 124 0 128 2.6353428230429561;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_04_Ctrl_rotateY";
 	rename -uid "BFFF6FC4-4D32-A19C-F6BA-81BC96B9A3AC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 2.4848083448933731e-17 64 2.4848083448933731e-17
-		 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 2.4848083448933731e-17 64 2.4848083448933731e-17
+		 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_04_Ctrl_rotateZ";
 	rename -uid "3F0AFEEF-4794-77C9-EAF6-16BBAF9A0FFB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 7 32 7 54 13 64 10 68 9;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 7 32 7 54 13 64 10 68 9 124 2.5753784146916781
+		 128 -0.83480916607631017;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_04_Ctrl_scaleX";
 	rename -uid "E25CA78F-403E-B6C2-D2D7-F9B713222CCB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_04_Ctrl_scaleY";
 	rename -uid "7ADB3248-40DC-C458-8D0A-2C9D5133A02F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_04_Ctrl_scaleZ";
 	rename -uid "BDF3B130-43DA-7A96-BAAE-7093A2BF8F3D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_04_Ctrl_Follow_Translate";
 	rename -uid "A020064E-45E3-BA1B-0FD8-73BBED4AF9CD";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_04_Ctrl_Follow_Rotate";
 	rename -uid "A75CE8C7-49F1-D65A-F46A-6085C9CE0880";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Tail_02_FK_Ctrl_visibility";
 	rename -uid "ADB4738E-448B-DAF2-4973-E78FF8F115D0";
 	setAttr ".tan" 9;
@@ -39997,57 +40043,57 @@ createNode animCurveTU -n "Neck_02_Ctrl_visibility";
 	rename -uid "D2C918B4-4FAE-74AF-C1CF-73BB943C31D7";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_02_Ctrl_rotateX";
 	rename -uid "E8476D1F-49A3-6478-67CA-B0B9906D5120";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_02_Ctrl_rotateY";
 	rename -uid "E25691F4-4EAB-2BF2-8FFC-F794BD5633B2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 0 32 0 50 0 64 0 68 0 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_02_Ctrl_rotateZ";
 	rename -uid "60E2EF83-4E0C-96B8-38CD-BB95761595C0";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 -3.0000000000000004 32 -3.0000000000000004
-		 50 -2 64 -1 68 -2;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 -3.0000000000000004 32 -3.0000000000000004
+		 50 -2 64 -1 68 -2 134 0;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_02_Ctrl_scaleX";
 	rename -uid "D03EA153-4252-141C-171E-A28A0EFBCBD7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_02_Ctrl_scaleY";
 	rename -uid "6BC23B7A-47AE-F5E1-26A5-F9B266FA388D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_02_Ctrl_scaleZ";
 	rename -uid "975A1DAF-47C7-832C-4E06-3BA6386A220F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_02_Ctrl_Follow_Translate";
 	rename -uid "0652E1E0-4E66-25A2-858B-D994998EEC7D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_02_Ctrl_Follow_Rotate";
 	rename -uid "AAEECBFB-4EC0-E669-A185-C7B7F6D22DFF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 6 ".ktv[0:5]"  0 1 32 1 50 1 64 1 68 1 134 1;
+	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
 createNode animCurveTU -n "R_Arm_IK_Ball_Ctrl_visibility";
 	rename -uid "3E2C2E67-4E4F-7DEB-6C94-72BFE4FC59CF";
 	setAttr ".tan" 9;
@@ -40607,57 +40653,59 @@ createNode animCurveTU -n "Neck_03_Ctrl_visibility";
 	rename -uid "BB123978-4115-6856-A88A-19B7F3F65A0E";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 64 1 68 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_03_Ctrl_rotateX";
 	rename -uid "491CE0AD-4ADA-9E65-4E09-B494EE76928A";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 64 0 68 0 124 0 128 2.6353428230429565
+		 134 2.6201286156684724;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_03_Ctrl_rotateY";
 	rename -uid "2ED15802-404A-0FDF-B22F-1D973F45288F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 64 0 68 0 124 0 128 -4.9696166897867462e-17
+		 134 -0.2828667806137718;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_03_Ctrl_rotateZ";
 	rename -uid "3D70B628-4438-578E-C829-1A8B26E01987";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 -3.0000000000000004 32 -3.0000000000000004
-		 50 -2 64 -1 68 -2;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 -3.0000000000000004 32 -3.0000000000000004
+		 50 -2 64 -1 68 -2 124 -8.4246215853083246 128 -11.834809166076331 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_03_Ctrl_scaleX";
 	rename -uid "20B092C6-4E07-1DEB-B33A-EEA3DFA7D3C2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 64 1 68 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_03_Ctrl_scaleY";
 	rename -uid "96038F4F-49C6-6BCA-5A21-AFB9A964A4FC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 64 1 68 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_03_Ctrl_scaleZ";
 	rename -uid "CFBD2FB6-4543-34E2-DC93-2B9940D66339";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 64 1 68 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_03_Ctrl_Follow_Translate";
 	rename -uid "756D4D14-4FCB-A34D-2489-28960048A978";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 64 1 68 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_03_Ctrl_Follow_Rotate";
 	rename -uid "5E190303-4C41-E420-14E0-9992F9533C42";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 64 1 68 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "L_Arm_IKFK_Ctrl_Arm_IKFK_Switch";
 	rename -uid "40214D7A-48E1-20D2-6150-3DB3E9E301EF";
 	setAttr ".tan" 10;
@@ -41462,57 +41510,58 @@ createNode animCurveTU -n "Neck_05_Ctrl_visibility";
 	rename -uid "E8C14C77-44C1-0A5F-2753-3F868CD62DC1";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_05_Ctrl_rotateX";
 	rename -uid "98DF6CF7-451B-C7E4-423C-1F9C0AA0B476";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 -1 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 -1 64 0 68 0 124 0 128 2.6353428230429561;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_05_Ctrl_rotateY";
 	rename -uid "CBFA8E1E-4B81-B2AD-1605-419D4B228E0E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 2.4848083448933731e-17 64 2.4848083448933731e-17
-		 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 0 32 0 54 2.4848083448933731e-17 64 2.4848083448933731e-17
+		 68 0 124 0 128 0;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTA -n "Neck_05_Ctrl_rotateZ";
 	rename -uid "19C53A67-4C5F-A994-F620-DCA5D710ACB7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 7 32 7 54 13 64 10 68 9;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 7 32 7 54 13 64 10 68 9 124 2.5753784146916781
+		 128 -0.83480916607631017;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_05_Ctrl_scaleX";
 	rename -uid "D802659C-47B5-CB73-534C-068FB1206FD3";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_05_Ctrl_scaleY";
 	rename -uid "A17C21F9-4820-6FF2-9E47-0FAE770F8D9E";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_05_Ctrl_scaleZ";
 	rename -uid "9CB5DF32-4C07-7CA6-6993-21A3E6EE2A01";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_05_Ctrl_Follow_Translate";
 	rename -uid "31CD874F-49E0-64FD-8C1E-5C95B5C32177";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "Neck_05_Ctrl_Follow_Rotate";
 	rename -uid "52073D9C-4036-D592-72E5-BCB9B8CC9400";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 7 ".ktv[0:6]"  0 1 32 1 54 1 64 1 68 1 124 1 128 1;
+	setAttr -s 7 ".kot[0:6]"  5 5 5 5 5 5 5;
 createNode animCurveTU -n "L_Leg_IK_In_Ctrl_visibility";
 	rename -uid "6B3975C1-453A-212F-566B-FE9D7BC03B4E";
 	setAttr ".tan" 9;
@@ -41559,44 +41608,44 @@ createNode animCurveTU -n "Transform_Ctrl_visibility";
 	rename -uid "8A05641A-465C-44AE-4299-FDB6C2414858";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 50 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 84 1 100 1;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTA -n "Transform_Ctrl_rotateX";
 	rename -uid "3A2C55AC-46D7-C4CF-8574-45AB45760BDF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 50 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 84 0 100 0;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTA -n "Transform_Ctrl_rotateY";
 	rename -uid "965C8382-4257-2065-81AD-86BBDF842521";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 50 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 84 0 100 0;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTA -n "Transform_Ctrl_rotateZ";
 	rename -uid "18CE8108-4A30-BFD4-AFDE-5F84656C0E9D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 50 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 50 0 84 0 100 0;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTU -n "Transform_Ctrl_scaleX";
 	rename -uid "C61C5442-4EA8-DAA1-1ECB-FBAA2CBDB5D4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 50 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 84 1 100 1;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTU -n "Transform_Ctrl_scaleY";
 	rename -uid "B86CFA6D-4314-065A-6D71-5F9C74AF0208";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 50 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 84 1 100 1;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTU -n "Transform_Ctrl_scaleZ";
 	rename -uid "B41562FF-42DB-8CA0-650C-1F854B07E677";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 50 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 50 1 84 1 100 1;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
 createNode animCurveTU -n "L_Toe_Thumb_Ctrl_visibility";
 	rename -uid "23F9A00A-4231-314F-9CC0-5BBF76EA501D";
 	setAttr ".tan" 9;
@@ -42927,57 +42976,74 @@ createNode animCurveTU -n "Head_Ctrl_visibility";
 	rename -uid "48921151-43A6-E6B9-021D-3B85B0DDD161";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 54 1 64 1 68 1 100 1 124 1 128 1
+		 134 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "Head_Ctrl_rotateX";
 	rename -uid "753C3344-467B-9012-5DD8-CC9C256BE553";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 -1 64 0 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 54 -1 64 0 68 0 100 0 124 -4.5877136988379643
+		 128 -4.5514793469650492 134 10.146201470472201;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "Head_Ctrl_rotateY";
 	rename -uid "EB505BDD-43A3-5BCC-DBBC-5BAF2BA278BE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 0 32 0 54 2.4848083448933731e-17 64 2.4848083448933731e-17
-		 68 0;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 54 2.4848083448933731e-17 64 2.4848083448933731e-17
+		 68 0 100 0 124 4.9696166897867462e-17 128 -0.57606516792441231 134 10.792387330374448;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "Head_Ctrl_rotateZ";
 	rename -uid "AE80A42E-4473-ABFA-985E-0E86F3A4FE33";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 7 32 7 54 13 64 10 68 9;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 7 32 7 54 13 64 10 68 9 100 20 124 8.7372334185772385
+		 128 1.5389969403866697 134 20;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Head_Ctrl_scaleX";
 	rename -uid "E3F05B14-4C30-C18C-03E8-CFA3BBD927A4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 54 1 64 1 68 1 100 1 124 1 128 1
+		 134 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Head_Ctrl_scaleY";
 	rename -uid "AFAD0109-40C6-3D2A-E548-A6BD8AE316F9";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 54 1 64 1 68 1 100 1 124 1 128 1
+		 134 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Head_Ctrl_scaleZ";
 	rename -uid "C56C819B-40FE-05AE-36F3-6DBD4D75BC84";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 54 1 64 1 68 1 100 1 124 1 128 1
+		 134 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Head_Ctrl_Follow_Translate";
 	rename -uid "952F433B-4D4B-18CB-089A-8891CA838CA6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 54 1 64 1 68 1 100 1 124 1 128 1
+		 134 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Head_Ctrl_Follow_Rotate";
 	rename -uid "42AF00DE-4B65-0136-B2CF-3AB6B3FA2462";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  0 1 32 1 54 1 64 1 68 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 54 1 64 1 68 1 100 1 124 1 128 1
+		 134 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "R_Winger_02_Knuckle_02_Ctrl_visibility";
 	rename -uid "55EFECF2-4BA9-DAC3-6C3A-2BAEFFA11EEF";
 	setAttr ".tan" 9;
@@ -43162,44 +43228,44 @@ createNode animCurveTU -n "L_Clav_Ctrl_visibility";
 	rename -uid "8D064DC6-47AA-F3A9-92C8-DC8F8DCFFC74";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Clav_Ctrl_rotateX";
 	rename -uid "6E9D9794-4951-8B57-4AAE-1383AB129A97";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Clav_Ctrl_rotateY";
 	rename -uid "129440E4-419E-A611-16E7-4C92B2AF51D4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "L_Clav_Ctrl_rotateZ";
 	rename -uid "5F8DC94A-4581-7BF2-649E-6FA8166FE0DC";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 -57.082747213484232;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 -57.082747213484232 128 -20.286134544471796;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Clav_Ctrl_scaleX";
 	rename -uid "E4571501-41BA-1EEC-8B77-BAA7A7E30D35";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Clav_Ctrl_scaleY";
 	rename -uid "FAB8136A-48ED-B9BE-4B73-428CB8A8DD99";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Clav_Ctrl_scaleZ";
 	rename -uid "72E9EA2A-4592-368F-0CE5-CCB7F0EE9171";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "L_Leg_03_IK_Ctrl_visibility";
 	rename -uid "8265C508-4946-702E-14F2-7A853533E9FC";
 	setAttr ".tan" 9;
@@ -43342,44 +43408,44 @@ createNode animCurveTU -n "R_Clav_Ctrl_visibility";
 	rename -uid "588CD5F7-4CEA-2D08-D1C8-359D10DB201C";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Clav_Ctrl_rotateX";
 	rename -uid "B9DD4017-4503-BF62-6794-58BE5B4F9794";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Clav_Ctrl_rotateY";
 	rename -uid "7E48E2EA-4A33-3FF3-DCD8-77AE50C5A9B1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 0;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 0 128 0;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTA -n "R_Clav_Ctrl_rotateZ";
 	rename -uid "397E371E-4B2B-B6D5-17BC-0B8352F6769B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 0 32 0 62 -57.082747213484232;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 62 -57.082747213484232 128 -20.286134544471796;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Clav_Ctrl_scaleX";
 	rename -uid "373DB6FD-498E-7141-D25F-3C93572B58EB";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Clav_Ctrl_scaleY";
 	rename -uid "E546ED50-4927-29E0-5D5E-FCAA3F577FA4";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Clav_Ctrl_scaleZ";
 	rename -uid "31EC5C9F-4F67-F463-6596-0EAB4B3FFAAE";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 3 ".ktv[0:2]"  0 1 32 1 62 1;
-	setAttr -s 3 ".kot[0:2]"  5 5 5;
+	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 62 1 128 1;
+	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
 createNode animCurveTU -n "R_Toe_01_Knuckle_01_Ctrl_visibility";
 	rename -uid "AF058935-48F4-3D6A-33E4-4EA88B53D7A1";
 	setAttr ".tan" 9;
@@ -43588,59 +43654,74 @@ createNode animCurveTU -n "Chest_Ctrl_visibility";
 	rename -uid "5648B4DE-433D-67D9-BBB4-09AD88E4A0B3";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 120 1
+		 134 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTA -n "Chest_Ctrl_rotateX";
 	rename -uid "BBEB8B03-400C-C910-56B2-B996C4DA68EA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 5.426434279845652 58 2.8437084012689251
-		 62 -2 64 -2 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 0 32 0 50 0 54 5.426434279845652 58 2.8437084012689251
+		 62 -2 64 -2 66 0 120 0 134 0;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTA -n "Chest_Ctrl_rotateY";
 	rename -uid "C08C8D35-40AA-0AA8-F17E-178E751FFBF1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 -0.59371740930009964 58 -1.1254069790800463
-		 62 0 64 0 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 0 32 0 50 0 54 -0.59371740930009964 58 -1.1254069790800463
+		 62 0 64 0 66 0 120 0 134 0;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTA -n "Chest_Ctrl_rotateZ";
 	rename -uid "34105BB3-48DB-39F6-FB05-01BADD02A056";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 8.5380969982020112 54 6.2253691629620294
-		 58 16.615009775194086 62 10 64 5 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 0 32 0 50 8.5380969982020112 54 6.2253691629620294
+		 58 16.615009775194086 62 10 64 5 66 0 120 -15.656719482633394 134 8.2281892206654668;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTU -n "Chest_Ctrl_scaleX";
 	rename -uid "F94E21A2-459A-A32A-962E-389D097CA3CF";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 120 1
+		 134 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTU -n "Chest_Ctrl_scaleY";
 	rename -uid "6900E332-498C-3D6A-A605-8BBA02137744";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 120 1
+		 134 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTU -n "Chest_Ctrl_scaleZ";
 	rename -uid "92D6882D-493D-B8D0-BDBF-DBBFC51C9AB7";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 120 1
+		 134 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTU -n "Chest_Ctrl_Follow_Translate";
 	rename -uid "22C2FCCB-4B6D-D4CD-B80D-409640C75A80";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 120 1
+		 134 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTU -n "Chest_Ctrl_Follow_Rotate";
 	rename -uid "FD589F9B-46FB-22FB-74B2-70AC5799186D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 10 ".ktv[0:9]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 120 1
+		 134 1;
+	setAttr -s 10 ".kot[0:9]"  5 5 5 5 5 5 5 5 
+		5 5;
 createNode animCurveTU -n "L_Wing_01_FK_Ctrl_visibility";
 	rename -uid "33AE7660-412E-12A2-3A79-6A98F5854181";
 	setAttr ".tan" 9;
@@ -43753,45 +43834,45 @@ createNode animCurveTU -n "Jaw_Ctrl_visibility";
 	rename -uid "163F512E-445D-31EC-7D39-E4AA30BC5112";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 50 1 66 1;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 66 1 100 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTA -n "Jaw_Ctrl_rotateX";
 	rename -uid "97666F5C-497A-839E-2A67-D19264D31428";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 -14.999999999999998 32 -14.999999999999998
-		 50 -17 66 -14.999999999999998;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 -14.999999999999998 32 -14.999999999999998
+		 50 -17 66 -14.999999999999998 100 -18 124 9 128 20 134 -5;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTA -n "Jaw_Ctrl_rotateY";
 	rename -uid "C1B8D615-44EC-FD4D-EEE0-8F851976F15B";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 50 0 66 0;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 66 0 100 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTA -n "Jaw_Ctrl_rotateZ";
 	rename -uid "DD0838BD-411B-7A8B-174A-7CB3B3426613";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 0 32 0 50 0 66 0;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 66 0 100 0 124 0 128 0 134 0;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Jaw_Ctrl_scaleX";
 	rename -uid "4C7D5441-44B9-AFC9-56DE-40A4F3EDEEA6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 50 1 66 1;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 66 1 100 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Jaw_Ctrl_scaleY";
 	rename -uid "3CBF55BB-4900-7304-C163-368BAF76610D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 50 1 66 1;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 66 1 100 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "Jaw_Ctrl_scaleZ";
 	rename -uid "02359ED4-4F37-F68E-5CED-53A6B5DADA2D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 4 ".ktv[0:3]"  0 1 32 1 50 1 66 1;
-	setAttr -s 4 ".kot[0:3]"  5 5 5 5;
+	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 66 1 100 1 124 1 128 1 134 1;
+	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
 createNode animCurveTU -n "L_Leg_Clav_Ctrl_visibility";
 	rename -uid "682A2302-499F-76E6-45DF-E48A6B975C85";
 	setAttr ".tan" 9;
@@ -43922,44 +44003,52 @@ createNode animCurveTU -n "Hip_Ctrl_visibility";
 	rename -uid "1A427F81-4DF0-77EA-6FBD-4F8B37BDB835";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 124 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "Hip_Ctrl_rotateX";
 	rename -uid "E68A05CD-44A0-3F47-CFBA-2D8FD8199502";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 0 62 0 64 0 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 50 0 54 0 58 0 62 0 64 0 66 0 124 0;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "Hip_Ctrl_rotateY";
 	rename -uid "4E7758E9-451D-D5DA-E209-2C8F32811C60";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 0 62 0 64 0 66 0;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 50 0 54 0 58 0 62 0 64 0 66 0 124 0;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "Hip_Ctrl_rotateZ";
 	rename -uid "8A9F56D7-4E27-743D-59B7-699AB92394C6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 32 0 50 0 54 0 58 0 62 0 64 -5 66 -5;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 32 0 50 0 54 0 58 0 62 0 64 -5 66 -5
+		 124 -5;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Hip_Ctrl_scaleX";
 	rename -uid "0A861477-4368-8D72-079A-169C7E084D1D";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 124 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Hip_Ctrl_scaleY";
 	rename -uid "14CF6063-4810-BB8A-9825-E7A51294B542";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 124 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "Hip_Ctrl_scaleZ";
 	rename -uid "89F5FE3D-4413-361B-11EA-EEB7DD71FB48";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1;
-	setAttr -s 8 ".kot[0:7]"  5 5 5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 32 1 50 1 54 1 58 1 62 1 64 1 66 1 124 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "R_Wing_02_FK_Ctrl_visibility";
 	rename -uid "F922A1B1-4EC2-1F9B-BF59-319069B04664";
 	setAttr ".tan" 9;
@@ -44138,69 +44227,130 @@ createNode animCurveTA -n "CAMERA01_rotateX";
 	rename -uid "F407125C-43DC-3984-B19D-5CB095A3F714";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 10 48 10 60 11 64 12.000000000000002 68 13
-		 72 14;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 10 48 10 60 11 64 12.000000000000002 68 13
+		 72 14 85 -14.999999999999998 100 32 124 32;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "CAMERA01_rotateY";
 	rename -uid "A580CA88-4D66-8F53-C426-32A6A81225E2";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 0 48 0 60 0 64 0 68 0 72 0;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 48 0 60 0 64 0 68 0 72 0 85 180 100 10
+		 124 10;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTA -n "CAMERA01_rotateZ";
 	rename -uid "13D470B7-454E-05D3-A9D8-6985A059BC2F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 0 48 0 60 0 64 0 68 0 72 0;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 48 0 60 0 64 0 68 0 72 0 85 0 100 0
+		 124 0;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "CAMERA01_visibility";
 	rename -uid "DF6E6C3F-4BC3-D015-5F02-5C86A32FC374";
 	setAttr ".tan" 9;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 1 48 1 60 1 64 1 68 1 72 1;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1 48 1 60 1 64 1 68 1 72 1 85 1 100 1
+		 124 1;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "CAMERA01_translateX";
 	rename -uid "8D8EA03E-472C-4BA7-1EE4-81A8EE7AE83F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 0 48 0 60 0 64 0 68 0 72 0;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 0 48 0 60 0 64 0 68 0 72 0 85 0 100 50
+		 124 80;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "CAMERA01_translateY";
 	rename -uid "413FCEFB-45F7-A864-1806-F8B98E2A088F";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 50 48 50 60 50 64 50 68 50 72 50;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 50 48 50 60 50 64 50 68 50 72 50 85 200
+		 100 300 124 250;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTL -n "CAMERA01_translateZ";
 	rename -uid "45FF3652-4598-4930-EC57-239BD2D952C1";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 1000 48 1000 60 1000 64 1000 68 1000 72 1000;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 1000 48 1000 60 1000 64 1000 68 1000 72 1000
+		 85 1000 100 1000 124 1100;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "CAMERA01_scaleX";
 	rename -uid "B0FEF0BE-4A6A-CF93-B109-D28079B03CAA";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 1 48 1 60 1 64 1 68 1 72 1;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 20 48 20 60 20 64 20 68 20 72 20 85 20
+		 100 20 124 20;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "CAMERA01_scaleY";
 	rename -uid "A91C80EA-423A-1B97-0320-03AB82FFE438";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 1 48 1 60 1 64 1 68 1 72 1;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 20 48 20 60 20 64 20 68 20 72 20 85 20
+		 100 20 124 20;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode animCurveTU -n "CAMERA01_scaleZ";
 	rename -uid "D210E1D4-430B-AFAD-5CEC-5D96B73993E6";
 	setAttr ".tan" 10;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  0 1 48 1 60 1 64 1 68 1 72 1;
-	setAttr -s 6 ".kot[0:5]"  5 5 5 5 5 5;
+	setAttr -s 9 ".ktv[0:8]"  0 20 48 20 60 20 64 20 68 20 72 20 85 20
+		 100 20 124 20;
+	setAttr -s 9 ".kot[0:8]"  5 5 5 5 5 5 5 5 
+		5;
 createNode polyPlane -n "polyPlane1";
 	rename -uid "CC906288-447B-5A2D-90F0-33B9848284C2";
 	setAttr ".cuv" 2;
+createNode animCurveTU -n "L_Upper_Face_04_ctrl_visibility";
+	rename -uid "7321E331-4B67-706C-4637-93AAB98BC3E2";
+	setAttr ".tan" 9;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 1;
+	setAttr ".kot[0]"  5;
+createNode animCurveTL -n "L_Upper_Face_04_ctrl_translateX";
+	rename -uid "00F62782-4145-EC01-232B-E8AD55A17C55";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 -1.7763568394002505e-15;
+	setAttr ".kot[0]"  5;
+createNode animCurveTL -n "L_Upper_Face_04_ctrl_translateY";
+	rename -uid "E8792C2D-4628-3279-B821-04B92F291A0A";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 0;
+	setAttr ".kot[0]"  5;
+createNode animCurveTL -n "L_Upper_Face_04_ctrl_translateZ";
+	rename -uid "99BC3CD2-4B8C-BA22-CE96-AB96468601F5";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 0;
+	setAttr ".kot[0]"  5;
+createNode animCurveTA -n "L_Upper_Face_04_ctrl_rotateX";
+	rename -uid "71D353F5-461F-766E-4392-528CDBF0C75C";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 0;
+	setAttr ".kot[0]"  5;
+createNode animCurveTA -n "L_Upper_Face_04_ctrl_rotateY";
+	rename -uid "77D6FA05-484B-E841-1D97-0E85A5B5E38A";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 0;
+	setAttr ".kot[0]"  5;
+createNode animCurveTA -n "L_Upper_Face_04_ctrl_rotateZ";
+	rename -uid "DBB89507-4445-2A0F-0427-63A5C0820CF5";
+	setAttr ".tan" 10;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  85 0;
+	setAttr ".kot[0]"  5;
 select -ne :time1;
-	setAttr ".o" 80;
-	setAttr ".unw" 80;
+	setAttr ".o" 150;
+	setAttr ".unw" 150;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -45686,730 +45836,737 @@ connectAttr "L_Upper_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[84]";
 connectAttr "L_Upper_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[85]";
 connectAttr "L_Upper_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[86]";
 connectAttr "L_Upper_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[87]";
-connectAttr "L_Lower_Face_01_ctrl_translateX.o" "Knight_RetopoRN.phl[88]";
-connectAttr "L_Lower_Face_01_ctrl_translateY.o" "Knight_RetopoRN.phl[89]";
-connectAttr "L_Lower_Face_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[90]";
-connectAttr "L_Lower_Face_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[91]";
-connectAttr "L_Lower_Face_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[92]";
-connectAttr "L_Lower_Face_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[93]";
-connectAttr "L_Lower_Face_01_ctrl_visibility.o" "Knight_RetopoRN.phl[94]";
-connectAttr "L_Lower_Face_02_ctrl_translateX.o" "Knight_RetopoRN.phl[95]";
-connectAttr "L_Lower_Face_02_ctrl_translateY.o" "Knight_RetopoRN.phl[96]";
-connectAttr "L_Lower_Face_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[97]";
-connectAttr "L_Lower_Face_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[98]";
-connectAttr "L_Lower_Face_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[99]";
-connectAttr "L_Lower_Face_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[100]";
-connectAttr "L_Lower_Face_02_ctrl_visibility.o" "Knight_RetopoRN.phl[101]";
-connectAttr "L_Lower_Face_03_ctrl_translateX.o" "Knight_RetopoRN.phl[102]";
-connectAttr "L_Lower_Face_03_ctrl_translateY.o" "Knight_RetopoRN.phl[103]";
-connectAttr "L_Lower_Face_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[104]";
-connectAttr "L_Lower_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[105]";
-connectAttr "L_Lower_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[106]";
-connectAttr "L_Lower_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[107]";
-connectAttr "L_Lower_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[108]";
-connectAttr "R_Upper_Face_01_ctrl_translateX.o" "Knight_RetopoRN.phl[109]";
-connectAttr "R_Upper_Face_01_ctrl_translateY.o" "Knight_RetopoRN.phl[110]";
-connectAttr "R_Upper_Face_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[111]";
-connectAttr "R_Upper_Face_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[112]";
-connectAttr "R_Upper_Face_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[113]";
-connectAttr "R_Upper_Face_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[114]";
-connectAttr "R_Upper_Face_01_ctrl_visibility.o" "Knight_RetopoRN.phl[115]";
-connectAttr "R_Upper_Face_02_ctrl_translateX.o" "Knight_RetopoRN.phl[116]";
-connectAttr "R_Upper_Face_02_ctrl_translateY.o" "Knight_RetopoRN.phl[117]";
-connectAttr "R_Upper_Face_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[118]";
-connectAttr "R_Upper_Face_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[119]";
-connectAttr "R_Upper_Face_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[120]";
-connectAttr "R_Upper_Face_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[121]";
-connectAttr "R_Upper_Face_02_ctrl_visibility.o" "Knight_RetopoRN.phl[122]";
-connectAttr "R_Upper_Face_03_ctrl_translateX.o" "Knight_RetopoRN.phl[123]";
-connectAttr "R_Upper_Face_03_ctrl_translateY.o" "Knight_RetopoRN.phl[124]";
-connectAttr "R_Upper_Face_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[125]";
-connectAttr "R_Upper_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[126]";
-connectAttr "R_Upper_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[127]";
-connectAttr "R_Upper_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[128]";
-connectAttr "R_Upper_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[129]";
-connectAttr "R_Upper_Face_04_ctrl_translateX.o" "Knight_RetopoRN.phl[130]";
-connectAttr "R_Upper_Face_04_ctrl_translateY.o" "Knight_RetopoRN.phl[131]";
-connectAttr "R_Upper_Face_04_ctrl_translateZ.o" "Knight_RetopoRN.phl[132]";
-connectAttr "R_Upper_Face_04_ctrl_rotateX.o" "Knight_RetopoRN.phl[133]";
-connectAttr "R_Upper_Face_04_ctrl_rotateY.o" "Knight_RetopoRN.phl[134]";
-connectAttr "R_Upper_Face_04_ctrl_rotateZ.o" "Knight_RetopoRN.phl[135]";
-connectAttr "R_Upper_Face_04_ctrl_visibility.o" "Knight_RetopoRN.phl[136]";
-connectAttr "R_Lower_Face_01_ctrl_translateX.o" "Knight_RetopoRN.phl[137]";
-connectAttr "R_Lower_Face_01_ctrl_translateY.o" "Knight_RetopoRN.phl[138]";
-connectAttr "R_Lower_Face_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[139]";
-connectAttr "R_Lower_Face_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[140]";
-connectAttr "R_Lower_Face_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[141]";
-connectAttr "R_Lower_Face_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[142]";
-connectAttr "R_Lower_Face_01_ctrl_visibility.o" "Knight_RetopoRN.phl[143]";
-connectAttr "R_Lower_Face_02_ctrl_translateX.o" "Knight_RetopoRN.phl[144]";
-connectAttr "R_Lower_Face_02_ctrl_translateY.o" "Knight_RetopoRN.phl[145]";
-connectAttr "R_Lower_Face_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[146]";
-connectAttr "R_Lower_Face_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[147]";
-connectAttr "R_Lower_Face_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[148]";
-connectAttr "R_Lower_Face_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[149]";
-connectAttr "R_Lower_Face_02_ctrl_visibility.o" "Knight_RetopoRN.phl[150]";
-connectAttr "R_Lower_Face_03_ctrl_translateX.o" "Knight_RetopoRN.phl[151]";
-connectAttr "R_Lower_Face_03_ctrl_translateY.o" "Knight_RetopoRN.phl[152]";
-connectAttr "R_Lower_Face_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[153]";
-connectAttr "R_Lower_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[154]";
-connectAttr "R_Lower_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[155]";
-connectAttr "R_Lower_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[156]";
-connectAttr "R_Lower_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[157]";
-connectAttr "L_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[158]";
-connectAttr "L_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[159]";
-connectAttr "L_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[160]";
-connectAttr "L_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[161]";
-connectAttr "L_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[162]";
-connectAttr "L_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[163]";
-connectAttr "L_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[164]";
-connectAttr "L_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[165]";
-connectAttr "L_Arm_01_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[166]";
-connectAttr "L_Arm_01_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[167]";
-connectAttr "L_Arm_01_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[168]";
-connectAttr "L_Arm_01_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[169]";
-connectAttr "L_Arm_01_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[170]";
-connectAttr "L_Arm_01_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[171]";
-connectAttr "L_Arm_01_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[172]";
-connectAttr "L_Arm_01_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[173]";
-connectAttr "L_Arm_02_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[174]";
-connectAttr "L_Arm_02_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[175]";
-connectAttr "L_Arm_02_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[176]";
-connectAttr "L_Arm_02_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[177]";
-connectAttr "L_Arm_02_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[178]";
-connectAttr "L_Arm_02_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[179]";
-connectAttr "L_Arm_02_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[180]";
-connectAttr "L_Arm_02_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[181]";
-connectAttr "L_Arm_03_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[182]";
-connectAttr "L_Arm_03_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[183]";
-connectAttr "L_Arm_03_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[184]";
-connectAttr "L_Arm_03_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[185]";
-connectAttr "L_Arm_03_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[186]";
-connectAttr "L_Arm_03_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[187]";
-connectAttr "L_Arm_03_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[188]";
-connectAttr "L_Arm_03_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[189]";
-connectAttr "L_Hand_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[190]";
-connectAttr "L_Hand_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[191]";
-connectAttr "L_Hand_ctrl_translateX.o" "Knight_RetopoRN.phl[192]";
-connectAttr "L_Hand_ctrl_translateY.o" "Knight_RetopoRN.phl[193]";
-connectAttr "L_Hand_ctrl_translateZ.o" "Knight_RetopoRN.phl[194]";
-connectAttr "L_Hand_ctrl_rotateY.o" "Knight_RetopoRN.phl[195]";
-connectAttr "L_Hand_ctrl_rotateX.o" "Knight_RetopoRN.phl[196]";
-connectAttr "L_Hand_ctrl_rotateZ.o" "Knight_RetopoRN.phl[197]";
-connectAttr "L_Thumb_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[198]";
-connectAttr "L_Thumb_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[199]";
-connectAttr "L_Thumb_01_ctrl_translateX.o" "Knight_RetopoRN.phl[200]";
-connectAttr "L_Thumb_01_ctrl_translateY.o" "Knight_RetopoRN.phl[201]";
-connectAttr "L_Thumb_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[202]";
-connectAttr "L_Thumb_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[203]";
-connectAttr "L_Thumb_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[204]";
-connectAttr "L_Thumb_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[205]";
-connectAttr "L_Thumb_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[206]";
-connectAttr "L_Thumb_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[207]";
-connectAttr "L_Thumb_02_ctrl_translateX.o" "Knight_RetopoRN.phl[208]";
-connectAttr "L_Thumb_02_ctrl_translateY.o" "Knight_RetopoRN.phl[209]";
-connectAttr "L_Thumb_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[210]";
-connectAttr "L_Thumb_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[211]";
-connectAttr "L_Thumb_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[212]";
-connectAttr "L_Thumb_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[213]";
-connectAttr "L_Thumb_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[214]";
-connectAttr "L_Thumb_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[215]";
-connectAttr "L_Thumb_03_ctrl_translateX.o" "Knight_RetopoRN.phl[216]";
-connectAttr "L_Thumb_03_ctrl_translateY.o" "Knight_RetopoRN.phl[217]";
-connectAttr "L_Thumb_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[218]";
-connectAttr "L_Thumb_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[219]";
-connectAttr "L_Thumb_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[220]";
-connectAttr "L_Thumb_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[221]";
-connectAttr "L_Finger_01_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[222]"
+connectAttr "L_Upper_Face_04_ctrl_translateX.o" "Knight_RetopoRN.phl[88]";
+connectAttr "L_Upper_Face_04_ctrl_translateY.o" "Knight_RetopoRN.phl[89]";
+connectAttr "L_Upper_Face_04_ctrl_translateZ.o" "Knight_RetopoRN.phl[90]";
+connectAttr "L_Upper_Face_04_ctrl_rotateX.o" "Knight_RetopoRN.phl[91]";
+connectAttr "L_Upper_Face_04_ctrl_rotateY.o" "Knight_RetopoRN.phl[92]";
+connectAttr "L_Upper_Face_04_ctrl_rotateZ.o" "Knight_RetopoRN.phl[93]";
+connectAttr "L_Upper_Face_04_ctrl_visibility.o" "Knight_RetopoRN.phl[94]";
+connectAttr "L_Lower_Face_01_ctrl_translateX.o" "Knight_RetopoRN.phl[95]";
+connectAttr "L_Lower_Face_01_ctrl_translateY.o" "Knight_RetopoRN.phl[96]";
+connectAttr "L_Lower_Face_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[97]";
+connectAttr "L_Lower_Face_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[98]";
+connectAttr "L_Lower_Face_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[99]";
+connectAttr "L_Lower_Face_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[100]";
+connectAttr "L_Lower_Face_01_ctrl_visibility.o" "Knight_RetopoRN.phl[101]";
+connectAttr "L_Lower_Face_02_ctrl_translateX.o" "Knight_RetopoRN.phl[102]";
+connectAttr "L_Lower_Face_02_ctrl_translateY.o" "Knight_RetopoRN.phl[103]";
+connectAttr "L_Lower_Face_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[104]";
+connectAttr "L_Lower_Face_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[105]";
+connectAttr "L_Lower_Face_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[106]";
+connectAttr "L_Lower_Face_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[107]";
+connectAttr "L_Lower_Face_02_ctrl_visibility.o" "Knight_RetopoRN.phl[108]";
+connectAttr "L_Lower_Face_03_ctrl_translateX.o" "Knight_RetopoRN.phl[109]";
+connectAttr "L_Lower_Face_03_ctrl_translateY.o" "Knight_RetopoRN.phl[110]";
+connectAttr "L_Lower_Face_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[111]";
+connectAttr "L_Lower_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[112]";
+connectAttr "L_Lower_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[113]";
+connectAttr "L_Lower_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[114]";
+connectAttr "L_Lower_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[115]";
+connectAttr "R_Upper_Face_01_ctrl_translateX.o" "Knight_RetopoRN.phl[116]";
+connectAttr "R_Upper_Face_01_ctrl_translateY.o" "Knight_RetopoRN.phl[117]";
+connectAttr "R_Upper_Face_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[118]";
+connectAttr "R_Upper_Face_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[119]";
+connectAttr "R_Upper_Face_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[120]";
+connectAttr "R_Upper_Face_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[121]";
+connectAttr "R_Upper_Face_01_ctrl_visibility.o" "Knight_RetopoRN.phl[122]";
+connectAttr "R_Upper_Face_02_ctrl_translateX.o" "Knight_RetopoRN.phl[123]";
+connectAttr "R_Upper_Face_02_ctrl_translateY.o" "Knight_RetopoRN.phl[124]";
+connectAttr "R_Upper_Face_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[125]";
+connectAttr "R_Upper_Face_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[126]";
+connectAttr "R_Upper_Face_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[127]";
+connectAttr "R_Upper_Face_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[128]";
+connectAttr "R_Upper_Face_02_ctrl_visibility.o" "Knight_RetopoRN.phl[129]";
+connectAttr "R_Upper_Face_03_ctrl_translateX.o" "Knight_RetopoRN.phl[130]";
+connectAttr "R_Upper_Face_03_ctrl_translateY.o" "Knight_RetopoRN.phl[131]";
+connectAttr "R_Upper_Face_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[132]";
+connectAttr "R_Upper_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[133]";
+connectAttr "R_Upper_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[134]";
+connectAttr "R_Upper_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[135]";
+connectAttr "R_Upper_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[136]";
+connectAttr "R_Upper_Face_04_ctrl_translateX.o" "Knight_RetopoRN.phl[137]";
+connectAttr "R_Upper_Face_04_ctrl_translateY.o" "Knight_RetopoRN.phl[138]";
+connectAttr "R_Upper_Face_04_ctrl_translateZ.o" "Knight_RetopoRN.phl[139]";
+connectAttr "R_Upper_Face_04_ctrl_rotateX.o" "Knight_RetopoRN.phl[140]";
+connectAttr "R_Upper_Face_04_ctrl_rotateY.o" "Knight_RetopoRN.phl[141]";
+connectAttr "R_Upper_Face_04_ctrl_rotateZ.o" "Knight_RetopoRN.phl[142]";
+connectAttr "R_Upper_Face_04_ctrl_visibility.o" "Knight_RetopoRN.phl[143]";
+connectAttr "R_Lower_Face_01_ctrl_translateX.o" "Knight_RetopoRN.phl[144]";
+connectAttr "R_Lower_Face_01_ctrl_translateY.o" "Knight_RetopoRN.phl[145]";
+connectAttr "R_Lower_Face_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[146]";
+connectAttr "R_Lower_Face_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[147]";
+connectAttr "R_Lower_Face_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[148]";
+connectAttr "R_Lower_Face_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[149]";
+connectAttr "R_Lower_Face_01_ctrl_visibility.o" "Knight_RetopoRN.phl[150]";
+connectAttr "R_Lower_Face_02_ctrl_translateX.o" "Knight_RetopoRN.phl[151]";
+connectAttr "R_Lower_Face_02_ctrl_translateY.o" "Knight_RetopoRN.phl[152]";
+connectAttr "R_Lower_Face_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[153]";
+connectAttr "R_Lower_Face_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[154]";
+connectAttr "R_Lower_Face_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[155]";
+connectAttr "R_Lower_Face_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[156]";
+connectAttr "R_Lower_Face_02_ctrl_visibility.o" "Knight_RetopoRN.phl[157]";
+connectAttr "R_Lower_Face_03_ctrl_translateX.o" "Knight_RetopoRN.phl[158]";
+connectAttr "R_Lower_Face_03_ctrl_translateY.o" "Knight_RetopoRN.phl[159]";
+connectAttr "R_Lower_Face_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[160]";
+connectAttr "R_Lower_Face_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[161]";
+connectAttr "R_Lower_Face_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[162]";
+connectAttr "R_Lower_Face_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[163]";
+connectAttr "R_Lower_Face_03_ctrl_visibility.o" "Knight_RetopoRN.phl[164]";
+connectAttr "L_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[165]";
+connectAttr "L_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[166]";
+connectAttr "L_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[167]";
+connectAttr "L_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[168]";
+connectAttr "L_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[169]";
+connectAttr "L_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[170]";
+connectAttr "L_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[171]";
+connectAttr "L_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[172]";
+connectAttr "L_Arm_01_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[173]";
+connectAttr "L_Arm_01_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[174]";
+connectAttr "L_Arm_01_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[175]";
+connectAttr "L_Arm_01_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[176]";
+connectAttr "L_Arm_01_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[177]";
+connectAttr "L_Arm_01_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[178]";
+connectAttr "L_Arm_01_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[179]";
+connectAttr "L_Arm_01_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[180]";
+connectAttr "L_Arm_02_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[181]";
+connectAttr "L_Arm_02_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[182]";
+connectAttr "L_Arm_02_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[183]";
+connectAttr "L_Arm_02_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[184]";
+connectAttr "L_Arm_02_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[185]";
+connectAttr "L_Arm_02_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[186]";
+connectAttr "L_Arm_02_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[187]";
+connectAttr "L_Arm_02_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[188]";
+connectAttr "L_Arm_03_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[189]";
+connectAttr "L_Arm_03_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[190]";
+connectAttr "L_Arm_03_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[191]";
+connectAttr "L_Arm_03_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[192]";
+connectAttr "L_Arm_03_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[193]";
+connectAttr "L_Arm_03_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[194]";
+connectAttr "L_Arm_03_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[195]";
+connectAttr "L_Arm_03_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[196]";
+connectAttr "L_Hand_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[197]";
+connectAttr "L_Hand_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[198]";
+connectAttr "L_Hand_ctrl_translateX.o" "Knight_RetopoRN.phl[199]";
+connectAttr "L_Hand_ctrl_translateY.o" "Knight_RetopoRN.phl[200]";
+connectAttr "L_Hand_ctrl_translateZ.o" "Knight_RetopoRN.phl[201]";
+connectAttr "L_Hand_ctrl_rotateY.o" "Knight_RetopoRN.phl[202]";
+connectAttr "L_Hand_ctrl_rotateX.o" "Knight_RetopoRN.phl[203]";
+connectAttr "L_Hand_ctrl_rotateZ.o" "Knight_RetopoRN.phl[204]";
+connectAttr "L_Thumb_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[205]";
+connectAttr "L_Thumb_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[206]";
+connectAttr "L_Thumb_01_ctrl_translateX.o" "Knight_RetopoRN.phl[207]";
+connectAttr "L_Thumb_01_ctrl_translateY.o" "Knight_RetopoRN.phl[208]";
+connectAttr "L_Thumb_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[209]";
+connectAttr "L_Thumb_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[210]";
+connectAttr "L_Thumb_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[211]";
+connectAttr "L_Thumb_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[212]";
+connectAttr "L_Thumb_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[213]";
+connectAttr "L_Thumb_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[214]";
+connectAttr "L_Thumb_02_ctrl_translateX.o" "Knight_RetopoRN.phl[215]";
+connectAttr "L_Thumb_02_ctrl_translateY.o" "Knight_RetopoRN.phl[216]";
+connectAttr "L_Thumb_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[217]";
+connectAttr "L_Thumb_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[218]";
+connectAttr "L_Thumb_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[219]";
+connectAttr "L_Thumb_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[220]";
+connectAttr "L_Thumb_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[221]";
+connectAttr "L_Thumb_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[222]";
+connectAttr "L_Thumb_03_ctrl_translateX.o" "Knight_RetopoRN.phl[223]";
+connectAttr "L_Thumb_03_ctrl_translateY.o" "Knight_RetopoRN.phl[224]";
+connectAttr "L_Thumb_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[225]";
+connectAttr "L_Thumb_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[226]";
+connectAttr "L_Thumb_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[227]";
+connectAttr "L_Thumb_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[228]";
+connectAttr "L_Finger_01_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[229]"
 		;
-connectAttr "L_Finger_01_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[223]"
+connectAttr "L_Finger_01_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[230]"
 		;
-connectAttr "L_Finger_01_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[224]"
+connectAttr "L_Finger_01_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[231]"
 		;
-connectAttr "L_Finger_01_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[225]"
+connectAttr "L_Finger_01_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[232]"
 		;
-connectAttr "L_Finger_01_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[226]"
+connectAttr "L_Finger_01_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[233]"
 		;
-connectAttr "L_Finger_01_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[227]";
-connectAttr "L_Finger_01_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[228]";
-connectAttr "L_Finger_01_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[229]";
-connectAttr "L_Finger_01_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[230]"
+connectAttr "L_Finger_01_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[234]";
+connectAttr "L_Finger_01_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[235]";
+connectAttr "L_Finger_01_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[236]";
+connectAttr "L_Finger_01_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[237]"
 		;
-connectAttr "L_Finger_01_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[231]"
+connectAttr "L_Finger_01_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[238]"
 		;
-connectAttr "L_Finger_01_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[232]"
+connectAttr "L_Finger_01_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[239]"
 		;
-connectAttr "L_Finger_01_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[233]"
+connectAttr "L_Finger_01_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[240]"
 		;
-connectAttr "L_Finger_01_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[234]"
+connectAttr "L_Finger_01_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[241]"
 		;
-connectAttr "L_Finger_01_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[235]";
-connectAttr "L_Finger_01_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[236]";
-connectAttr "L_Finger_01_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[237]";
-connectAttr "L_Finger_01_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[238]"
+connectAttr "L_Finger_01_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[242]";
+connectAttr "L_Finger_01_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[243]";
+connectAttr "L_Finger_01_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[244]";
+connectAttr "L_Finger_01_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[245]"
 		;
-connectAttr "L_Finger_01_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[239]"
+connectAttr "L_Finger_01_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[246]"
 		;
-connectAttr "L_Finger_01_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[240]"
+connectAttr "L_Finger_01_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[247]"
 		;
-connectAttr "L_Finger_01_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[241]"
+connectAttr "L_Finger_01_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[248]"
 		;
-connectAttr "L_Finger_01_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[242]"
+connectAttr "L_Finger_01_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[249]"
 		;
-connectAttr "L_Finger_01_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[243]";
-connectAttr "L_Finger_01_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[244]";
-connectAttr "L_Finger_01_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[245]";
-connectAttr "L_Finger_02_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[246]"
+connectAttr "L_Finger_01_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[250]";
+connectAttr "L_Finger_01_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[251]";
+connectAttr "L_Finger_01_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[252]";
+connectAttr "L_Finger_02_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[253]"
 		;
-connectAttr "L_Finger_02_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[247]"
+connectAttr "L_Finger_02_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[254]"
 		;
-connectAttr "L_Finger_02_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[248]"
+connectAttr "L_Finger_02_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[255]"
 		;
-connectAttr "L_Finger_02_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[249]"
+connectAttr "L_Finger_02_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[256]"
 		;
-connectAttr "L_Finger_02_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[250]"
+connectAttr "L_Finger_02_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[257]"
 		;
-connectAttr "L_Finger_02_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[251]";
-connectAttr "L_Finger_02_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[252]";
-connectAttr "L_Finger_02_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[253]";
-connectAttr "L_Finger_02_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[254]"
+connectAttr "L_Finger_02_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[258]";
+connectAttr "L_Finger_02_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[259]";
+connectAttr "L_Finger_02_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[260]";
+connectAttr "L_Finger_02_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[261]"
 		;
-connectAttr "L_Finger_02_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[255]"
+connectAttr "L_Finger_02_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[262]"
 		;
-connectAttr "L_Finger_02_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[256]"
+connectAttr "L_Finger_02_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[263]"
 		;
-connectAttr "L_Finger_02_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[257]"
+connectAttr "L_Finger_02_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[264]"
 		;
-connectAttr "L_Finger_02_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[258]"
+connectAttr "L_Finger_02_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[265]"
 		;
-connectAttr "L_Finger_02_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[259]";
-connectAttr "L_Finger_02_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[260]";
-connectAttr "L_Finger_02_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[261]";
-connectAttr "L_Finger_02_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[262]"
+connectAttr "L_Finger_02_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[266]";
+connectAttr "L_Finger_02_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[267]";
+connectAttr "L_Finger_02_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[268]";
+connectAttr "L_Finger_02_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[269]"
 		;
-connectAttr "L_Finger_02_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[263]"
+connectAttr "L_Finger_02_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[270]"
 		;
-connectAttr "L_Finger_02_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[264]"
+connectAttr "L_Finger_02_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[271]"
 		;
-connectAttr "L_Finger_02_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[265]"
+connectAttr "L_Finger_02_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[272]"
 		;
-connectAttr "L_Finger_02_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[266]"
+connectAttr "L_Finger_02_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[273]"
 		;
-connectAttr "L_Finger_02_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[267]";
-connectAttr "L_Finger_02_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[268]";
-connectAttr "L_Finger_02_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[269]";
-connectAttr "L_Finger_03_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[270]"
+connectAttr "L_Finger_02_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[274]";
+connectAttr "L_Finger_02_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[275]";
+connectAttr "L_Finger_02_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[276]";
+connectAttr "L_Finger_03_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[277]"
 		;
-connectAttr "L_Finger_03_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[271]"
+connectAttr "L_Finger_03_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[278]"
 		;
-connectAttr "L_Finger_03_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[272]"
+connectAttr "L_Finger_03_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[279]"
 		;
-connectAttr "L_Finger_03_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[273]"
+connectAttr "L_Finger_03_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[280]"
 		;
-connectAttr "L_Finger_03_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[274]"
+connectAttr "L_Finger_03_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[281]"
 		;
-connectAttr "L_Finger_03_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[275]";
-connectAttr "L_Finger_03_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[276]";
-connectAttr "L_Finger_03_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[277]";
-connectAttr "L_Finger_03_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[278]"
+connectAttr "L_Finger_03_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[282]";
+connectAttr "L_Finger_03_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[283]";
+connectAttr "L_Finger_03_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[284]";
+connectAttr "L_Finger_03_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[285]"
 		;
-connectAttr "L_Finger_03_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[279]"
+connectAttr "L_Finger_03_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[286]"
 		;
-connectAttr "L_Finger_03_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[280]"
+connectAttr "L_Finger_03_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[287]"
 		;
-connectAttr "L_Finger_03_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[281]"
+connectAttr "L_Finger_03_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[288]"
 		;
-connectAttr "L_Finger_03_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[282]"
+connectAttr "L_Finger_03_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[289]"
+		;
+connectAttr "L_Finger_03_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[290]";
+connectAttr "L_Finger_03_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[291]";
+connectAttr "L_Finger_03_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[292]";
+connectAttr "L_Finger_03_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[293]"
+		;
+connectAttr "L_Finger_03_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[294]"
+		;
+connectAttr "L_Finger_03_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[295]"
+		;
+connectAttr "L_Finger_03_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[296]"
+		;
+connectAttr "L_Finger_03_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[297]"
+		;
+connectAttr "L_Finger_03_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[298]";
+connectAttr "L_Finger_03_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[299]";
+connectAttr "L_Finger_03_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[300]";
+connectAttr "L_Finger_04_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[301]"
+		;
+connectAttr "L_Finger_04_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[302]"
+		;
+connectAttr "L_Finger_04_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[303]"
+		;
+connectAttr "L_Finger_04_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[304]"
+		;
+connectAttr "L_Finger_04_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[305]"
+		;
+connectAttr "L_Finger_04_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[306]";
+connectAttr "L_Finger_04_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[307]";
+connectAttr "L_Finger_04_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[308]";
+connectAttr "L_Finger_04_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[309]"
+		;
+connectAttr "L_Finger_04_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[310]"
+		;
+connectAttr "L_Finger_04_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[311]"
+		;
+connectAttr "L_Finger_04_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[312]"
+		;
+connectAttr "L_Finger_04_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[313]"
+		;
+connectAttr "L_Finger_04_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[314]";
+connectAttr "L_Finger_04_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[315]";
+connectAttr "L_Finger_04_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[316]";
+connectAttr "L_Finger_04_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[317]"
+		;
+connectAttr "L_Finger_04_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[318]"
+		;
+connectAttr "L_Finger_04_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[319]"
+		;
+connectAttr "L_Finger_04_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[320]"
+		;
+connectAttr "L_Finger_04_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[321]"
+		;
+connectAttr "L_Finger_04_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[322]";
+connectAttr "L_Finger_04_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[323]";
+connectAttr "L_Finger_04_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[324]";
+connectAttr "R_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[325]";
+connectAttr "R_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[326]";
+connectAttr "R_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[327]";
+connectAttr "R_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[328]";
+connectAttr "R_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[329]";
+connectAttr "R_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[330]";
+connectAttr "R_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[331]";
+connectAttr "R_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[332]";
+connectAttr "R_Arm_01_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[333]";
+connectAttr "R_Arm_01_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[334]";
+connectAttr "R_Arm_01_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[335]";
+connectAttr "R_Arm_01_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[336]";
+connectAttr "R_Arm_01_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[337]";
+connectAttr "R_Arm_01_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[338]";
+connectAttr "R_Arm_01_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[339]";
+connectAttr "R_Arm_01_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[340]";
+connectAttr "R_Arm_02_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[341]";
+connectAttr "R_Arm_02_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[342]";
+connectAttr "R_Arm_02_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[343]";
+connectAttr "R_Arm_02_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[344]";
+connectAttr "R_Arm_02_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[345]";
+connectAttr "R_Arm_02_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[346]";
+connectAttr "R_Arm_02_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[347]";
+connectAttr "R_Arm_02_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[348]";
+connectAttr "R_Arm_03_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[349]";
+connectAttr "R_Arm_03_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[350]";
+connectAttr "R_Arm_03_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[351]";
+connectAttr "R_Arm_03_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[352]";
+connectAttr "R_Arm_03_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[353]";
+connectAttr "R_Arm_03_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[354]";
+connectAttr "R_Arm_03_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[355]";
+connectAttr "R_Arm_03_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[356]";
+connectAttr "R_Hand_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[357]";
+connectAttr "R_Hand_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[358]";
+connectAttr "R_Hand_ctrl_translateX.o" "Knight_RetopoRN.phl[359]";
+connectAttr "R_Hand_ctrl_translateY.o" "Knight_RetopoRN.phl[360]";
+connectAttr "R_Hand_ctrl_translateZ.o" "Knight_RetopoRN.phl[361]";
+connectAttr "R_Hand_ctrl_rotateX.o" "Knight_RetopoRN.phl[362]";
+connectAttr "R_Hand_ctrl_rotateY.o" "Knight_RetopoRN.phl[363]";
+connectAttr "R_Hand_ctrl_rotateZ.o" "Knight_RetopoRN.phl[364]";
+connectAttr "R_Thumb_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[365]";
+connectAttr "R_Thumb_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[366]";
+connectAttr "R_Thumb_01_ctrl_translateX.o" "Knight_RetopoRN.phl[367]";
+connectAttr "R_Thumb_01_ctrl_translateY.o" "Knight_RetopoRN.phl[368]";
+connectAttr "R_Thumb_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[369]";
+connectAttr "R_Thumb_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[370]";
+connectAttr "R_Thumb_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[371]";
+connectAttr "R_Thumb_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[372]";
+connectAttr "R_Thumb_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[373]";
+connectAttr "R_Thumb_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[374]";
+connectAttr "R_Thumb_02_ctrl_translateX.o" "Knight_RetopoRN.phl[375]";
+connectAttr "R_Thumb_02_ctrl_translateY.o" "Knight_RetopoRN.phl[376]";
+connectAttr "R_Thumb_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[377]";
+connectAttr "R_Thumb_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[378]";
+connectAttr "R_Thumb_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[379]";
+connectAttr "R_Thumb_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[380]";
+connectAttr "R_Thumb_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[381]";
+connectAttr "R_Thumb_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[382]";
+connectAttr "R_Thumb_03_ctrl_translateX.o" "Knight_RetopoRN.phl[383]";
+connectAttr "R_Thumb_03_ctrl_translateY.o" "Knight_RetopoRN.phl[384]";
+connectAttr "R_Thumb_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[385]";
+connectAttr "R_Thumb_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[386]";
+connectAttr "R_Thumb_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[387]";
+connectAttr "R_Thumb_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[388]";
+connectAttr "R_Finger_01_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[389]"
 		;
-connectAttr "L_Finger_03_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[283]";
-connectAttr "L_Finger_03_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[284]";
-connectAttr "L_Finger_03_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[285]";
-connectAttr "L_Finger_03_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[286]"
+connectAttr "R_Finger_01_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[390]"
 		;
-connectAttr "L_Finger_03_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[287]"
-		;
-connectAttr "L_Finger_03_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[288]"
-		;
-connectAttr "L_Finger_03_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[289]"
-		;
-connectAttr "L_Finger_03_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[290]"
-		;
-connectAttr "L_Finger_03_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[291]";
-connectAttr "L_Finger_03_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[292]";
-connectAttr "L_Finger_03_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[293]";
-connectAttr "L_Finger_04_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[294]"
-		;
-connectAttr "L_Finger_04_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[295]"
-		;
-connectAttr "L_Finger_04_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[296]"
-		;
-connectAttr "L_Finger_04_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[297]"
-		;
-connectAttr "L_Finger_04_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[298]"
-		;
-connectAttr "L_Finger_04_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[299]";
-connectAttr "L_Finger_04_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[300]";
-connectAttr "L_Finger_04_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[301]";
-connectAttr "L_Finger_04_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[302]"
-		;
-connectAttr "L_Finger_04_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[303]"
-		;
-connectAttr "L_Finger_04_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[304]"
-		;
-connectAttr "L_Finger_04_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[305]"
-		;
-connectAttr "L_Finger_04_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[306]"
-		;
-connectAttr "L_Finger_04_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[307]";
-connectAttr "L_Finger_04_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[308]";
-connectAttr "L_Finger_04_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[309]";
-connectAttr "L_Finger_04_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[310]"
+connectAttr "R_Finger_01_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[391]"
 		;
-connectAttr "L_Finger_04_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[311]"
+connectAttr "R_Finger_01_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[392]"
 		;
-connectAttr "L_Finger_04_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[312]"
+connectAttr "R_Finger_01_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[393]"
 		;
-connectAttr "L_Finger_04_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[313]"
+connectAttr "R_Finger_01_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[394]";
+connectAttr "R_Finger_01_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[395]";
+connectAttr "R_Finger_01_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[396]";
+connectAttr "R_Finger_01_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[397]"
 		;
-connectAttr "L_Finger_04_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[314]"
+connectAttr "R_Finger_01_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[398]"
 		;
-connectAttr "L_Finger_04_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[315]";
-connectAttr "L_Finger_04_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[316]";
-connectAttr "L_Finger_04_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[317]";
-connectAttr "R_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[318]";
-connectAttr "R_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[319]";
-connectAttr "R_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[320]";
-connectAttr "R_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[321]";
-connectAttr "R_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[322]";
-connectAttr "R_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[323]";
-connectAttr "R_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[324]";
-connectAttr "R_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[325]";
-connectAttr "R_Arm_01_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[326]";
-connectAttr "R_Arm_01_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[327]";
-connectAttr "R_Arm_01_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[328]";
-connectAttr "R_Arm_01_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[329]";
-connectAttr "R_Arm_01_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[330]";
-connectAttr "R_Arm_01_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[331]";
-connectAttr "R_Arm_01_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[332]";
-connectAttr "R_Arm_01_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[333]";
-connectAttr "R_Arm_02_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[334]";
-connectAttr "R_Arm_02_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[335]";
-connectAttr "R_Arm_02_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[336]";
-connectAttr "R_Arm_02_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[337]";
-connectAttr "R_Arm_02_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[338]";
-connectAttr "R_Arm_02_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[339]";
-connectAttr "R_Arm_02_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[340]";
-connectAttr "R_Arm_02_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[341]";
-connectAttr "R_Arm_03_FK_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[342]";
-connectAttr "R_Arm_03_FK_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[343]";
-connectAttr "R_Arm_03_FK_ctrl_translateX.o" "Knight_RetopoRN.phl[344]";
-connectAttr "R_Arm_03_FK_ctrl_translateY.o" "Knight_RetopoRN.phl[345]";
-connectAttr "R_Arm_03_FK_ctrl_translateZ.o" "Knight_RetopoRN.phl[346]";
-connectAttr "R_Arm_03_FK_ctrl_rotateX.o" "Knight_RetopoRN.phl[347]";
-connectAttr "R_Arm_03_FK_ctrl_rotateY.o" "Knight_RetopoRN.phl[348]";
-connectAttr "R_Arm_03_FK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[349]";
-connectAttr "R_Hand_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[350]";
-connectAttr "R_Hand_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[351]";
-connectAttr "R_Hand_ctrl_translateX.o" "Knight_RetopoRN.phl[352]";
-connectAttr "R_Hand_ctrl_translateY.o" "Knight_RetopoRN.phl[353]";
-connectAttr "R_Hand_ctrl_translateZ.o" "Knight_RetopoRN.phl[354]";
-connectAttr "R_Hand_ctrl_rotateX.o" "Knight_RetopoRN.phl[355]";
-connectAttr "R_Hand_ctrl_rotateY.o" "Knight_RetopoRN.phl[356]";
-connectAttr "R_Hand_ctrl_rotateZ.o" "Knight_RetopoRN.phl[357]";
-connectAttr "R_Thumb_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[358]";
-connectAttr "R_Thumb_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[359]";
-connectAttr "R_Thumb_01_ctrl_translateX.o" "Knight_RetopoRN.phl[360]";
-connectAttr "R_Thumb_01_ctrl_translateY.o" "Knight_RetopoRN.phl[361]";
-connectAttr "R_Thumb_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[362]";
-connectAttr "R_Thumb_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[363]";
-connectAttr "R_Thumb_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[364]";
-connectAttr "R_Thumb_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[365]";
-connectAttr "R_Thumb_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[366]";
-connectAttr "R_Thumb_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[367]";
-connectAttr "R_Thumb_02_ctrl_translateX.o" "Knight_RetopoRN.phl[368]";
-connectAttr "R_Thumb_02_ctrl_translateY.o" "Knight_RetopoRN.phl[369]";
-connectAttr "R_Thumb_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[370]";
-connectAttr "R_Thumb_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[371]";
-connectAttr "R_Thumb_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[372]";
-connectAttr "R_Thumb_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[373]";
-connectAttr "R_Thumb_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[374]";
-connectAttr "R_Thumb_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[375]";
-connectAttr "R_Thumb_03_ctrl_translateX.o" "Knight_RetopoRN.phl[376]";
-connectAttr "R_Thumb_03_ctrl_translateY.o" "Knight_RetopoRN.phl[377]";
-connectAttr "R_Thumb_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[378]";
-connectAttr "R_Thumb_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[379]";
-connectAttr "R_Thumb_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[380]";
-connectAttr "R_Thumb_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[381]";
-connectAttr "R_Finger_01_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[382]"
+connectAttr "R_Finger_01_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[399]"
 		;
-connectAttr "R_Finger_01_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[383]"
+connectAttr "R_Finger_01_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[400]"
 		;
-connectAttr "R_Finger_01_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[384]"
+connectAttr "R_Finger_01_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[401]"
 		;
-connectAttr "R_Finger_01_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[385]"
+connectAttr "R_Finger_01_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[402]";
+connectAttr "R_Finger_01_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[403]";
+connectAttr "R_Finger_01_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[404]";
+connectAttr "R_Finger_01_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[405]"
 		;
-connectAttr "R_Finger_01_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[386]"
+connectAttr "R_Finger_01_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[406]"
 		;
-connectAttr "R_Finger_01_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[387]";
-connectAttr "R_Finger_01_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[388]";
-connectAttr "R_Finger_01_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[389]";
-connectAttr "R_Finger_01_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[390]"
+connectAttr "R_Finger_01_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[407]"
 		;
-connectAttr "R_Finger_01_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[391]"
+connectAttr "R_Finger_01_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[408]"
 		;
-connectAttr "R_Finger_01_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[392]"
+connectAttr "R_Finger_01_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[409]"
 		;
-connectAttr "R_Finger_01_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[393]"
+connectAttr "R_Finger_01_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[410]";
+connectAttr "R_Finger_01_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[411]";
+connectAttr "R_Finger_01_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[412]";
+connectAttr "R_Finger_02_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[413]"
 		;
-connectAttr "R_Finger_01_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[394]"
+connectAttr "R_Finger_02_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[414]"
 		;
-connectAttr "R_Finger_01_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[395]";
-connectAttr "R_Finger_01_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[396]";
-connectAttr "R_Finger_01_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[397]";
-connectAttr "R_Finger_01_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[398]"
+connectAttr "R_Finger_02_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[415]"
 		;
-connectAttr "R_Finger_01_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[399]"
+connectAttr "R_Finger_02_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[416]"
 		;
-connectAttr "R_Finger_01_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[400]"
+connectAttr "R_Finger_02_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[417]"
 		;
-connectAttr "R_Finger_01_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[401]"
+connectAttr "R_Finger_02_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[418]";
+connectAttr "R_Finger_02_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[419]";
+connectAttr "R_Finger_02_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[420]";
+connectAttr "R_Finger_02_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[421]"
 		;
-connectAttr "R_Finger_01_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[402]"
+connectAttr "R_Finger_02_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[422]"
 		;
-connectAttr "R_Finger_01_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[403]";
-connectAttr "R_Finger_01_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[404]";
-connectAttr "R_Finger_01_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[405]";
-connectAttr "R_Finger_02_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[406]"
+connectAttr "R_Finger_02_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[423]"
 		;
-connectAttr "R_Finger_02_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[407]"
+connectAttr "R_Finger_02_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[424]"
 		;
-connectAttr "R_Finger_02_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[408]"
+connectAttr "R_Finger_02_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[425]"
 		;
-connectAttr "R_Finger_02_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[409]"
+connectAttr "R_Finger_02_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[426]";
+connectAttr "R_Finger_02_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[427]";
+connectAttr "R_Finger_02_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[428]";
+connectAttr "R_Finger_02_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[429]"
 		;
-connectAttr "R_Finger_02_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[410]"
+connectAttr "R_Finger_02_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[430]"
 		;
-connectAttr "R_Finger_02_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[411]";
-connectAttr "R_Finger_02_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[412]";
-connectAttr "R_Finger_02_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[413]";
-connectAttr "R_Finger_02_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[414]"
+connectAttr "R_Finger_02_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[431]"
 		;
-connectAttr "R_Finger_02_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[415]"
+connectAttr "R_Finger_02_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[432]"
 		;
-connectAttr "R_Finger_02_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[416]"
+connectAttr "R_Finger_02_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[433]"
 		;
-connectAttr "R_Finger_02_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[417]"
+connectAttr "R_Finger_02_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[434]";
+connectAttr "R_Finger_02_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[435]";
+connectAttr "R_Finger_02_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[436]";
+connectAttr "R_Finger_03_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[437]"
 		;
-connectAttr "R_Finger_02_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[418]"
+connectAttr "R_Finger_03_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[438]"
 		;
-connectAttr "R_Finger_02_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[419]";
-connectAttr "R_Finger_02_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[420]";
-connectAttr "R_Finger_02_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[421]";
-connectAttr "R_Finger_02_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[422]"
+connectAttr "R_Finger_03_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[439]"
 		;
-connectAttr "R_Finger_02_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[423]"
+connectAttr "R_Finger_03_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[440]"
 		;
-connectAttr "R_Finger_02_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[424]"
+connectAttr "R_Finger_03_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[441]"
 		;
-connectAttr "R_Finger_02_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[425]"
+connectAttr "R_Finger_03_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[442]";
+connectAttr "R_Finger_03_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[443]";
+connectAttr "R_Finger_03_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[444]";
+connectAttr "R_Finger_03_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[445]"
 		;
-connectAttr "R_Finger_02_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[426]"
+connectAttr "R_Finger_03_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[446]"
 		;
-connectAttr "R_Finger_02_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[427]";
-connectAttr "R_Finger_02_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[428]";
-connectAttr "R_Finger_02_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[429]";
-connectAttr "R_Finger_03_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[430]"
+connectAttr "R_Finger_03_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[447]"
 		;
-connectAttr "R_Finger_03_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[431]"
+connectAttr "R_Finger_03_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[448]"
 		;
-connectAttr "R_Finger_03_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[432]"
+connectAttr "R_Finger_03_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[449]"
 		;
-connectAttr "R_Finger_03_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[433]"
+connectAttr "R_Finger_03_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[450]";
+connectAttr "R_Finger_03_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[451]";
+connectAttr "R_Finger_03_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[452]";
+connectAttr "R_Finger_03_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[453]"
 		;
-connectAttr "R_Finger_03_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[434]"
+connectAttr "R_Finger_03_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[454]"
 		;
-connectAttr "R_Finger_03_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[435]";
-connectAttr "R_Finger_03_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[436]";
-connectAttr "R_Finger_03_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[437]";
-connectAttr "R_Finger_03_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[438]"
+connectAttr "R_Finger_03_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[455]"
 		;
-connectAttr "R_Finger_03_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[439]"
+connectAttr "R_Finger_03_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[456]"
 		;
-connectAttr "R_Finger_03_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[440]"
+connectAttr "R_Finger_03_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[457]"
 		;
-connectAttr "R_Finger_03_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[441]"
+connectAttr "R_Finger_03_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[458]";
+connectAttr "R_Finger_03_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[459]";
+connectAttr "R_Finger_03_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[460]";
+connectAttr "R_Finger_04_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[461]"
 		;
-connectAttr "R_Finger_03_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[442]"
-		;
-connectAttr "R_Finger_03_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[443]";
-connectAttr "R_Finger_03_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[444]";
-connectAttr "R_Finger_03_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[445]";
-connectAttr "R_Finger_03_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[446]"
-		;
-connectAttr "R_Finger_03_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[447]"
-		;
-connectAttr "R_Finger_03_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[448]"
-		;
-connectAttr "R_Finger_03_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[449]"
-		;
-connectAttr "R_Finger_03_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[450]"
-		;
-connectAttr "R_Finger_03_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[451]";
-connectAttr "R_Finger_03_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[452]";
-connectAttr "R_Finger_03_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[453]";
-connectAttr "R_Finger_04_Knuckle_01_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[454]"
-		;
-connectAttr "R_Finger_04_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[455]"
-		;
-connectAttr "R_Finger_04_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[456]"
-		;
-connectAttr "R_Finger_04_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[457]"
-		;
-connectAttr "R_Finger_04_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[458]"
-		;
-connectAttr "R_Finger_04_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[459]";
-connectAttr "R_Finger_04_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[460]";
-connectAttr "R_Finger_04_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[461]";
-connectAttr "R_Finger_04_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[462]"
-		;
-connectAttr "R_Finger_04_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[463]"
-		;
-connectAttr "R_Finger_04_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[464]"
-		;
-connectAttr "R_Finger_04_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[465]"
-		;
-connectAttr "R_Finger_04_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[466]"
-		;
-connectAttr "R_Finger_04_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[467]";
-connectAttr "R_Finger_04_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[468]";
-connectAttr "R_Finger_04_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[469]";
-connectAttr "R_Finger_04_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[470]"
-		;
-connectAttr "R_Finger_04_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[471]"
-		;
-connectAttr "R_Finger_04_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[472]"
-		;
-connectAttr "R_Finger_04_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[473]"
-		;
-connectAttr "R_Finger_04_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[474]"
-		;
-connectAttr "R_Finger_04_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[475]";
-connectAttr "R_Finger_04_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[476]";
-connectAttr "R_Finger_04_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[477]";
-connectAttr "Pelvis_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[478]";
-connectAttr "Pelvis_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[479]";
-connectAttr "Pelvis_ctrl_translateX.o" "Knight_RetopoRN.phl[480]";
-connectAttr "Pelvis_ctrl_translateY.o" "Knight_RetopoRN.phl[481]";
-connectAttr "Pelvis_ctrl_translateZ.o" "Knight_RetopoRN.phl[482]";
-connectAttr "Pelvis_ctrl_rotateY.o" "Knight_RetopoRN.phl[483]";
-connectAttr "Pelvis_ctrl_rotateX.o" "Knight_RetopoRN.phl[484]";
-connectAttr "Pelvis_ctrl_rotateZ.o" "Knight_RetopoRN.phl[485]";
-connectAttr "L_Leg_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[486]";
-connectAttr "L_Leg_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[487]";
-connectAttr "L_Leg_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[488]";
-connectAttr "L_Leg_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[489]";
-connectAttr "L_Leg_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[490]";
-connectAttr "L_Leg_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[491]";
-connectAttr "L_Leg_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[492]";
-connectAttr "L_Leg_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[493]";
-connectAttr "L_Leg_IK_Base_ctrl_Follow.o" "Knight_RetopoRN.phl[494]";
-connectAttr "L_Leg_IK_Base_ctrl_translateX.o" "Knight_RetopoRN.phl[495]";
-connectAttr "L_Leg_IK_Base_ctrl_translateY.o" "Knight_RetopoRN.phl[496]";
-connectAttr "L_Leg_IK_Base_ctrl_translateZ.o" "Knight_RetopoRN.phl[497]";
-connectAttr "L_Leg_IK_ctrl_Follow.o" "Knight_RetopoRN.phl[498]";
-connectAttr "L_Leg_IK_ctrl_FootRock.o" "Knight_RetopoRN.phl[499]";
-connectAttr "L_Leg_IK_ctrl_HeelRotate.o" "Knight_RetopoRN.phl[500]";
-connectAttr "L_Leg_IK_ctrl_HeelPivot.o" "Knight_RetopoRN.phl[501]";
-connectAttr "L_Leg_IK_ctrl_HeelTwist.o" "Knight_RetopoRN.phl[502]";
-connectAttr "L_Leg_IK_ctrl_ToeRotate.o" "Knight_RetopoRN.phl[503]";
-connectAttr "L_Leg_IK_ctrl_ToePivot.o" "Knight_RetopoRN.phl[504]";
-connectAttr "L_Leg_IK_ctrl_ToeTwist.o" "Knight_RetopoRN.phl[505]";
-connectAttr "L_Leg_IK_ctrl_BallRotate.o" "Knight_RetopoRN.phl[506]";
-connectAttr "L_Leg_IK_ctrl_BallPivot.o" "Knight_RetopoRN.phl[507]";
-connectAttr "L_Leg_IK_ctrl_BallTwist.o" "Knight_RetopoRN.phl[508]";
-connectAttr "L_Leg_IK_ctrl_ToeTapRotate.o" "Knight_RetopoRN.phl[509]";
-connectAttr "L_Leg_IK_ctrl_ToeTapPivot.o" "Knight_RetopoRN.phl[510]";
-connectAttr "L_Leg_IK_ctrl_ToeTapTwist.o" "Knight_RetopoRN.phl[511]";
-connectAttr "L_Leg_IK_ctrl_FootRoll.o" "Knight_RetopoRN.phl[512]";
-connectAttr "L_Leg_IK_ctrl_ControlVis.o" "Knight_RetopoRN.phl[513]";
-connectAttr "L_Leg_IK_ctrl_Stretch.o" "Knight_RetopoRN.phl[514]";
-connectAttr "L_Leg_IK_ctrl_MaxStretch.o" "Knight_RetopoRN.phl[515]";
-connectAttr "L_Leg_IK_ctrl_LegLength.o" "Knight_RetopoRN.phl[516]";
-connectAttr "L_Leg_IK_ctrl_UpperLegLength.o" "Knight_RetopoRN.phl[517]";
-connectAttr "L_Leg_IK_ctrl_LowerLegLength.o" "Knight_RetopoRN.phl[518]";
-connectAttr "L_Leg_IK_ctrl_rotateX.o" "Knight_RetopoRN.phl[519]";
-connectAttr "L_Leg_IK_ctrl_rotateY.o" "Knight_RetopoRN.phl[520]";
-connectAttr "L_Leg_IK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[521]";
-connectAttr "L_Leg_IK_ctrl_translateX.o" "Knight_RetopoRN.phl[522]";
-connectAttr "L_Leg_IK_ctrl_translateY.o" "Knight_RetopoRN.phl[523]";
-connectAttr "L_Leg_IK_ctrl_translateZ.o" "Knight_RetopoRN.phl[524]";
-connectAttr "L_Foot_IK_Out_ctrl_translateX.o" "Knight_RetopoRN.phl[525]";
-connectAttr "L_Foot_IK_Out_ctrl_translateY.o" "Knight_RetopoRN.phl[526]";
-connectAttr "L_Foot_IK_Out_ctrl_translateZ.o" "Knight_RetopoRN.phl[527]";
-connectAttr "L_Foot_IK_Out_ctrl_visibility.o" "Knight_RetopoRN.phl[528]";
-connectAttr "L_Foot_IK_Out_ctrl_rotateX.o" "Knight_RetopoRN.phl[529]";
-connectAttr "L_Foot_IK_Out_ctrl_rotateY.o" "Knight_RetopoRN.phl[530]";
-connectAttr "L_Foot_IK_Out_ctrl_rotateZ.o" "Knight_RetopoRN.phl[531]";
-connectAttr "L_Foot_IK_Out_ctrl_scaleX.o" "Knight_RetopoRN.phl[532]";
-connectAttr "L_Foot_IK_Out_ctrl_scaleY.o" "Knight_RetopoRN.phl[533]";
-connectAttr "L_Foot_IK_Out_ctrl_scaleZ.o" "Knight_RetopoRN.phl[534]";
-connectAttr "L_Foot_IK_In_ctrl_translateX.o" "Knight_RetopoRN.phl[535]";
-connectAttr "L_Foot_IK_In_ctrl_translateY.o" "Knight_RetopoRN.phl[536]";
-connectAttr "L_Foot_IK_In_ctrl_translateZ.o" "Knight_RetopoRN.phl[537]";
-connectAttr "L_Foot_IK_In_ctrl_visibility.o" "Knight_RetopoRN.phl[538]";
-connectAttr "L_Foot_IK_In_ctrl_rotateX.o" "Knight_RetopoRN.phl[539]";
-connectAttr "L_Foot_IK_In_ctrl_rotateY.o" "Knight_RetopoRN.phl[540]";
-connectAttr "L_Foot_IK_In_ctrl_rotateZ.o" "Knight_RetopoRN.phl[541]";
-connectAttr "L_Foot_IK_In_ctrl_scaleX.o" "Knight_RetopoRN.phl[542]";
-connectAttr "L_Foot_IK_In_ctrl_scaleY.o" "Knight_RetopoRN.phl[543]";
-connectAttr "L_Foot_IK_In_ctrl_scaleZ.o" "Knight_RetopoRN.phl[544]";
-connectAttr "L_Foot_IK_Heel_ctrl_translateX.o" "Knight_RetopoRN.phl[545]";
-connectAttr "L_Foot_IK_Heel_ctrl_translateY.o" "Knight_RetopoRN.phl[546]";
-connectAttr "L_Foot_IK_Heel_ctrl_translateZ.o" "Knight_RetopoRN.phl[547]";
-connectAttr "L_Foot_IK_Heel_ctrl_visibility.o" "Knight_RetopoRN.phl[548]";
-connectAttr "L_Foot_IK_Heel_ctrl_rotateX.o" "Knight_RetopoRN.phl[549]";
-connectAttr "L_Foot_IK_Heel_ctrl_rotateY.o" "Knight_RetopoRN.phl[550]";
-connectAttr "L_Foot_IK_Heel_ctrl_rotateZ.o" "Knight_RetopoRN.phl[551]";
-connectAttr "L_Foot_IK_Heel_ctrl_scaleX.o" "Knight_RetopoRN.phl[552]";
-connectAttr "L_Foot_IK_Heel_ctrl_scaleY.o" "Knight_RetopoRN.phl[553]";
-connectAttr "L_Foot_IK_Heel_ctrl_scaleZ.o" "Knight_RetopoRN.phl[554]";
-connectAttr "L_Foot_IK_Toe_ctrl_translateX.o" "Knight_RetopoRN.phl[555]";
-connectAttr "L_Foot_IK_Toe_ctrl_translateY.o" "Knight_RetopoRN.phl[556]";
-connectAttr "L_Foot_IK_Toe_ctrl_translateZ.o" "Knight_RetopoRN.phl[557]";
-connectAttr "L_Foot_IK_Toe_ctrl_visibility.o" "Knight_RetopoRN.phl[558]";
-connectAttr "L_Foot_IK_Toe_ctrl_rotateX.o" "Knight_RetopoRN.phl[559]";
-connectAttr "L_Foot_IK_Toe_ctrl_rotateY.o" "Knight_RetopoRN.phl[560]";
-connectAttr "L_Foot_IK_Toe_ctrl_rotateZ.o" "Knight_RetopoRN.phl[561]";
-connectAttr "L_Foot_IK_Toe_ctrl_scaleX.o" "Knight_RetopoRN.phl[562]";
-connectAttr "L_Foot_IK_Toe_ctrl_scaleY.o" "Knight_RetopoRN.phl[563]";
-connectAttr "L_Foot_IK_Toe_ctrl_scaleZ.o" "Knight_RetopoRN.phl[564]";
-connectAttr "L_Foot_IK_Ball_ctrl_translateX.o" "Knight_RetopoRN.phl[565]";
-connectAttr "L_Foot_IK_Ball_ctrl_translateY.o" "Knight_RetopoRN.phl[566]";
-connectAttr "L_Foot_IK_Ball_ctrl_translateZ.o" "Knight_RetopoRN.phl[567]";
-connectAttr "L_Foot_IK_Ball_ctrl_visibility.o" "Knight_RetopoRN.phl[568]";
-connectAttr "L_Foot_IK_Ball_ctrl_rotateX.o" "Knight_RetopoRN.phl[569]";
-connectAttr "L_Foot_IK_Ball_ctrl_rotateY.o" "Knight_RetopoRN.phl[570]";
-connectAttr "L_Foot_IK_Ball_ctrl_rotateZ.o" "Knight_RetopoRN.phl[571]";
-connectAttr "L_Foot_IK_Ball_ctrl_scaleX.o" "Knight_RetopoRN.phl[572]";
-connectAttr "L_Foot_IK_Ball_ctrl_scaleY.o" "Knight_RetopoRN.phl[573]";
-connectAttr "L_Foot_IK_Ball_ctrl_scaleZ.o" "Knight_RetopoRN.phl[574]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_translateX.o" "Knight_RetopoRN.phl[575]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_translateY.o" "Knight_RetopoRN.phl[576]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_translateZ.o" "Knight_RetopoRN.phl[577]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_visibility.o" "Knight_RetopoRN.phl[578]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_rotateX.o" "Knight_RetopoRN.phl[579]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_rotateY.o" "Knight_RetopoRN.phl[580]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_rotateZ.o" "Knight_RetopoRN.phl[581]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_scaleX.o" "Knight_RetopoRN.phl[582]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_scaleY.o" "Knight_RetopoRN.phl[583]";
-connectAttr "L_Foot_IK_Toe_Tap_ctrl_scaleZ.o" "Knight_RetopoRN.phl[584]";
-connectAttr "L_Leg_IK_PV_ctrl_Follow.o" "Knight_RetopoRN.phl[585]";
-connectAttr "L_Leg_IK_PV_ctrl_translateX.o" "Knight_RetopoRN.phl[586]";
-connectAttr "L_Leg_IK_PV_ctrl_translateY.o" "Knight_RetopoRN.phl[587]";
-connectAttr "L_Leg_IK_PV_ctrl_translateZ.o" "Knight_RetopoRN.phl[588]";
-connectAttr "R_Leg_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[589]";
-connectAttr "R_Leg_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[590]";
-connectAttr "R_Leg_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[591]";
-connectAttr "R_Leg_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[592]";
-connectAttr "R_Leg_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[593]";
-connectAttr "R_Leg_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[594]";
-connectAttr "R_Leg_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[595]";
-connectAttr "R_Leg_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[596]";
-connectAttr "R_Leg_IK_Base_ctrl_Follow.o" "Knight_RetopoRN.phl[597]";
-connectAttr "R_Leg_IK_Base_ctrl_translateX.o" "Knight_RetopoRN.phl[598]";
-connectAttr "R_Leg_IK_Base_ctrl_translateY.o" "Knight_RetopoRN.phl[599]";
-connectAttr "R_Leg_IK_Base_ctrl_translateZ.o" "Knight_RetopoRN.phl[600]";
-connectAttr "R_Leg_IK_ctrl_Follow.o" "Knight_RetopoRN.phl[601]";
-connectAttr "R_Leg_IK_ctrl_FootRock.o" "Knight_RetopoRN.phl[602]";
-connectAttr "R_Leg_IK_ctrl_HeelRotate.o" "Knight_RetopoRN.phl[603]";
-connectAttr "R_Leg_IK_ctrl_HeelPivot.o" "Knight_RetopoRN.phl[604]";
-connectAttr "R_Leg_IK_ctrl_HeelTwist.o" "Knight_RetopoRN.phl[605]";
-connectAttr "R_Leg_IK_ctrl_ToeRotate.o" "Knight_RetopoRN.phl[606]";
-connectAttr "R_Leg_IK_ctrl_ToePivot.o" "Knight_RetopoRN.phl[607]";
-connectAttr "R_Leg_IK_ctrl_ToeTwist.o" "Knight_RetopoRN.phl[608]";
-connectAttr "R_Leg_IK_ctrl_BallRotate.o" "Knight_RetopoRN.phl[609]";
-connectAttr "R_Leg_IK_ctrl_BallPivot.o" "Knight_RetopoRN.phl[610]";
-connectAttr "R_Leg_IK_ctrl_BallTwist.o" "Knight_RetopoRN.phl[611]";
-connectAttr "R_Leg_IK_ctrl_ToeTapRotate.o" "Knight_RetopoRN.phl[612]";
-connectAttr "R_Leg_IK_ctrl_ToeTapPivot.o" "Knight_RetopoRN.phl[613]";
-connectAttr "R_Leg_IK_ctrl_ToeTapTwist.o" "Knight_RetopoRN.phl[614]";
-connectAttr "R_Leg_IK_ctrl_FootRoll.o" "Knight_RetopoRN.phl[615]";
-connectAttr "R_Leg_IK_ctrl_ControlVis.o" "Knight_RetopoRN.phl[616]";
-connectAttr "R_Leg_IK_ctrl_Stretch.o" "Knight_RetopoRN.phl[617]";
-connectAttr "R_Leg_IK_ctrl_MaxStretch.o" "Knight_RetopoRN.phl[618]";
-connectAttr "R_Leg_IK_ctrl_LegLength.o" "Knight_RetopoRN.phl[619]";
-connectAttr "R_Leg_IK_ctrl_UpperLegLength.o" "Knight_RetopoRN.phl[620]";
-connectAttr "R_Leg_IK_ctrl_LowerLegLength.o" "Knight_RetopoRN.phl[621]";
-connectAttr "R_Leg_IK_ctrl_rotateX.o" "Knight_RetopoRN.phl[622]";
-connectAttr "R_Leg_IK_ctrl_rotateY.o" "Knight_RetopoRN.phl[623]";
-connectAttr "R_Leg_IK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[624]";
-connectAttr "R_Leg_IK_ctrl_translateY.o" "Knight_RetopoRN.phl[625]";
-connectAttr "R_Leg_IK_ctrl_translateX.o" "Knight_RetopoRN.phl[626]";
-connectAttr "R_Leg_IK_ctrl_translateZ.o" "Knight_RetopoRN.phl[627]";
-connectAttr "R_Foot_IK_Out_ctrl_translateX.o" "Knight_RetopoRN.phl[628]";
-connectAttr "R_Foot_IK_Out_ctrl_translateY.o" "Knight_RetopoRN.phl[629]";
-connectAttr "R_Foot_IK_Out_ctrl_translateZ.o" "Knight_RetopoRN.phl[630]";
-connectAttr "R_Foot_IK_Out_ctrl_visibility.o" "Knight_RetopoRN.phl[631]";
-connectAttr "R_Foot_IK_Out_ctrl_rotateX.o" "Knight_RetopoRN.phl[632]";
-connectAttr "R_Foot_IK_Out_ctrl_rotateY.o" "Knight_RetopoRN.phl[633]";
-connectAttr "R_Foot_IK_Out_ctrl_rotateZ.o" "Knight_RetopoRN.phl[634]";
-connectAttr "R_Foot_IK_Out_ctrl_scaleX.o" "Knight_RetopoRN.phl[635]";
-connectAttr "R_Foot_IK_Out_ctrl_scaleY.o" "Knight_RetopoRN.phl[636]";
-connectAttr "R_Foot_IK_Out_ctrl_scaleZ.o" "Knight_RetopoRN.phl[637]";
-connectAttr "R_Foot_IK_In_ctrl_rotateZ.o" "Knight_RetopoRN.phl[638]";
-connectAttr "R_Foot_IK_In_ctrl_rotateX.o" "Knight_RetopoRN.phl[639]";
-connectAttr "R_Foot_IK_In_ctrl_rotateY.o" "Knight_RetopoRN.phl[640]";
-connectAttr "R_Foot_IK_In_ctrl_translateX.o" "Knight_RetopoRN.phl[641]";
-connectAttr "R_Foot_IK_In_ctrl_translateY.o" "Knight_RetopoRN.phl[642]";
-connectAttr "R_Foot_IK_In_ctrl_translateZ.o" "Knight_RetopoRN.phl[643]";
-connectAttr "R_Foot_IK_In_ctrl_visibility.o" "Knight_RetopoRN.phl[644]";
-connectAttr "R_Foot_IK_In_ctrl_scaleX.o" "Knight_RetopoRN.phl[645]";
-connectAttr "R_Foot_IK_In_ctrl_scaleY.o" "Knight_RetopoRN.phl[646]";
-connectAttr "R_Foot_IK_In_ctrl_scaleZ.o" "Knight_RetopoRN.phl[647]";
-connectAttr "R_Foot_IK_Heel_ctrl_rotateX.o" "Knight_RetopoRN.phl[648]";
-connectAttr "R_Foot_IK_Heel_ctrl_rotateY.o" "Knight_RetopoRN.phl[649]";
-connectAttr "R_Foot_IK_Heel_ctrl_rotateZ.o" "Knight_RetopoRN.phl[650]";
-connectAttr "R_Foot_IK_Heel_ctrl_translateX.o" "Knight_RetopoRN.phl[651]";
-connectAttr "R_Foot_IK_Heel_ctrl_translateY.o" "Knight_RetopoRN.phl[652]";
-connectAttr "R_Foot_IK_Heel_ctrl_translateZ.o" "Knight_RetopoRN.phl[653]";
-connectAttr "R_Foot_IK_Heel_ctrl_visibility.o" "Knight_RetopoRN.phl[654]";
-connectAttr "R_Foot_IK_Heel_ctrl_scaleX.o" "Knight_RetopoRN.phl[655]";
-connectAttr "R_Foot_IK_Heel_ctrl_scaleY.o" "Knight_RetopoRN.phl[656]";
-connectAttr "R_Foot_IK_Heel_ctrl_scaleZ.o" "Knight_RetopoRN.phl[657]";
-connectAttr "R_Foot_IK_Toe_ctrl_rotateX.o" "Knight_RetopoRN.phl[658]";
-connectAttr "R_Foot_IK_Toe_ctrl_rotateY.o" "Knight_RetopoRN.phl[659]";
-connectAttr "R_Foot_IK_Toe_ctrl_rotateZ.o" "Knight_RetopoRN.phl[660]";
-connectAttr "R_Foot_IK_Toe_ctrl_translateX.o" "Knight_RetopoRN.phl[661]";
-connectAttr "R_Foot_IK_Toe_ctrl_translateY.o" "Knight_RetopoRN.phl[662]";
-connectAttr "R_Foot_IK_Toe_ctrl_translateZ.o" "Knight_RetopoRN.phl[663]";
-connectAttr "R_Foot_IK_Toe_ctrl_visibility.o" "Knight_RetopoRN.phl[664]";
-connectAttr "R_Foot_IK_Toe_ctrl_scaleX.o" "Knight_RetopoRN.phl[665]";
-connectAttr "R_Foot_IK_Toe_ctrl_scaleY.o" "Knight_RetopoRN.phl[666]";
-connectAttr "R_Foot_IK_Toe_ctrl_scaleZ.o" "Knight_RetopoRN.phl[667]";
-connectAttr "R_Foot_IK_Ball_ctrl_rotateX.o" "Knight_RetopoRN.phl[668]";
-connectAttr "R_Foot_IK_Ball_ctrl_rotateY.o" "Knight_RetopoRN.phl[669]";
-connectAttr "R_Foot_IK_Ball_ctrl_rotateZ.o" "Knight_RetopoRN.phl[670]";
-connectAttr "R_Foot_IK_Ball_ctrl_translateX.o" "Knight_RetopoRN.phl[671]";
-connectAttr "R_Foot_IK_Ball_ctrl_translateY.o" "Knight_RetopoRN.phl[672]";
-connectAttr "R_Foot_IK_Ball_ctrl_translateZ.o" "Knight_RetopoRN.phl[673]";
-connectAttr "R_Foot_IK_Ball_ctrl_visibility.o" "Knight_RetopoRN.phl[674]";
-connectAttr "R_Foot_IK_Ball_ctrl_scaleX.o" "Knight_RetopoRN.phl[675]";
-connectAttr "R_Foot_IK_Ball_ctrl_scaleY.o" "Knight_RetopoRN.phl[676]";
-connectAttr "R_Foot_IK_Ball_ctrl_scaleZ.o" "Knight_RetopoRN.phl[677]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_translateX.o" "Knight_RetopoRN.phl[678]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_translateY.o" "Knight_RetopoRN.phl[679]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_translateZ.o" "Knight_RetopoRN.phl[680]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_visibility.o" "Knight_RetopoRN.phl[681]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_rotateX.o" "Knight_RetopoRN.phl[682]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_rotateY.o" "Knight_RetopoRN.phl[683]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_rotateZ.o" "Knight_RetopoRN.phl[684]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_scaleX.o" "Knight_RetopoRN.phl[685]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_scaleY.o" "Knight_RetopoRN.phl[686]";
-connectAttr "R_Foot_IK_Toe_Tap_ctrl_scaleZ.o" "Knight_RetopoRN.phl[687]";
-connectAttr "R_Leg_IK_PV_ctrl_Follow.o" "Knight_RetopoRN.phl[688]";
-connectAttr "R_Leg_IK_PV_ctrl_translateX.o" "Knight_RetopoRN.phl[689]";
-connectAttr "R_Leg_IK_PV_ctrl_translateY.o" "Knight_RetopoRN.phl[690]";
-connectAttr "R_Leg_IK_PV_ctrl_translateZ.o" "Knight_RetopoRN.phl[691]";
+connectAttr "R_Finger_04_Knuckle_01_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[462]"
+		;
+connectAttr "R_Finger_04_Knuckle_01_ctrl_translateX.o" "Knight_RetopoRN.phl[463]"
+		;
+connectAttr "R_Finger_04_Knuckle_01_ctrl_translateY.o" "Knight_RetopoRN.phl[464]"
+		;
+connectAttr "R_Finger_04_Knuckle_01_ctrl_translateZ.o" "Knight_RetopoRN.phl[465]"
+		;
+connectAttr "R_Finger_04_Knuckle_01_ctrl_rotateX.o" "Knight_RetopoRN.phl[466]";
+connectAttr "R_Finger_04_Knuckle_01_ctrl_rotateY.o" "Knight_RetopoRN.phl[467]";
+connectAttr "R_Finger_04_Knuckle_01_ctrl_rotateZ.o" "Knight_RetopoRN.phl[468]";
+connectAttr "R_Finger_04_Knuckle_02_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[469]"
+		;
+connectAttr "R_Finger_04_Knuckle_02_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[470]"
+		;
+connectAttr "R_Finger_04_Knuckle_02_ctrl_translateX.o" "Knight_RetopoRN.phl[471]"
+		;
+connectAttr "R_Finger_04_Knuckle_02_ctrl_translateY.o" "Knight_RetopoRN.phl[472]"
+		;
+connectAttr "R_Finger_04_Knuckle_02_ctrl_translateZ.o" "Knight_RetopoRN.phl[473]"
+		;
+connectAttr "R_Finger_04_Knuckle_02_ctrl_rotateX.o" "Knight_RetopoRN.phl[474]";
+connectAttr "R_Finger_04_Knuckle_02_ctrl_rotateY.o" "Knight_RetopoRN.phl[475]";
+connectAttr "R_Finger_04_Knuckle_02_ctrl_rotateZ.o" "Knight_RetopoRN.phl[476]";
+connectAttr "R_Finger_04_Knuckle_03_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[477]"
+		;
+connectAttr "R_Finger_04_Knuckle_03_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[478]"
+		;
+connectAttr "R_Finger_04_Knuckle_03_ctrl_translateX.o" "Knight_RetopoRN.phl[479]"
+		;
+connectAttr "R_Finger_04_Knuckle_03_ctrl_translateY.o" "Knight_RetopoRN.phl[480]"
+		;
+connectAttr "R_Finger_04_Knuckle_03_ctrl_translateZ.o" "Knight_RetopoRN.phl[481]"
+		;
+connectAttr "R_Finger_04_Knuckle_03_ctrl_rotateX.o" "Knight_RetopoRN.phl[482]";
+connectAttr "R_Finger_04_Knuckle_03_ctrl_rotateY.o" "Knight_RetopoRN.phl[483]";
+connectAttr "R_Finger_04_Knuckle_03_ctrl_rotateZ.o" "Knight_RetopoRN.phl[484]";
+connectAttr "Pelvis_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[485]";
+connectAttr "Pelvis_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[486]";
+connectAttr "Pelvis_ctrl_translateX.o" "Knight_RetopoRN.phl[487]";
+connectAttr "Pelvis_ctrl_translateY.o" "Knight_RetopoRN.phl[488]";
+connectAttr "Pelvis_ctrl_translateZ.o" "Knight_RetopoRN.phl[489]";
+connectAttr "Pelvis_ctrl_rotateY.o" "Knight_RetopoRN.phl[490]";
+connectAttr "Pelvis_ctrl_rotateX.o" "Knight_RetopoRN.phl[491]";
+connectAttr "Pelvis_ctrl_rotateZ.o" "Knight_RetopoRN.phl[492]";
+connectAttr "L_Leg_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[493]";
+connectAttr "L_Leg_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[494]";
+connectAttr "L_Leg_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[495]";
+connectAttr "L_Leg_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[496]";
+connectAttr "L_Leg_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[497]";
+connectAttr "L_Leg_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[498]";
+connectAttr "L_Leg_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[499]";
+connectAttr "L_Leg_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[500]";
+connectAttr "L_Leg_IK_Base_ctrl_Follow.o" "Knight_RetopoRN.phl[501]";
+connectAttr "L_Leg_IK_Base_ctrl_translateX.o" "Knight_RetopoRN.phl[502]";
+connectAttr "L_Leg_IK_Base_ctrl_translateY.o" "Knight_RetopoRN.phl[503]";
+connectAttr "L_Leg_IK_Base_ctrl_translateZ.o" "Knight_RetopoRN.phl[504]";
+connectAttr "L_Leg_IK_ctrl_Follow.o" "Knight_RetopoRN.phl[505]";
+connectAttr "L_Leg_IK_ctrl_FootRock.o" "Knight_RetopoRN.phl[506]";
+connectAttr "L_Leg_IK_ctrl_HeelRotate.o" "Knight_RetopoRN.phl[507]";
+connectAttr "L_Leg_IK_ctrl_HeelPivot.o" "Knight_RetopoRN.phl[508]";
+connectAttr "L_Leg_IK_ctrl_HeelTwist.o" "Knight_RetopoRN.phl[509]";
+connectAttr "L_Leg_IK_ctrl_ToeRotate.o" "Knight_RetopoRN.phl[510]";
+connectAttr "L_Leg_IK_ctrl_ToePivot.o" "Knight_RetopoRN.phl[511]";
+connectAttr "L_Leg_IK_ctrl_ToeTwist.o" "Knight_RetopoRN.phl[512]";
+connectAttr "L_Leg_IK_ctrl_BallRotate.o" "Knight_RetopoRN.phl[513]";
+connectAttr "L_Leg_IK_ctrl_BallPivot.o" "Knight_RetopoRN.phl[514]";
+connectAttr "L_Leg_IK_ctrl_BallTwist.o" "Knight_RetopoRN.phl[515]";
+connectAttr "L_Leg_IK_ctrl_ToeTapRotate.o" "Knight_RetopoRN.phl[516]";
+connectAttr "L_Leg_IK_ctrl_ToeTapPivot.o" "Knight_RetopoRN.phl[517]";
+connectAttr "L_Leg_IK_ctrl_ToeTapTwist.o" "Knight_RetopoRN.phl[518]";
+connectAttr "L_Leg_IK_ctrl_FootRoll.o" "Knight_RetopoRN.phl[519]";
+connectAttr "L_Leg_IK_ctrl_ControlVis.o" "Knight_RetopoRN.phl[520]";
+connectAttr "L_Leg_IK_ctrl_Stretch.o" "Knight_RetopoRN.phl[521]";
+connectAttr "L_Leg_IK_ctrl_MaxStretch.o" "Knight_RetopoRN.phl[522]";
+connectAttr "L_Leg_IK_ctrl_LegLength.o" "Knight_RetopoRN.phl[523]";
+connectAttr "L_Leg_IK_ctrl_UpperLegLength.o" "Knight_RetopoRN.phl[524]";
+connectAttr "L_Leg_IK_ctrl_LowerLegLength.o" "Knight_RetopoRN.phl[525]";
+connectAttr "L_Leg_IK_ctrl_rotateX.o" "Knight_RetopoRN.phl[526]";
+connectAttr "L_Leg_IK_ctrl_rotateY.o" "Knight_RetopoRN.phl[527]";
+connectAttr "L_Leg_IK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[528]";
+connectAttr "L_Leg_IK_ctrl_translateX.o" "Knight_RetopoRN.phl[529]";
+connectAttr "L_Leg_IK_ctrl_translateY.o" "Knight_RetopoRN.phl[530]";
+connectAttr "L_Leg_IK_ctrl_translateZ.o" "Knight_RetopoRN.phl[531]";
+connectAttr "L_Foot_IK_Out_ctrl_translateX.o" "Knight_RetopoRN.phl[532]";
+connectAttr "L_Foot_IK_Out_ctrl_translateY.o" "Knight_RetopoRN.phl[533]";
+connectAttr "L_Foot_IK_Out_ctrl_translateZ.o" "Knight_RetopoRN.phl[534]";
+connectAttr "L_Foot_IK_Out_ctrl_visibility.o" "Knight_RetopoRN.phl[535]";
+connectAttr "L_Foot_IK_Out_ctrl_rotateX.o" "Knight_RetopoRN.phl[536]";
+connectAttr "L_Foot_IK_Out_ctrl_rotateY.o" "Knight_RetopoRN.phl[537]";
+connectAttr "L_Foot_IK_Out_ctrl_rotateZ.o" "Knight_RetopoRN.phl[538]";
+connectAttr "L_Foot_IK_Out_ctrl_scaleX.o" "Knight_RetopoRN.phl[539]";
+connectAttr "L_Foot_IK_Out_ctrl_scaleY.o" "Knight_RetopoRN.phl[540]";
+connectAttr "L_Foot_IK_Out_ctrl_scaleZ.o" "Knight_RetopoRN.phl[541]";
+connectAttr "L_Foot_IK_In_ctrl_translateX.o" "Knight_RetopoRN.phl[542]";
+connectAttr "L_Foot_IK_In_ctrl_translateY.o" "Knight_RetopoRN.phl[543]";
+connectAttr "L_Foot_IK_In_ctrl_translateZ.o" "Knight_RetopoRN.phl[544]";
+connectAttr "L_Foot_IK_In_ctrl_visibility.o" "Knight_RetopoRN.phl[545]";
+connectAttr "L_Foot_IK_In_ctrl_rotateX.o" "Knight_RetopoRN.phl[546]";
+connectAttr "L_Foot_IK_In_ctrl_rotateY.o" "Knight_RetopoRN.phl[547]";
+connectAttr "L_Foot_IK_In_ctrl_rotateZ.o" "Knight_RetopoRN.phl[548]";
+connectAttr "L_Foot_IK_In_ctrl_scaleX.o" "Knight_RetopoRN.phl[549]";
+connectAttr "L_Foot_IK_In_ctrl_scaleY.o" "Knight_RetopoRN.phl[550]";
+connectAttr "L_Foot_IK_In_ctrl_scaleZ.o" "Knight_RetopoRN.phl[551]";
+connectAttr "L_Foot_IK_Heel_ctrl_translateX.o" "Knight_RetopoRN.phl[552]";
+connectAttr "L_Foot_IK_Heel_ctrl_translateY.o" "Knight_RetopoRN.phl[553]";
+connectAttr "L_Foot_IK_Heel_ctrl_translateZ.o" "Knight_RetopoRN.phl[554]";
+connectAttr "L_Foot_IK_Heel_ctrl_visibility.o" "Knight_RetopoRN.phl[555]";
+connectAttr "L_Foot_IK_Heel_ctrl_rotateX.o" "Knight_RetopoRN.phl[556]";
+connectAttr "L_Foot_IK_Heel_ctrl_rotateY.o" "Knight_RetopoRN.phl[557]";
+connectAttr "L_Foot_IK_Heel_ctrl_rotateZ.o" "Knight_RetopoRN.phl[558]";
+connectAttr "L_Foot_IK_Heel_ctrl_scaleX.o" "Knight_RetopoRN.phl[559]";
+connectAttr "L_Foot_IK_Heel_ctrl_scaleY.o" "Knight_RetopoRN.phl[560]";
+connectAttr "L_Foot_IK_Heel_ctrl_scaleZ.o" "Knight_RetopoRN.phl[561]";
+connectAttr "L_Foot_IK_Toe_ctrl_translateX.o" "Knight_RetopoRN.phl[562]";
+connectAttr "L_Foot_IK_Toe_ctrl_translateY.o" "Knight_RetopoRN.phl[563]";
+connectAttr "L_Foot_IK_Toe_ctrl_translateZ.o" "Knight_RetopoRN.phl[564]";
+connectAttr "L_Foot_IK_Toe_ctrl_visibility.o" "Knight_RetopoRN.phl[565]";
+connectAttr "L_Foot_IK_Toe_ctrl_rotateX.o" "Knight_RetopoRN.phl[566]";
+connectAttr "L_Foot_IK_Toe_ctrl_rotateY.o" "Knight_RetopoRN.phl[567]";
+connectAttr "L_Foot_IK_Toe_ctrl_rotateZ.o" "Knight_RetopoRN.phl[568]";
+connectAttr "L_Foot_IK_Toe_ctrl_scaleX.o" "Knight_RetopoRN.phl[569]";
+connectAttr "L_Foot_IK_Toe_ctrl_scaleY.o" "Knight_RetopoRN.phl[570]";
+connectAttr "L_Foot_IK_Toe_ctrl_scaleZ.o" "Knight_RetopoRN.phl[571]";
+connectAttr "L_Foot_IK_Ball_ctrl_translateX.o" "Knight_RetopoRN.phl[572]";
+connectAttr "L_Foot_IK_Ball_ctrl_translateY.o" "Knight_RetopoRN.phl[573]";
+connectAttr "L_Foot_IK_Ball_ctrl_translateZ.o" "Knight_RetopoRN.phl[574]";
+connectAttr "L_Foot_IK_Ball_ctrl_visibility.o" "Knight_RetopoRN.phl[575]";
+connectAttr "L_Foot_IK_Ball_ctrl_rotateX.o" "Knight_RetopoRN.phl[576]";
+connectAttr "L_Foot_IK_Ball_ctrl_rotateY.o" "Knight_RetopoRN.phl[577]";
+connectAttr "L_Foot_IK_Ball_ctrl_rotateZ.o" "Knight_RetopoRN.phl[578]";
+connectAttr "L_Foot_IK_Ball_ctrl_scaleX.o" "Knight_RetopoRN.phl[579]";
+connectAttr "L_Foot_IK_Ball_ctrl_scaleY.o" "Knight_RetopoRN.phl[580]";
+connectAttr "L_Foot_IK_Ball_ctrl_scaleZ.o" "Knight_RetopoRN.phl[581]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_translateX.o" "Knight_RetopoRN.phl[582]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_translateY.o" "Knight_RetopoRN.phl[583]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_translateZ.o" "Knight_RetopoRN.phl[584]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_visibility.o" "Knight_RetopoRN.phl[585]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_rotateX.o" "Knight_RetopoRN.phl[586]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_rotateY.o" "Knight_RetopoRN.phl[587]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_rotateZ.o" "Knight_RetopoRN.phl[588]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_scaleX.o" "Knight_RetopoRN.phl[589]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_scaleY.o" "Knight_RetopoRN.phl[590]";
+connectAttr "L_Foot_IK_Toe_Tap_ctrl_scaleZ.o" "Knight_RetopoRN.phl[591]";
+connectAttr "L_Leg_IK_PV_ctrl_Follow.o" "Knight_RetopoRN.phl[592]";
+connectAttr "L_Leg_IK_PV_ctrl_translateX.o" "Knight_RetopoRN.phl[593]";
+connectAttr "L_Leg_IK_PV_ctrl_translateY.o" "Knight_RetopoRN.phl[594]";
+connectAttr "L_Leg_IK_PV_ctrl_translateZ.o" "Knight_RetopoRN.phl[595]";
+connectAttr "R_Leg_Clav_ctrl_FollowTranslate.o" "Knight_RetopoRN.phl[596]";
+connectAttr "R_Leg_Clav_ctrl_FollowRotate.o" "Knight_RetopoRN.phl[597]";
+connectAttr "R_Leg_Clav_ctrl_translateX.o" "Knight_RetopoRN.phl[598]";
+connectAttr "R_Leg_Clav_ctrl_translateY.o" "Knight_RetopoRN.phl[599]";
+connectAttr "R_Leg_Clav_ctrl_translateZ.o" "Knight_RetopoRN.phl[600]";
+connectAttr "R_Leg_Clav_ctrl_rotateX.o" "Knight_RetopoRN.phl[601]";
+connectAttr "R_Leg_Clav_ctrl_rotateY.o" "Knight_RetopoRN.phl[602]";
+connectAttr "R_Leg_Clav_ctrl_rotateZ.o" "Knight_RetopoRN.phl[603]";
+connectAttr "R_Leg_IK_Base_ctrl_Follow.o" "Knight_RetopoRN.phl[604]";
+connectAttr "R_Leg_IK_Base_ctrl_translateX.o" "Knight_RetopoRN.phl[605]";
+connectAttr "R_Leg_IK_Base_ctrl_translateY.o" "Knight_RetopoRN.phl[606]";
+connectAttr "R_Leg_IK_Base_ctrl_translateZ.o" "Knight_RetopoRN.phl[607]";
+connectAttr "R_Leg_IK_ctrl_Follow.o" "Knight_RetopoRN.phl[608]";
+connectAttr "R_Leg_IK_ctrl_FootRock.o" "Knight_RetopoRN.phl[609]";
+connectAttr "R_Leg_IK_ctrl_HeelRotate.o" "Knight_RetopoRN.phl[610]";
+connectAttr "R_Leg_IK_ctrl_HeelPivot.o" "Knight_RetopoRN.phl[611]";
+connectAttr "R_Leg_IK_ctrl_HeelTwist.o" "Knight_RetopoRN.phl[612]";
+connectAttr "R_Leg_IK_ctrl_ToeRotate.o" "Knight_RetopoRN.phl[613]";
+connectAttr "R_Leg_IK_ctrl_ToePivot.o" "Knight_RetopoRN.phl[614]";
+connectAttr "R_Leg_IK_ctrl_ToeTwist.o" "Knight_RetopoRN.phl[615]";
+connectAttr "R_Leg_IK_ctrl_BallRotate.o" "Knight_RetopoRN.phl[616]";
+connectAttr "R_Leg_IK_ctrl_BallPivot.o" "Knight_RetopoRN.phl[617]";
+connectAttr "R_Leg_IK_ctrl_BallTwist.o" "Knight_RetopoRN.phl[618]";
+connectAttr "R_Leg_IK_ctrl_ToeTapRotate.o" "Knight_RetopoRN.phl[619]";
+connectAttr "R_Leg_IK_ctrl_ToeTapPivot.o" "Knight_RetopoRN.phl[620]";
+connectAttr "R_Leg_IK_ctrl_ToeTapTwist.o" "Knight_RetopoRN.phl[621]";
+connectAttr "R_Leg_IK_ctrl_FootRoll.o" "Knight_RetopoRN.phl[622]";
+connectAttr "R_Leg_IK_ctrl_ControlVis.o" "Knight_RetopoRN.phl[623]";
+connectAttr "R_Leg_IK_ctrl_Stretch.o" "Knight_RetopoRN.phl[624]";
+connectAttr "R_Leg_IK_ctrl_MaxStretch.o" "Knight_RetopoRN.phl[625]";
+connectAttr "R_Leg_IK_ctrl_LegLength.o" "Knight_RetopoRN.phl[626]";
+connectAttr "R_Leg_IK_ctrl_UpperLegLength.o" "Knight_RetopoRN.phl[627]";
+connectAttr "R_Leg_IK_ctrl_LowerLegLength.o" "Knight_RetopoRN.phl[628]";
+connectAttr "R_Leg_IK_ctrl_rotateX.o" "Knight_RetopoRN.phl[629]";
+connectAttr "R_Leg_IK_ctrl_rotateY.o" "Knight_RetopoRN.phl[630]";
+connectAttr "R_Leg_IK_ctrl_rotateZ.o" "Knight_RetopoRN.phl[631]";
+connectAttr "R_Leg_IK_ctrl_translateY.o" "Knight_RetopoRN.phl[632]";
+connectAttr "R_Leg_IK_ctrl_translateX.o" "Knight_RetopoRN.phl[633]";
+connectAttr "R_Leg_IK_ctrl_translateZ.o" "Knight_RetopoRN.phl[634]";
+connectAttr "R_Foot_IK_Out_ctrl_translateX.o" "Knight_RetopoRN.phl[635]";
+connectAttr "R_Foot_IK_Out_ctrl_translateY.o" "Knight_RetopoRN.phl[636]";
+connectAttr "R_Foot_IK_Out_ctrl_translateZ.o" "Knight_RetopoRN.phl[637]";
+connectAttr "R_Foot_IK_Out_ctrl_visibility.o" "Knight_RetopoRN.phl[638]";
+connectAttr "R_Foot_IK_Out_ctrl_rotateX.o" "Knight_RetopoRN.phl[639]";
+connectAttr "R_Foot_IK_Out_ctrl_rotateY.o" "Knight_RetopoRN.phl[640]";
+connectAttr "R_Foot_IK_Out_ctrl_rotateZ.o" "Knight_RetopoRN.phl[641]";
+connectAttr "R_Foot_IK_Out_ctrl_scaleX.o" "Knight_RetopoRN.phl[642]";
+connectAttr "R_Foot_IK_Out_ctrl_scaleY.o" "Knight_RetopoRN.phl[643]";
+connectAttr "R_Foot_IK_Out_ctrl_scaleZ.o" "Knight_RetopoRN.phl[644]";
+connectAttr "R_Foot_IK_In_ctrl_rotateZ.o" "Knight_RetopoRN.phl[645]";
+connectAttr "R_Foot_IK_In_ctrl_rotateX.o" "Knight_RetopoRN.phl[646]";
+connectAttr "R_Foot_IK_In_ctrl_rotateY.o" "Knight_RetopoRN.phl[647]";
+connectAttr "R_Foot_IK_In_ctrl_translateX.o" "Knight_RetopoRN.phl[648]";
+connectAttr "R_Foot_IK_In_ctrl_translateY.o" "Knight_RetopoRN.phl[649]";
+connectAttr "R_Foot_IK_In_ctrl_translateZ.o" "Knight_RetopoRN.phl[650]";
+connectAttr "R_Foot_IK_In_ctrl_visibility.o" "Knight_RetopoRN.phl[651]";
+connectAttr "R_Foot_IK_In_ctrl_scaleX.o" "Knight_RetopoRN.phl[652]";
+connectAttr "R_Foot_IK_In_ctrl_scaleY.o" "Knight_RetopoRN.phl[653]";
+connectAttr "R_Foot_IK_In_ctrl_scaleZ.o" "Knight_RetopoRN.phl[654]";
+connectAttr "R_Foot_IK_Heel_ctrl_rotateX.o" "Knight_RetopoRN.phl[655]";
+connectAttr "R_Foot_IK_Heel_ctrl_rotateY.o" "Knight_RetopoRN.phl[656]";
+connectAttr "R_Foot_IK_Heel_ctrl_rotateZ.o" "Knight_RetopoRN.phl[657]";
+connectAttr "R_Foot_IK_Heel_ctrl_translateX.o" "Knight_RetopoRN.phl[658]";
+connectAttr "R_Foot_IK_Heel_ctrl_translateY.o" "Knight_RetopoRN.phl[659]";
+connectAttr "R_Foot_IK_Heel_ctrl_translateZ.o" "Knight_RetopoRN.phl[660]";
+connectAttr "R_Foot_IK_Heel_ctrl_visibility.o" "Knight_RetopoRN.phl[661]";
+connectAttr "R_Foot_IK_Heel_ctrl_scaleX.o" "Knight_RetopoRN.phl[662]";
+connectAttr "R_Foot_IK_Heel_ctrl_scaleY.o" "Knight_RetopoRN.phl[663]";
+connectAttr "R_Foot_IK_Heel_ctrl_scaleZ.o" "Knight_RetopoRN.phl[664]";
+connectAttr "R_Foot_IK_Toe_ctrl_rotateX.o" "Knight_RetopoRN.phl[665]";
+connectAttr "R_Foot_IK_Toe_ctrl_rotateY.o" "Knight_RetopoRN.phl[666]";
+connectAttr "R_Foot_IK_Toe_ctrl_rotateZ.o" "Knight_RetopoRN.phl[667]";
+connectAttr "R_Foot_IK_Toe_ctrl_translateX.o" "Knight_RetopoRN.phl[668]";
+connectAttr "R_Foot_IK_Toe_ctrl_translateY.o" "Knight_RetopoRN.phl[669]";
+connectAttr "R_Foot_IK_Toe_ctrl_translateZ.o" "Knight_RetopoRN.phl[670]";
+connectAttr "R_Foot_IK_Toe_ctrl_visibility.o" "Knight_RetopoRN.phl[671]";
+connectAttr "R_Foot_IK_Toe_ctrl_scaleX.o" "Knight_RetopoRN.phl[672]";
+connectAttr "R_Foot_IK_Toe_ctrl_scaleY.o" "Knight_RetopoRN.phl[673]";
+connectAttr "R_Foot_IK_Toe_ctrl_scaleZ.o" "Knight_RetopoRN.phl[674]";
+connectAttr "R_Foot_IK_Ball_ctrl_rotateX.o" "Knight_RetopoRN.phl[675]";
+connectAttr "R_Foot_IK_Ball_ctrl_rotateY.o" "Knight_RetopoRN.phl[676]";
+connectAttr "R_Foot_IK_Ball_ctrl_rotateZ.o" "Knight_RetopoRN.phl[677]";
+connectAttr "R_Foot_IK_Ball_ctrl_translateX.o" "Knight_RetopoRN.phl[678]";
+connectAttr "R_Foot_IK_Ball_ctrl_translateY.o" "Knight_RetopoRN.phl[679]";
+connectAttr "R_Foot_IK_Ball_ctrl_translateZ.o" "Knight_RetopoRN.phl[680]";
+connectAttr "R_Foot_IK_Ball_ctrl_visibility.o" "Knight_RetopoRN.phl[681]";
+connectAttr "R_Foot_IK_Ball_ctrl_scaleX.o" "Knight_RetopoRN.phl[682]";
+connectAttr "R_Foot_IK_Ball_ctrl_scaleY.o" "Knight_RetopoRN.phl[683]";
+connectAttr "R_Foot_IK_Ball_ctrl_scaleZ.o" "Knight_RetopoRN.phl[684]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_translateX.o" "Knight_RetopoRN.phl[685]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_translateY.o" "Knight_RetopoRN.phl[686]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_translateZ.o" "Knight_RetopoRN.phl[687]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_visibility.o" "Knight_RetopoRN.phl[688]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_rotateX.o" "Knight_RetopoRN.phl[689]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_rotateY.o" "Knight_RetopoRN.phl[690]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_rotateZ.o" "Knight_RetopoRN.phl[691]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_scaleX.o" "Knight_RetopoRN.phl[692]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_scaleY.o" "Knight_RetopoRN.phl[693]";
+connectAttr "R_Foot_IK_Toe_Tap_ctrl_scaleZ.o" "Knight_RetopoRN.phl[694]";
+connectAttr "R_Leg_IK_PV_ctrl_Follow.o" "Knight_RetopoRN.phl[695]";
+connectAttr "R_Leg_IK_PV_ctrl_translateX.o" "Knight_RetopoRN.phl[696]";
+connectAttr "R_Leg_IK_PV_ctrl_translateY.o" "Knight_RetopoRN.phl[697]";
+connectAttr "R_Leg_IK_PV_ctrl_translateZ.o" "Knight_RetopoRN.phl[698]";
 connectAttr "DragonGate_scaleZ.o" "DragonGateRN.phl[1]";
 connectAttr "DragonGate_scaleX.o" "DragonGateRN.phl[2]";
 connectAttr "DragonGate_scaleY.o" "DragonGateRN.phl[3]";
